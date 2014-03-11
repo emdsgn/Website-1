@@ -17,3 +17,68 @@
     border-radius: 10px;
     opacity:0.7;
 }
+
+.flex-img1 {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.logo {
+    padding: 4em 2em 4em 2em;
+    margin: 0 auto;
+}
+
+.info {
+    background-color: #26405e;
+    padding: 3em;
+}
+
+.info p {
+    font-family: sans-serif;
+    font-size: 4em;
+    color: #FFF;
+    line-height: 1.5em;
+
+}
+
+.bgContact {
+    background-color: #FFFFFF;
+    padding: 3em;
+}
+
+.bgContact h2 {
+    font-size: 3.5em;
+    color: #181f2e;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-bottom: -4%;
+}
+
+h3 {
+    font-size: 3.5em;
+    color: #181f2e;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-bottom: -3%;
+}
+
+.contact-item p {
+    font-size: 3em;
+    font-family: sans-serif;
+    padding: 1em;
+}
+
+.contact-item img {
+    width: 10.5%;
+    float: left;
+    display: block;
+    padding: 1.3em;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #181f2e;
+}
