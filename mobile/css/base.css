@@ -26,7 +26,7 @@
 
 .bgContact {
     background-color: #FFFFFF;
-    padding: 3em;
+    padding: 2em;
 }
 
 .bgContact h2 {
@@ -42,22 +42,28 @@ h3 {
     color: #181f2e;
     font-family: sans-serif;
     text-transform: uppercase;
-    margin-bottom: -3%;
 }
 
-.contact-item p {
-    font-size: 1em;
+.ct p {
+    font-size: 0.8em;
     font-family: sans-serif;
-    padding: 1.2em;
 }
 
-.contact-item img {
-    width: 10.5%;
-    float: left;
+.contact-img {
+    width: 55%;
     display: block;
-    padding: 1em;
+    margin: 0 auto;
+    padding: 0;
 }
 
+.ci {
+    padding: 0.8em 0 0.8em 0;
+}
+
+.ct {
+    padding: 0.1em 0 0.1em 0;
+    margin-bottom: 1em;
+}
 .contact-item a {
     text-decoration: none;
     color: #181f2e;
