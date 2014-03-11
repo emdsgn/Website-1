@@ -1,33 +1,13 @@
-
-.carousel .item {
-    background-color: #000;
-}
-
-.carousel .loading{
-    width:46px;
-    height:46px;
-    position:absolute;
-    top:50%;
-    left:50%;
-    background:#000 url(../img/ajax-loader.gif) no-repeat center center;
-    margin:-23px 0px 0px -23px;
-    z-index:100;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    opacity:0.7;
-}
-
 .flex-img1 {
     display: block;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     padding: 0;
     position: relative;
 }
 
 .logo {
-    padding: 4em 2em 4em 2em;
+    padding: 3.5em;
     margin: 0 auto;
 }
 
@@ -38,10 +18,10 @@
 
 .info p {
     font-family: sans-serif;
-    font-size: 4em;
+    font-size: 1.2em;
     color: #FFF;
     line-height: 1.5em;
-
+    font-weight: lighter;
 }
 
 .bgContact {
@@ -50,7 +30,7 @@
 }
 
 .bgContact h2 {
-    font-size: 3.5em;
+    font-size: 1em;
     color: #181f2e;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -58,7 +38,7 @@
 }
 
 h3 {
-    font-size: 3.5em;
+    font-size: 1em;
     color: #181f2e;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -66,16 +46,16 @@ h3 {
 }
 
 .contact-item p {
-    font-size: 3em;
+    font-size: 1em;
     font-family: sans-serif;
-    padding: 1em;
+    padding: 1.2em;
 }
 
 .contact-item img {
     width: 10.5%;
     float: left;
     display: block;
-    padding: 1.3em;
+    padding: 1em;
 }
 
 .contact-item a {
