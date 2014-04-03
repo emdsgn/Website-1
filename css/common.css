@@ -1,35 +1,139 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font: normal 100%/1.4 Helvetica,sans-serif;
+}
+
 body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* HEADER */
+
+.flex-logo {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em 0 1em 0;
+}
+
+.nav-head {
+	margin: 0 auto;
+	padding: 0 0 1em 0;
+	text-align: center;
+}
+
+.nav-head ul {
 	margin: 0 auto;
 	padding: 0;
 }
 
-.box {
+.nav-head li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 0.5em 0.5em 0.5em;
+}
+
+.nav-head a {
+  border-bottom: 0.1em solid #ccc;
+  -o-transition: all 100ms linear;
+  -moz-transition: all 100ms linear;
+  -webkit-transition: all 100ms linear;
+  transition: all 100ms linear;
+  color: #222;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-head a:hover,
+.nav-head a:focus,
+.nav-head a:active {
+  border-color: #FFF;
+  color: #000;
+}
+
+/* BANNER */
+.banner {
+	background-color: #eee;
+	padding: 0 0 1em 0;
+}
+.flex-img {
+	display: block;
+	width: 100%;
+}
+
+.flex-logo-1 {
+	display: none;
+}
+
+.flex-icon {
+	display: block;
+	width: 50%;
 	margin: 0 auto;
-	padding: 1em;
-	background-color: #ccc;
-	text-align: center;
-}
-
-.box-1,
-.box-2 {
-	background-color: #fff;
-	padding: 1em;
-	margin-right: 5%;
-}
-
-.box-3 {
-	background-color: #fff;
-	padding: 1em;
 }
 
 h2 {
-	font-family: serif;
-	text-transform: uppercase;
-	font-size: 1em;
-	margin-bottom: -1em;
-	text-align: left;
+	font-weight: lighter;
+	font-size: 1.5em;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0.8em 0 0.8em 0;
 }
 
-.subhead {
-	text-align: left;
+.caps {
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 1em 1em 0 1em;
+	text-align: center;
+	font-family: serif;
+}
+
+.caps-2 {
+	margin: 0 auto;
+	padding: 0em 1em 0em 1em;
+	text-align: center;
+	font-family: serif;
+}
+
+/* COMPANY */
+h3 {
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 1em 0 0 0;
+}
+
+.border {
+	border-bottom: 1px solid #000;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.body {
+	margin: 0 auto;
+	padding: 1em;
+	font-family: serif;
+}
+
+/* WHY  DPS */
+
+.sub-body {
+	margin: 0 auto;
+	padding: 1em;
+	font-family: serif;
+	text-align: center;
 }
