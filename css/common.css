@@ -30,7 +30,16 @@ body {
 	padding: 1em 0 1em 0;
 }
 
+.flex-logo-1 {
+  display: none;
+}
+
+.logo {
+  padding-top: 15%;
+}
+
 .nav-head {
+  display: none;
 	margin: 0 auto;
 	padding: 0 0 1em 0;
 	text-align: center;
@@ -75,37 +84,17 @@ body {
 	width: 100%;
 }
 
-.flex-logo-1 {
-	display: none;
-}
-
-.flex-icon {
-	display: block;
-	width: 50%;
-	margin: 0 auto;
+.banner-img {
+  display: none;
 }
 
 h2 {
-	font-weight: lighter;
-	font-size: 1.5em;
-	margin: 0 auto;
-	text-align: center;
-	padding: 0.8em 0 0.8em 0;
+  display: none;
 }
 
-.caps {
-	text-transform: uppercase;
-	margin: 0 auto;
-	padding: 1em 1em 0 1em;
-	text-align: center;
-	font-family: serif;
-}
-
+.caps,
 .caps-2 {
-	margin: 0 auto;
-	padding: 0em 1em 0em 1em;
-	text-align: center;
-	font-family: serif;
+  display: none;
 }
 
 /* COMPANY */
@@ -115,12 +104,7 @@ h3 {
 	text-align: center;
 	font-size: 1.5em;
 	padding: 1em 0 0 0;
-}
-
-.border {
 	border-bottom: 1px solid #000;
-	margin: 0 auto;
-	text-align: center;
 }
 
 .body {
@@ -136,4 +120,135 @@ h3 {
 	padding: 1em;
 	font-family: serif;
 	text-align: center;
+  letter-spacing: 1px;
+}
+
+/* CONTACT */
+
+h4 {
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-size: 1em;
+  padding: 1em 0 0 1em;
+  margin-bottom: -0.8em;
+}
+
+.copyright {
+    padding: 0 1em 0.5em 1em;
+    border-top: solid 1px #000;
+    width: 100%;
+}
+
+.copyright p {
+    font-size: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media only screen and (min-width: 90em) {
+  .logo {
+    padding-top: 0;
+  }
+
+  .container {
+    display: none;
+  }
+
+  .nav-head {
+    display: block;
+    text-align: right;
+    padding: 3em 0 3em 0;
+    background-color: #FFF;
+  }
+
+  sticknav {
+    height: 25px;
+    width: 100%;
+    margin-right: 0px;
+    left: 0px;
+    position: relative;
+    z-index: 9999;
+    }
+
+    .fixed { position:fixed;}
+
+  .flex-logo {
+    display: none;
+  }
+
+  .flex-logo-1 {
+    display: block;
+    width: 30%;
+    padding: 3em;
+    margin: 0 auto;
+  }
+
+  .banner-img {
+    display: block;
+    width: 100%;
+  }
+
+  h2 {
+    display: block;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin: 0 auto;
+  padding: 0.8em 0 0em 0;
+}
+
+.caps {
+  display: block;
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-family: serif;
+}
+
+.caps-2 {
+  display: block;
+  margin: 0 auto;
+  font-family: serif;
+}
+
+.b-img {
+  position: absolute;
+  width: 100%;
+}
+
+.icons {
+  position: relative;
+  background-color: rgba(0,0,0,0.5);
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 0 3em 0;
+}
+
+.why-dps {
+  position: absolute;
+  width: 100%;
+}
+
+.why-text {
+  position: relative;
+  background-color: rgba(0,0,0,0.5);
+  margin: 0 auto;
+  text-align: center;
+  padding: 3em;
+}
+
+.why-1 {
+  padding-top: 28.5em;
+}
+
+.workshop-img {
+  position: absolute;
+  width: 100%;
+}
+
+.workshop-text {
+  position: relative;
+  background-color: rgba(0,0,0,0.5);
+  margin: 0 auto;
+  padding: 3em;
+  padding-bottom: 25em;
+}
 }

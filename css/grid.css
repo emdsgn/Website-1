@@ -1,4 +1,5 @@
 .grid {
+  letter-spacing: -0.31em;
   *letter-spacing: normal;
   *word-spacing: -0.43em;
   text-rendering: optimizespeed;
@@ -89,5 +90,13 @@
   }
   .unit-l-3-4 {
     width: 75%;
+  }
+
+  .unit-l-1-5 {
+    width: 40%;
+  }
+
+  .unit-l-2-1 {
+    width: 60%;
   }
 }
