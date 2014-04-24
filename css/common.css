@@ -22,15 +22,25 @@ body {
 }
 
 /* HEADER */
+.logo-img {
+  position: absolute;
+}
+
+.logo-1 {
+  display: block;
+}
+
 .logo {
-  padding-top: 15%;
+  padding: 20% 0 1.5% 0;
+  position: relative;
+  background-color: rgba(0,0,0,0.56);
+  width: 100%;
 }
 
 .flex-logo {
 	display: block;
 	width: 80%;
 	margin: 0 auto;
-	padding: 1em 0 1em 0;
 }
 
 .flex-logo-1 {
@@ -51,6 +61,20 @@ body {
 }
 
 .banner-img {
+  display: none;
+}
+
+.service-1,
+.service-2,
+.service-3 {
+  display: none;
+}
+
+.mobile-layout {
+  display: block;
+}
+
+.desktop-layout {
   display: none;
 }
 
@@ -130,12 +154,16 @@ h3 {
   padding: 1em;
 }
 
+.company-bg {
+  background-color: #f1ede4;
+}
+
 /* WHY DPS */
 .why-dps,
 .bring,
 .process {
   padding: 1em 1em 0 1em;
-  background-color: #30548b;
+  background-color: #f1ede4;
 }
 
 .leader,
@@ -156,7 +184,14 @@ h3 {
 
 .contact {
   padding: 1em 1em 0 1em;
-  background-color: #30548b;
+  background-color: #f1ede4;
+  text-align: center;
+}
+
+.media,
+.careers,
+.new-business {
+  text-align: left;
 }
 
 h4 {
@@ -179,15 +214,11 @@ h4 {
 
 @media only screen and (min-width: 21em) {
   .logo {
-    padding-top: 10%;
+    padding: 14.5% 0 10% 0;
   }
 }
 
 @media only screen and (min-width: 27em) {
-  .logo {
-    padding-top: 5%;
-  }
-
   .workshop-text,
   .company,
   .why-dps,
@@ -199,9 +230,17 @@ h4 {
   .contact {
     padding: 2em;
   }
+
+  .logo {
+    padding: 15.5% 0 10% 0;
+  }
 }
 
 @media only screen and (min-width: 33em) {
+  .logo {
+    padding: 15.5% 0 11% 0;
+  }
+
   .workshop-text,
   .company,
   .why-dps,
@@ -230,7 +269,119 @@ h4 {
 
 @media only screen and (min-width: 40em) {
   .flex-logo {
+    display: none;
+  }
+
+  .flex-logo-1 {
+    display: block;
     width: 50%;
+    margin: 0 auto;
+    padding: 5% 0 5% 0;
+  }
+
+  .logo {
+    padding: 2.6% 0 8.4% 0;
+  }
+
+  .container {
+    display: none;
+  }
+
+  .nav-head {
+    display: block;
+    margin: 0 auto;
+    padding: 1em 0 1em 0em;
+    text-align: center;
+  }
+
+  .nav-head ul {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0.8em;
+  }
+
+  .nav-head li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 0.9em 0.5em 0.9em;
+  }
+
+  .nav-head a {
+    border-bottom: 0.1em solid #ccc;
+    -o-transition: all 100ms linear;
+    -moz-transition: all 100ms linear;
+    -webkit-transition: all 100ms linear;
+    transition: all 100ms linear;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 0.2em;
+  }
+
+  .nav-head a:hover,
+  .nav-head a:focus,
+  .nav-head a:active {
+    border-color: #000;
+    color: #FFF;
+  }
+
+  sticknav {
+    height: 8%;
+    width: 100%;
+    margin-right: 0px;
+    left: 0px;
+    position: relative;
+    z-index: 9999;
+    background-color: rgba(0,0,0,0.7);
+    }
+
+  .fixed { 
+    position:fixed;
+  }
+
+  .service-1,
+  .service-2,
+  .service-3 {
+    display: block;
+    color: #FFF;
+  }
+
+  .service-1 h2,
+  .service-2 h2,
+  .service-3 h2 {
+    color: #FFF;
+    text-transform: lowercase;
+    font-size: 2em;
+  }
+
+  .icon {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .sub-head {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    margin: 0;
+    font-family: georgia, serif;
+    letter-spacing: 1px;
+  }
+
+  .caps {
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 1em 1em 0 1em;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+
+  .caps-2 {
+    margin: 0 auto;
+    padding: 0em 1em 0em 1em;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 0.9em;
   }
 
   .workshop-text,
@@ -242,65 +393,188 @@ h4 {
   .process,
   .work,
   .contact {
-    padding: 4em;
+    padding: 2em;
   }
-}
 
-@media only screen and (min-width: 46em) {
-  .container {
+  .mobile-layout {
     display: none;
   }
 
-  .logo {
-    padding-top: 0;
-  }
-
-  .nav-head {
+  .desktop-layout {
     display: block;
-    margin: 0 auto;
-    padding: 1em 0 1em 0;
+  }
+
+  .why-dps-1 {
+    position: absolute;
+  }
+
+  .why-dps-text {
+    position: relative;
+    background-color: rgba(0,0,0,0.56);
+    padding: 39% 0 3% 0;
+  }
+
+  .why-dps-text h2 {
+    color: #FFF;
     text-align: center;
-    background-color: rgba(255,255,255,0.8);
-  }
-
-  .nav-head ul {
-    margin: 0 auto;
-    padding: 0;
-  }
-
-  .nav-head li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0 0.5em 0.5em 0.5em;
-  }
-
-  .nav-head a {
-    border-bottom: 0.1em solid #ccc;
-    -o-transition: all 100ms linear;
-    -moz-transition: all 100ms linear;
-    -webkit-transition: all 100ms linear;
-    transition: all 100ms linear;
-    color: #222;
-    text-decoration: none;
     text-transform: uppercase;
   }
 
-  .nav-head a:hover,
-  .nav-head a:focus,
-  .nav-head a:active {
-    border-color: #FFF;
-    color: #000;
+  .work {
+    text-align: center;
+  } 
+
+  .workshop-img {
+    position: absolute;
   }
 
-  sticknav {
-    height: 25px;
-    width: 100%;
-    margin-right: 0px;
-    left: 0px;
+  .workshop-text {
     position: relative;
-    z-index: 9999;
-    }
+    background-color: rgba(0,0,0,0.56);
+    color: #FFF;
+    padding: 7.7% 5% 7.7% 5%;
+  }
 
-  .fixed { position:fixed;}
+  .workshop-text h3 {
+    border-color: #FFF;
+  }
+
+  .workshop-text .sub-body {
+    color: #FFF;
+  }
+
+  .workshop-text .sub-nav a {
+    color: #FFF;
+  }
+
+  .medical-text {
+    position: relative;
+    background-color: rgba(0,0,0,0.56);
+    color: #FFF;
+    padding: 6.5% 5% 6.5% 5%;
+  }
+
+  .medical-text h3 {
+    border-color: #FFF;
+  }
+
+  .medical-text .sub-body {
+    color: #FFF;
+  }
+
+  .medical-text .sub-nav a {
+    color: #FFF;
+  }
+
+  .r-padding {
+    padding-right: 1em;
+  }
+
+  .media,
+  .careers,
+  .new-business {
+    text-align: left;
+    padding: 0 1em 0 0;
+  }
+
+  .logo-1 {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 46em) {
+  .logo {
+    padding: 2% 0 16.1% 0;
+  }
+
+  .company {
+    padding: 2.4em;
+  }
+
+  .why-dps-text {
+    padding: 40% 0 3% 0;
+  }
+
+  .workshop-text {
+    padding: 11.2% 5% 11% 5%;
+  }
+
+  .medical-text {
+    padding: 10% 5% 10% 5%;
+  }
+}
+
+@media only screen and (min-width: 52em) {
+  .logo {
+    padding-bottom: 14.2%;
+  }
+
+  .flex-logo-1 {
+    padding-bottom: 10%;
+  }
+
+  .why-dps-text {
+    padding-bottom: 3.9%;
+  }
+
+  .workshop-text {
+    padding-bottom: 13.9%;
+  }
+
+  .medical-text {
+    padding-bottom: 13%;
+  }
+}
+
+@media only screen and (min-width: 58em) {
+  .logo {
+    padding-bottom: 8.4%;
+  }
+
+  .logo-img {
+    display: block;
+    width: 100%;
+  }
+
+  .logo-img img {
+    max-height: 90%;
+    max-width: 100%;
+  }
+
+  .flex-logo-1 {
+    padding-bottom: 10%;
+  }
+
+  .why-dps-text {
+    padding-bottom: 4.5%;
+  }
+
+  .workshop-text {
+    padding-bottom: 20.5%;
+  }
+
+  .medical-text {
+    padding-bottom: 18%;
+  }
+}
+
+@media only screen and (min-width: 65em) {
+  .flex-logo-1 {
+    padding: 7% 0 8% 0;
+    width: 40%;
+  }
+
+  .why-dps-text {
+    padding-bottom: 5%;
+  }
+
+  .workshop-text {
+    padding-bottom: 21.6%;
+  }
+
+  .medical-text {
+    padding-bottom: 20%;
+  }
 
 }
