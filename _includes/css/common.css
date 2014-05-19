@@ -33,13 +33,6 @@ body {
   width: 100%;
 }
 
-.logo-1 {
-  padding: 0% 0 6% 0;
-  position: relative;
-  background-color: rgba(0,0,0,0.56);
-  width: 100%;
-}
-
 .flex-logo {
 	display: block;
 	width: 80%;
@@ -154,42 +147,6 @@ h3 {
   color: #000;
 }
 
-.sub-nav-1 {
-  margin: 0 auto;
-}
-
-.sub-nav-1 ul {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.sub-nav-1 li {
-  list-style-type: none;
-  padding: 0 0.5em 0.5em 0;
-  display: inline-block;
-}
-
-.sub-nav-1 a {
-  border-bottom: 0.1em solid #ccc;
-  -o-transition: all 100ms linear;
-  -moz-transition: all 100ms linear;
-  -webkit-transition: all 100ms linear;
-  transition: all 100ms linear;
-  color: #FFF;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 0 0 0.2em 0;
-  font-size: 0.8em;
-}
-
-.sub-nav-1 a:hover,
-.sub-nav-1 a:focus,
-.sub-nav-1 a:active {
-  border-color: #000;
-  color: #FFF;
-}
-
 /* COMPANY */
 .company {
   padding: 1em;
@@ -255,9 +212,127 @@ h4 {
     text-align: center;
 }
 
+/* SERVICE PAGE COMMON CSSS */
+.logo-1 {
+  padding: 33% 1em 1em 1em;
+  position: relative;
+  background-color: rgba(0,0,0,0.56);
+  width: 100%;
+  text-align: center;
+}
+
+.logo-1 h3 {
+  color: #FFF;
+  display: inline-block;
+  border-bottom: 1px solid #FFF;
+}
+
+.service {
+  display: inline-block;
+  border-bottom: 1px solid #000;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.sub-nav-1 {
+  margin: 0 auto;
+}
+
+.sub-nav-1 ul {
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+}
+
+.sub-nav-1 li {
+  list-style-type: none;
+  padding: 0 0.5em 0.5em 0;
+  display: inline-block;
+}
+
+.sub-nav-1 a {
+  border-bottom: 0.1em solid #ccc;
+  -o-transition: all 100ms linear;
+  -moz-transition: all 100ms linear;
+  -webkit-transition: all 100ms linear;
+  transition: all 100ms linear;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 0 0.1em 0;
+  font-size: 0.8em;
+}
+
+.sub-nav-1 a:hover,
+.sub-nav-1 a:focus,
+.sub-nav-1 a:active {
+  border-color: #000;
+  color: #CCC;
+}
+
+/* DPS ORGINAL MARKETING */
+#communication,
+#market-design {
+  background-color: #f1ede4;
+  position: relative;
+}
+
+#communication,
+.market-design,
+#strategy,
+#brand {
+  padding: 1em;
+}
+
+/* MEDICAL EDUCATION */
+#med-sol,
+#kol,
+#ad-board {
+  background-color: #f1ede4;
+  position: relative;
+}
+
+#med-ex {
+  position: relative;
+  background-color: #FFF;
+}
+
+#med-ex,
+#med-sol,
+#trainer,
+#kol,
+#kol-recruit,
+#ad-board,
+#speak-forum {
+  padding: 1em;
+}
+
+/* WORKSHOP */
+#facilitate,
+#workshop {
+  background-color: #f1ede4;
+  position: relative;
+}
+
+#facilitate,
+#sales-train,
+#workshop,
+#strategic-plan {
+  padding: 1em;
+}
+
 @media only screen and (min-width: 15em) {
   .logo {
     padding: 10% 0 16% 0;
+  }
+
+  .logo-1 {
+    padding: 50% 1em 1em 1em;
+  }
+
+  .service {
+    font-size: 1.3em;
   }
 }
 
@@ -265,11 +340,52 @@ h4 {
   .logo {
     padding: 14.5% 0 18% 0;
   }
+
+  .logo-1 {
+    padding: 73% 1em 1em 1em;
+  }
+
+  .sub-nav-1 ul {
+    margin: 0;
+    padding: 2em;
+  }
+
+  .sub-nav-1 a {
+    font-size: 1em;
+  }
+
+  #communication,
+  .market-design,
+  #strategy,
+  #brand {
+    padding: 2em;
+  }
+
+  #med-ex,
+  #med-sol,
+  #trainer,
+  #kol,
+  #kol-recruit,
+  #ad-board,
+  #speak-forum {
+    padding: 2em;
+  }
+
+  #facilitate,
+#sales-train,
+#workshop,
+#strategic-plan {
+  padding: 2em;
+}
 }
 
 @media only screen and (min-width: 22.5em) {
   .logo {
     padding: 14.5% 0 20.5% 0;
+  }
+
+  .logo-1 {
+    padding: 75% 1em 1em 1em;
   }
 }
 
@@ -290,6 +406,10 @@ h4 {
 @media only screen and (min-width: 33em) {
   .logo {
     padding: 8.5% 0 11% 0;
+  }
+
+  .logo-1 {
+    padding: 25% 1em 1em 1em;
   }
 
   .flex-logo {
@@ -328,12 +448,68 @@ h4 {
   .sub-nav a {
     font-size: 1em;
   }
+
+  .sub-nav-1 a {
+    font-size: 1.3em;
+  }
+
+  #communication,
+  .market-design,
+  #strategy,
+  #brand {
+    padding: 3em;
+  }
+
+  #med-ex,
+  #med-sol,
+  #trainer,
+  #kol,
+  #kol-recruit,
+  #ad-board,
+  #speak-forum {
+    padding: 3em;
+  }
+
+  #facilitate,
+#sales-train,
+#workshop,
+#strategic-plan {
+  padding: 3em;
+}
 }
 
 @media only screen and (min-width: 37em) {
   .logo {
     padding: 11% 0 10% 0;
   }
+
+  .logo-1 {
+    padding: 27% 1em 1em 1em;
+  }
+
+  #communication,
+  .market-design,
+  #strategy,
+  #brand {
+    padding: 4em;
+  }
+
+  #med-ex,
+  #med-sol,
+  #trainer,
+  #kol,
+  #kol-recruit,
+  #ad-board,
+  #speak-forum {
+    padding: 4em;
+  }
+
+  #facilitate,
+#sales-train,
+#workshop,
+#strategic-plan {
+  padding: 4em;
+}
 }
 
 @media only screen and (min-width: 39em) {
@@ -356,6 +532,10 @@ h4 {
 
   .logo {
     padding: 0% 0 5% 0;
+  }
+
+  .logo-1 {
+    padding: 0;
   }
 
   .container {
@@ -536,6 +716,28 @@ h4 {
     text-align: left;
     padding: 0 1em 0 0;
   }
+
+  .sub-nav-1 ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .sub-nav-1 li {
+    padding: 0 1em 1em 0;
+  }
+
+  .sub-nav-1 a {
+    font-size: 0.9em;
+    color: #FFF;
+  }
+
+  .head {
+    padding: 3em 0 3em 0;
+  }
+
+  .logo-1 .sub-body {
+    color: #FFF;
+  }
 }
 
 @media only screen and (min-width: 50em) {
@@ -568,6 +770,10 @@ h4 {
   .company {
     padding: 4em;
   }
+
+  .head {
+    padding: 6em 0 6em 0;
+  }
 }
 
 @media only screen and (min-width: 80em) {
@@ -589,6 +795,10 @@ h4 {
 
   .r-padding {
     padding-right: 6em;
+  }
+
+  .head {
+    padding: 10em 0 10em 0;
   }
 }
 
