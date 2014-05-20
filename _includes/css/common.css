@@ -27,7 +27,7 @@ body {
 }
 
 .logo {
-  padding: 10% 0 6% 0;
+  padding: 10% 0 18% 0;
   position: relative;
   background-color: rgba(0,0,0,0.56);
   width: 100%;
@@ -76,6 +76,10 @@ body {
 
 .desktop-layout {
   display: none;
+}
+
+.workshop-img {
+  position: relative;
 }
 
 .workshop-text {
@@ -143,8 +147,8 @@ h3 {
 .sub-nav a:hover,
 .sub-nav a:focus,
 .sub-nav a:active {
-  border-color: #FFF;
-  color: #000;
+  border-color: #000;
+  color: #CCC;
 }
 
 /* COMPANY */
@@ -237,6 +241,8 @@ h4 {
 
 .sub-nav-1 {
   margin: 0 auto;
+  background-color: #FFF;
+  position: relative;
 }
 
 .sub-nav-1 ul {
@@ -269,6 +275,22 @@ h4 {
 .sub-nav-1 a:active {
   border-color: #000;
   color: #CCC;
+}
+
+.body-1 {
+  margin: 0 auto;
+  padding: 1em 0 0 0;
+  font-family: serif;
+}
+
+.sub-body-1 {
+  margin: 0 auto;
+  font-family: serif;
+  letter-spacing: 0.5px;
+  color: #000;
+  font-size: 0.9em;
+  padding: 1em 0 0 0;
+  text-transform: uppercase;
 }
 
 /* DPS ORGINAL MARKETING */
@@ -342,7 +364,7 @@ h4 {
   }
 
   .logo-1 {
-    padding: 73% 1em 1em 1em;
+    padding: 72% 1em 1em 1em;
   }
 
   .sub-nav-1 ul {
