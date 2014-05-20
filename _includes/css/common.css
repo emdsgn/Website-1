@@ -43,6 +43,11 @@ body {
   display: none;
 }
 
+.flex-logo-2 {
+  display: none;
+  padding: 0.5em;
+}
+
 .flex-img {
   display: block;
   width: 100%;
@@ -62,7 +67,11 @@ body {
   display: none;
 }
 
-.nav-head {
+#cssmenu {
+  display: none;
+}
+
+#cssmenu-1 {
   display: none;
 }
 
@@ -295,7 +304,7 @@ h4 {
 
 /* DPS ORGINAL MARKETING */
 #communication,
-#market-design {
+#brand {
   background-color: #f1ede4;
   position: relative;
 }
@@ -310,7 +319,8 @@ h4 {
 /* MEDICAL EDUCATION */
 #med-sol,
 #kol,
-#ad-board {
+#ad-board,
+#trainer {
   background-color: #f1ede4;
   position: relative;
 }
@@ -326,12 +336,13 @@ h4 {
 #kol,
 #kol-recruit,
 #ad-board,
-#speak-forum {
+#speak-forum,
+#digit-ed {
   padding: 1em;
 }
 
 /* WORKSHOP */
-#facilitate,
+#strategic-plan,
 #workshop {
   background-color: #f1ede4;
   position: relative;
@@ -552,6 +563,12 @@ h4 {
     padding: 8% 0 5% 0;
   }
 
+  .flex-logo-2 {
+    display: block;
+    width: 35%;
+    padding: 0.5em;
+  }
+
   .logo {
     padding: 0% 0 5% 0;
   }
@@ -564,52 +581,258 @@ h4 {
     display: none;
   }
 
-  .nav-head {
+  #cssmenu {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 0.8em;
     display: block;
-    margin: 0 auto;
-    padding: 1em 0 1em 0em;
-    text-align: center;
+  }
+
+  #cssmenu ul,
+  #cssmenu li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #cssmenu ul {
+    position: relative;
+    z-index: 597;
+  }
+
+  #cssmenu ul li {
+    float: left;
+    min-height: 1px;
+    vertical-align: middle;
+  }
+
+  #cssmenu ul li.hover,
+  #cssmenu ul li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default;
+  }
+
+  #cssmenu ul ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 598;
+    width: 100%;
+  }
+
+  #cssmenu ul ul li {float: none;}
+  #cssmenu ul ul ul {top: 0; left: auto; right: -99.5%; }
+  #cssmenu ul li:hover > ul { visibility: visible;}
+  #cssmenu ul ul {bottom: 0; left: 0;}
+  #cssmenu ul ul {margin-top: 0; }
+  #cssmenu ul ul li {font-weight: normal;}
+  #cssmenu a { display: block; line-height: 1em; text-decoration: none; }
+
+  #cssmenu > ul { *display: inline-block; }
+
+  #cssmenu:after, #cssmenu ul:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #cssmenu a {
+    color: #FFF;
+    padding: 0 20px;
+  }
+
+  #cssmenu ul { text-transform: uppercase; }
+
+  #cssmenu ul ul {
+    text-transform: none;
+    min-width: 190px;
+  }
+
+  #cssmenu ul ul a {
+    background: rgba(0,0,0,0.8);
+    color: #FFF;
+    border-bottom: 1px solid #000;
+    border-top: 0 none;
+    line-height: 150%;
+    padding: 16px 20px;
+    text-transform: uppercase;
+  }
+
+  #cssmenu ul ul ul { border-top: 0 none; }
+  #cssmenu ul ul li { position: relative }
+  #cssmenu > ul > li > a { line-height: 60px;  }
+  #cssmenu ul ul li:first-child > a { border-top: 1px solid #000; }
+    #cssmenu ul ul li:hover > a { background: #FFF; color: #000; }
+
+  #cssmenu ul ul li:last-child > a {
+    box-shadow: 0 1px 0 #000;
+  }
+
+  #cssmenu ul ul li:last-child:hover > a {}
+
+  #cssmenu ul ul li.has-sub > a:after {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    margin-top: -8px;
+  }
+
+  #cssmenu ul li:hover > a, #cssmenu ul li.active > a {
+      background: #FFF;
+      color: #000;
+  }
+
+  #cssmenu ul li.has-sub > a:after {
+    content: '+';
+    margin-left: 5px;
+  }
+
+  #cssmenu ul li.last ul {
+    left: auto;
+    right: 0;
+  }
+
+  #cssmenu ul li.last ul ul {
+    left: auto;
+    right: 99.5%;
+  }
+
+  #cssmenu-1 {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 0.8em;
+    display: block;
+  }
+
+  #cssmenu-1 ul,
+  #cssmenu-1 li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #cssmenu-1 ul {
+    position: relative;
+    z-index: 597;
+  }
+
+  #cssmenu-1 ul li {
+    float: left;
+    min-height: 1px;
+    vertical-align: middle;
+  }
+
+  #cssmenu-1 ul li.hover,
+  #cssmenu-1 ul li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default;
+  }
+
+  #cssmenu-1 ul ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 598;
+    width: 100%;
+  }
+
+  #cssmenu-1 ul ul li {float: none;}
+  #cssmenu-1 ul ul ul {top: 0; left: auto; right: 100%; }
+  #cssmenu-1 ul li:hover > ul { visibility: visible;}
+  #cssmenu-1 ul ul {bottom: 0; left: 0;}
+  #cssmenu-1 ul ul {margin-top: 0; }
+  #cssmenu-1 ul ul li {font-weight: normal;}
+  #cssmenu-1 a { display: block; line-height: 1em; text-decoration: none; }
+
+  #cssmenu-1 > ul { *display: inline-block; }
+
+  #cssmenu-1:after, #cssmenu ul:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #cssmenu-1 a {
+    color: #FFF;
+    padding: 0 20px;
+  }
+
+  #cssmenu-1 ul { text-transform: uppercase; }
+
+  #cssmenu-1 ul ul {
+    text-transform: none;
+    min-width: 190px;
+  }
+
+  #cssmenu-1 ul ul a {
+    background: rgba(0,0,0,0.8);
+    color: #FFF;
+    border-bottom: 1px solid #000;
+    border-top: 0 none;
+    line-height: 150%;
+    padding: 16px 20px;
+    text-transform: uppercase;
+  }
+
+  #cssmenu-1 ul ul ul { border-top: 0 none; }
+  #cssmenu-1 ul ul li { position: relative }
+  #cssmenu-1 > ul > li > a { line-height: 60px;  }
+  #cssmenu-1 ul ul li:first-child > a { border-top: 1px solid #000; }
+    #cssmenu-1 ul ul li:hover > a { background: #FFF; color: #000; }
+
+  #cssmenu-1 ul ul li:last-child > a {
+    box-shadow: 0 1px 0 #000;
+  }
+
+  #cssmenu-1 ul ul li:last-child:hover > a {}
+
+  #cssmenu-1 ul ul li.has-sub > a:after {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    margin-top: -8px;
+  }
+
+  #cssmenu-1 ul li:hover > a, #cssmenu-1 ul li.active > a {
+      background: #FFF;
+      color: #000;
+  }
+
+  #cssmenu-1 ul li.has-sub > a:after {
+    content: '+';
+    margin-left: 5px;
+  }
+
+  #cssmenu-1 ul li.last ul {
+    left: auto;
+    right: 0;
+  }
+
+  #cssmenu-1 ul li.last ul ul {
+    left: auto;
+    right: 99.5%;
+  }
+
+  .show {
     background: rgba(0,0,0,0.7);
   }
 
-  .nav-head ul {
-    margin: 0 auto;
-    padding: 0;
-    font-size: 0.8em;
-  }
-
-  .nav-head li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0 0.9em 0.5em 0.9em;
-  }
-
-  .nav-head a {
-    border-bottom: 0.1em solid #ccc;
-    -o-transition: all 100ms linear;
-    -moz-transition: all 100ms linear;
-    -webkit-transition: all 100ms linear;
-    transition: all 100ms linear;
-    color: #FFF;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding-bottom: 0.2em;
-  }
-
-  .nav-head a:hover,
-  .nav-head a:focus,
-  .nav-head a:active {
-    border-color: #000;
-    color: #FFF;
-  }
-
   sticknav {
-    height: 8%;
+    height: 5.9%;
     width: 100%;
     margin-right: 0px;
     left: 0px;
     position: relative;
     z-index: 9999;
+    background: rgba(0,0,0,0);
     }
 
   .fixed {
@@ -694,18 +917,28 @@ h4 {
     position: relative;
     background-color: rgba(0,0,0,0.56);
     color: #FFF;
-    padding: 7.7% 5% 9.7% 5%;
+    padding: 7.7% 5% 15% 5%;
   }
 
-  .workshop-text h3 {
+  .market-text {
+    position: relative;
+    background-color: rgba(0,0,0,0.56);
+    color: #FFF;
+    padding: 7.7% 5% 6% 5%;
+  }
+
+  .workshop-text,
+  .market-text h3 {
     border-color: #FFF;
   }
 
-  .workshop-text .sub-body {
+  .workshop-text .sub-body,
+  .market-text .sub-body {
     color: #FFF;
   }
 
-  .workshop-text .sub-nav a {
+  .workshop-text .sub-nav a,
+  .market-text .sub-nav a {
     color: #FFF;
   }
 
@@ -713,7 +946,7 @@ h4 {
     position: relative;
     background-color: rgba(0,0,0,0.56);
     color: #FFF;
-    padding: 6.5% 5% 8.6% 5%;
+    padding: 6.5% 5% 5% 5%;
   }
 
   .medical-text h3 {
@@ -782,7 +1015,7 @@ h4 {
   }
 
   .workshop-text {
-    padding-bottom: 23%;
+    padding-bottom: 20%;
   }
 
   .medical-text {

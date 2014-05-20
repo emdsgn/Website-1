@@ -63,6 +63,7 @@
 .dl-menuwrapper ul {
 	padding: 0;
 	list-style: none;
+	text-transform: uppercase;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -120,7 +121,7 @@
 .dl-menuwrapper .dl-menu {
 	margin: 5px 0 0 0;
 	position: absolute;
-	width: 100%;
+	width: 200px;
 	opacity: 0;
 	pointer-events: none;
 	-webkit-transform: translateY(10px);
