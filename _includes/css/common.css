@@ -79,8 +79,8 @@ body {
   display: none;
 }
 
-.workshop-text {
-  padding: 1em;
+.workshop-img {
+  position: relative;
 }
 
 h2 {
@@ -234,10 +234,26 @@ h4 {
   text-align: center;
 }
 
+.logo-2 {
+  padding: 33% 1em 1em 1em;
+  position: relative;
+  background-color: rgba(0,0,0,0.56);
+  width: 100%;
+  text-align: center;
+}
+
 .logo-1 h3 {
   color: #FFF;
   display: inline-block;
   border-bottom: 1px solid #FFF;
+}
+
+.logo-2 h3 {
+  color: #FFF;
+  display: inline-block;
+  border-bottom: 1px solid #FFF;
+  width: 60%;
+  text-align: center;
 }
 
 .service {
@@ -328,7 +344,7 @@ h4 {
   background-color: #FFF;
 }
 
-#med-ex,
+.med-ex,
 #med-sol,
 #trainer,
 #kol,
@@ -337,6 +353,11 @@ h4 {
 #speak-forum,
 #digit-ed {
   padding: 1em;
+}
+
+.border {
+  border-left: 1px solid #000;
+  padding: 0 0 0 1em;
 }
 
 /* WORKSHOP */
@@ -392,7 +413,7 @@ h4 {
     padding: 2em;
   }
 
-  #med-ex,
+  .med-ex,
   #med-sol,
   #trainer,
   #kol,
@@ -421,7 +442,6 @@ h4 {
 }
 
 @media only screen and (min-width: 27em) {
-  .workshop-text,
   .company,
   .why-dps,
   .partners,
@@ -455,7 +475,6 @@ h4 {
     display: none;
   }
 
-  .workshop-text,
   .company,
   .why-dps,
   .partners,
@@ -492,7 +511,7 @@ h4 {
     padding: 3em;
   }
 
-  #med-ex,
+  .med-ex,
   #med-sol,
   #trainer,
   #kol,
@@ -526,7 +545,7 @@ h4 {
     padding: 4em;
   }
 
-  #med-ex,
+  .med-ex,
   #med-sol,
   #trainer,
   #kol,
@@ -568,11 +587,22 @@ h4 {
     padding: 0.5em;
   }
 
+  .market-logo {
+    width: 100%;
+    display: block;
+    padding: 0 0 0.3em 0;
+  }
+
   .logo {
     padding: 0% 0 5% 0;
   }
 
   .logo-1 {
+    padding: 0;
+    text-align: left;
+  }
+
+  .logo-2 {
     padding: 0;
     text-align: left;
   }
@@ -602,10 +632,9 @@ h4 {
   }
 
   #cssmenu ul li {
-    float: left;
     min-height: 1px;
     vertical-align: middle;
-    text-align: left;
+    display: inline-block;
   }
 
   #cssmenu ul li.hover,
@@ -642,14 +671,15 @@ h4 {
 
   #cssmenu a {
     color: #FFF;
-    padding: 0 20.7px;
+    padding: 0 19px;
   }
 
-  #cssmenu ul { text-transform: uppercase; border-bottom: 1px solid #FFF; text-align: right;}
+  #cssmenu ul { text-transform: uppercase; border-bottom: 1px solid #FFF; text-align: center;}
 
   #cssmenu ul ul {
     text-transform: none;
-    min-width: 190px;
+    min-width: 130px;
+    text-align: left;
   }
 
   #cssmenu ul ul a {
@@ -663,7 +693,7 @@ h4 {
   }
 
   #cssmenu ul ul ul { border-top: 0 none; }
-  #cssmenu ul ul li { position: relative }
+  #cssmenu ul ul li { position: relative; width: 100%;}
   #cssmenu > ul > li > a { line-height: 55px;  }
   #cssmenu ul ul li:first-child > a { border-top: 1px solid #000; }
   #cssmenu ul ul li:hover > a { border-bottom: 3px solid #FFF; }
@@ -772,7 +802,14 @@ h4 {
     font-size: 0.9em;
   }
 
-  .workshop-text,
+  .service {
+    border-bottom: 1px solid #FFF;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #FFF;
+    width: 87%;
+  }
+
   .company,
   .why-dps,
   .partners,
@@ -812,6 +849,7 @@ h4 {
   .company h3 {
     border: none;
     font-weight: 100;
+    line-height: 100%;
   }
 
   .workshop-img {
@@ -830,14 +868,12 @@ h4 {
     position: relative;
     background-color: rgba(0,0,0,0.56);
     color: #FFF;
-    padding: 7.7% 5% 15% 5%;
   }
 
   .market-text {
     position: relative;
     background-color: rgba(0,0,0,0.56);
     color: #FFF;
-    padding: 7.7% 5% 6% 5%;
   }
 
   .workshop-text h3,
@@ -859,7 +895,6 @@ h4 {
     position: relative;
     background-color: rgba(0,0,0,0.56);
     color: #FFF;
-    padding: 6.5% 5% 5% 5%;
   }
 
   .medical-text h3 {
@@ -875,7 +910,25 @@ h4 {
   }
 
   .r-padding {
-    padding-right: 1em;
+    padding: 2em 7em 0 2em;
+  }
+
+  .r-padding-2 {
+    padding: 3em 6em 3em 3em;
+  }
+
+    .sub-link {
+    padding: 3em 0 3em 2em;
+    background-color: rgba(0,0,0,0.3);
+  }
+
+    .sub-link-2 {
+    padding: 6em 0 6em 2em;
+    background-color: rgba(0,0,0,0.3);
+  }
+
+  .sub-nav a {
+    color: #FFF;
   }
 
   .media,
@@ -885,175 +938,16 @@ h4 {
     padding: 0 1em 0 0;
   }
 
-  .sub-nav-1 ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  .sub-nav-1 li {
-    padding: 0 1em 1em 0;
-  }
-
-  .sub-nav-1 a {
-    font-size: 0.9em;
-    color: #FFF;
-  }
-
-  .head {
-    padding: 3em 0 3em 0;
-  }
-
   .logo-1 .sub-body {
     color: #FFF;
   }
-}
 
-@media only screen and (min-width: 50em) {
-  .logo {
-    padding: 0% 0 6% 0;
+  #med-ed {
+    padding: 4.5em;
   }
 
-  .workshop-text {
-    padding-bottom: 10.8%;
-  }
-
-  .medical-text {
-    padding-bottom: 9.8%;
-  }
-}
-
-@media only screen and (min-width: 64em) {
-  .logo {
-    padding: 0% 0 6% 0;
-  }
-
-  .workshop-text {
-    padding-bottom: 20%;
-  }
-
-  .medical-text {
-    padding-bottom: 18%;
-  }
-
-  .company {
-    padding: 4em;
-  }
-
-  .head {
-    padding: 6em 0 6em 0;
-  }
-}
-
-@media only screen and (min-width: 80em) {
-  .logo {
-    padding: 0% 0 7.7% 0;
-  }
-
-  .company {
-    padding: 6em;
-  }
-
-  .workshop-text {
-    padding-bottom: 26.2%;
-  }
-
-  .medical-text {
-    padding-bottom: 26.2%;
-  }
-
-  .r-padding {
-    padding-right: 6em;
-  }
-
-  .head {
-    padding: 10em 0 10em 0;
-  }
-}
-
-@media only screen and (min-width: 85em) {
-  .logo {
-    padding: 0% 0 8.7% 0;
-  }
-
-  .company {
-    padding: 8em;
-  }
-
-  .workshop-text {
-    padding-bottom: 26.9%;
-  }
-
-  .medical-text {
-    padding-bottom: 26.9%;
-  }
-
-  .r-padding {
-    padding-right: 8em;
-  }
-}
-
-@media only screen and (min-width: 90em) {
-  .logo {
-    padding: 0% 0 9.4% 0;
-  }
-
-  .company {
-    padding: 10em;
-  }
-
-  .workshop-text {
-    padding-bottom: 27.4%;
-  }
-
-  .medical-text {
-    padding-bottom: 27.4%;
-  }
-
-  .r-padding {
-    padding-right: 10em;
-  }
-}
-
-@media only screen and (min-width: 100em) {
-  .logo {
-    padding: 0% 0 10.8% 0;
-  }
-
-  .company {
-    padding: 10em;
-  }
-
-  .workshop-text {
-    padding-bottom: 28.3%;
-  }
-
-  .medical-text {
-    padding-bottom: 28.3%;
-  }
-
-  .r-padding {
-    padding-right: 10em;
-  }
-}
-
-@media only screen and (min-width: 105em) {
-  .logo {
-    padding: 0% 0 11.4% 0;
-  }
-
-  .company {
-    padding: 10em;
-  }
-
-  .workshop-text {
-    padding-bottom: 28.7%;
-  }
-
-  .medical-text {
-    padding-bottom: 28.7%;
-  }
-
-  .r-padding {
-    padding-right: 10em;
+  .relative {
+    position: relative;
+    background-color: #FFF;
   }
 }

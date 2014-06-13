@@ -1,4 +1,4 @@
-a {
+#dates a {
 	color: #ffffcc;
 	text-decoration: none;
 	-webkit-transition: 0.5s;
@@ -7,8 +7,9 @@ a {
 	-ms-transition: 0.5s;
 	transition: 0.5s;
 }
-	a:hover,
-	a.selected {
+
+#dates a:hover,
+#dates a.selected {
 		color: #ffcc00;
 	}
 
@@ -24,7 +25,7 @@ a {
 			height: 170px;
 			overflow: hidden;
 			margin: 0;
-			padding: 4.5em 0 0 2em;
+			padding: 4.5em 0 0 10em;
 		}
 			#dates li {
 				list-style: none;
