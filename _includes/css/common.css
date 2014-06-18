@@ -101,7 +101,6 @@ h3 {
 
 .body {
 	margin: 0 auto;
-  font-weight: 300;
 }
 
 .sub-body {
@@ -113,9 +112,21 @@ h3 {
 }
 
 /* WORKSHOPS MARKETING MEDICAL */
+.mob-padding {
+  padding: 1em;
+}
+
 .sub-nav {
   margin: 0 auto;
 }
+
+  .link-border {
+    border-bottom: 1px #000 solid;
+  }
+
+  .link-border:hover {
+    border-bottom: 3px #000 solid;
+  }
 
 .sub-nav ul {
   margin: 0;
@@ -124,12 +135,15 @@ h3 {
 
 .sub-nav li {
   list-style-type: none;
-  padding: 0 0.5em 0.5em 0;
+  padding: 0 0em 1em 0;
   display: inline-block;
+  width: 100%;
+  font-weight: 300;
+  font-size: 1.2em;
+  text-align: justify;
 }
 
 .sub-nav a {
-  border-bottom: 0.1em solid #ccc;
   -o-transition: all 100ms linear;
   -moz-transition: all 100ms linear;
   -webkit-transition: all 100ms linear;
@@ -197,7 +211,6 @@ h3 {
 .contact {
   padding: 1em 1em 0 1em;
   background-color: #f1ede4;
-  text-align: center;
   position: relative;
 }
 
@@ -205,6 +218,14 @@ h3 {
 .careers,
 .new-business {
   text-align: left;
+}
+
+.media a,
+.careers a,
+.new-business a {
+  font-size: 0.85em;
+  color: #000;
+  text-decoration: none;
 }
 
 h4 {
@@ -283,7 +304,6 @@ h4 {
 }
 
 .sub-nav-1 a {
-  border-bottom: 0.1em solid #ccc;
   -o-transition: all 100ms linear;
   -moz-transition: all 100ms linear;
   -webkit-transition: all 100ms linear;
@@ -337,11 +357,6 @@ h4 {
 #trainer {
   background-color: #f1ede4;
   position: relative;
-}
-
-#med-ex {
-  position: relative;
-  background-color: #FFF;
 }
 
 .med-ex,
@@ -497,11 +512,15 @@ h4 {
   }
 
   .sub-nav a {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   .sub-nav-1 a {
     font-size: 1.3em;
+  }
+
+  .sub-nav li {
+    font-size: 1em;
   }
 
   #communication,
@@ -803,22 +822,23 @@ h4 {
   }
 
   .service {
-    border-bottom: 1px solid #FFF;
     font-size: 3em;
     text-transform: uppercase;
-    color: #FFF;
     width: 87%;
+    text-align: center;
   }
 
-  .company,
   .why-dps,
   .partners,
   .bring,
   .leader,
   .process,
-  .work,
-  .contact {
+  .work {
     padding: 2em;
+  }
+
+  .contact {
+    padding: 4em;
   }
 
   .why-dps {
@@ -844,6 +864,7 @@ h4 {
     position: relative;
     left: 50%;
     color: #FFF;
+    padding: 7em 2em 7em 2em;
   }
 
   .company h3 {
@@ -914,28 +935,69 @@ h4 {
   }
 
   .r-padding-2 {
+    padding: 5em 6em 5em 5em;
+  }
+
+  .r-padding-3 {
     padding: 3em 6em 3em 3em;
   }
 
-    .sub-link {
-    padding: 3em 0 3em 2em;
+  .market-link-1 {
+    padding: 4em 2em 4em 2em;
     background-color: rgba(0,0,0,0.3);
   }
 
-    .sub-link-2 {
-    padding: 6em 0 6em 2em;
+  .med-link-1 {
+    padding: 1em 2em 0em 2em;
     background-color: rgba(0,0,0,0.3);
+  }
+
+  .work-link-1 {
+    padding: 3em 2em 3em 2em;
+    background-color: rgba(0,0,0,0.3);
+  }
+
+  .med-link,
+  .market-link {
+    padding: 3em 2em 3em 2em;
+    background-color: rgba(0,0,0,0.3);
+  }
+
+  .work-link {
+    padding: 5em 2em 5em 2em;
+    background-color: rgba(0,0,0,0.3);
+  }
+
+  .link-border {
+    border-bottom: 1px #FFF solid;
+  }
+
+  .link-border:hover {
+    border-bottom: 3px #FFF solid;
   }
 
   .sub-nav a {
     color: #FFF;
   }
 
+  .sub-nav li {
+  list-style-type: none;
+  padding: 0 0em 1em 0;
+  display: inline-block;
+  width: 100%;
+  font-weight: 300;
+  font-size: 1em;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
   .media,
   .careers,
   .new-business {
     text-align: left;
-    padding: 0 1em 0 0;
+    padding: 0 2em 0 2em;
   }
 
   .logo-1 .sub-body {
@@ -943,11 +1005,272 @@ h4 {
   }
 
   #med-ed {
-    padding: 4.5em;
+    padding: 6.3em;
+  }
+
+  #communications,
+  #web-design,
+  #brand-design,
+  #market-strategy {
+    padding: 4.9em;
   }
 
   .relative {
     position: relative;
     background-color: #FFF;
+  }
+
+.ic_container{
+    vertical-align:baseline;
+    margin: 0;
+    position:relative;
+    /*-moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -khtml-border-radius:10px;
+    -moz-box-shadow: 0 1px 3px #888;
+    -webkit-box-shadow: 0 1px 3px #888;*/
+}
+.overlay{
+    opacity:0.3;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+
+.ic_caption{
+    position:absolute;    
+    opacity:0.6;   
+    overflow:hidden;
+    margin:0px;
+    padding:0px;
+    left:0px;
+    right:0px;
+    cursor:default;s
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+}
+.ic_category{
+    text-transform:uppercase;
+    font-size:11px;
+    letter-spacing:3px;
+    padding:5px;
+    margin:0px;
+}
+.ic_caption h3{
+    padding:0px 5px 5px 5px;
+    margin:0px;
+    font-size:18px;
+}
+.ic_text{
+    padding:5px;
+    margin:0px;
+    text-align:justify;
+    font-size:11px;
+}
+.content{
+                margin-top:0;
+                padding:0px;
+                bottom:0px;
+                height: 370px;
+            }
+            .demo{
+                float:left;
+                width: 100%;
+            }
+
+  .contact-text {
+    padding: 0 0 2em 0;
+  }
+
+  .inline {
+    display: block;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 50em) {
+  .flex-logo-2 {
+    width: 47%;
+  }
+
+  sticknav {
+    height: 4.6%;
+  }
+
+  .r-padding {
+    padding: 2em 10em 0 2em;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  .r-padding {
+    padding: 2em 15em 0 2em;
+  }
+
+  .med-link {
+    padding: 4em 3em 4em 3em;
+  }
+
+  .work-link {
+    padding: 9em 3em 9em 3em;
+  }
+
+  .market-link {
+    padding: 7em 3em 7em 3em;
+  }
+
+  .market-link-1,
+  .med-link-1,
+  .work-link-1 {
+    padding: 6em 2em 6em 2em;
+  }
+
+  .company {
+    padding: 11em 5em 11em 5em;
+  }
+
+  .r-padding {
+    padding: 6em 15em 6em 6em;
+  }
+
+  .r-padding-1 {
+    padding: 3em 15em 3em 3em;
+  }
+  .r-padding-2,
+  .r-padding-3 {
+    padding: 6em 15em 6em 6em;
+  }
+
+  #cssmenu a {
+    padding: 0 35px;
+  }
+
+  #cssmenu ul ul {
+    min-width: 120px;
+  }
+
+  .content {
+    height: 490px;
+  }
+
+  #med-ed {
+    padding: 9.6em;
+  }
+
+  #communications,
+  #web-design,
+  #brand-design,
+  #market-strategy {
+    padding: 7em;
+  }
+}
+
+@media only screen and (min-width: 80em) {
+  #cssmenu a {
+    padding: 0 53px;
+  }
+
+  .company {
+    padding: 11em 10em 11em 10em;
+  }
+
+  .r-padding {
+    padding: 10em 15em 10em 6em;
+  }
+  .r-padding-1 {
+    padding: 5em 25em 5em 5em;
+  } 
+
+  .r-padding-2, .r-padding-3 {
+    padding: 10em 25em 10em 5em;
+  }
+
+  .med-link,
+  .market-link {
+    padding: 10em 3em 10em 3em;
+  }
+
+  .work-link {
+    padding: 12em 3em 12em 3em;
+  }
+
+  .med-link-1 {
+    padding: 7em 3em 7em 3em;
+  }
+
+  .work-link-1 {
+    padding: 10em 3em 10em 3em;
+  }
+
+  .market-link-1 {
+    padding: 10em 3em 10em 3em;
+  }
+
+  .content {
+    height: 610px;
+  }
+
+  #med-ed {
+    padding: 13em;
+  }
+
+  #communications,
+  #web-design,
+  #brand-design,
+  #market-strategy {
+    padding: 7em;
+  }
+
+  #communications,
+  #web-design,
+  #brand-design,
+  #market-strategy {
+    padding: 9.4em;
+  }
+}
+
+@media only screen and (min-width: 85em) {
+  .med-link,
+  .market-link {
+    padding: 15em 3em 15em 3em;
+  }
+
+  .work-link {
+    padding: 17em 3em 17em;
+  }
+
+  .content {
+    height: 655px;
+  }
+
+  #med-ed {
+    padding: 14.9em;
+  }
+
+  #communications, 
+  #web-design, 
+  #brand-design, 
+  #market-strategy {
+    padding: 10.5em;
+  }
+
+  #cssmenu a {
+    padding: 0 58.7px;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .company {
+    padding: 14em 10em 14em 10em;
+  }
+
+  .content {
+    height: 690px;
+  }
+
+  .sub-nav li {
+    padding: 0 0em 2.3em 0;
   }
 }

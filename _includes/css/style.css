@@ -25,7 +25,7 @@
 			height: 170px;
 			overflow: hidden;
 			margin: 0;
-			padding: 4.5em 0 0 10em;
+			padding: 4.5em 0 0 0em;
 		}
 			#dates li {
 				list-style: none;
@@ -140,3 +140,16 @@
 				#prev.disabled {
 					opacity: 0.2;
 				}
+
+@media only screen and (min-width: 50em) {
+  #timeline {
+    height: 275px;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  #timeline {
+    height: 352px;
+  }
+}
+

@@ -184,7 +184,7 @@
 
 .slideshow nav span.nav-prev,
 .slideshow nav span.nav-next {
-	top: 50%;
+	top: 40%;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
