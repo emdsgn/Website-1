@@ -38,7 +38,7 @@
 				padding: 1.3em 0 0 0;
 			}
 				#dates a {
-					line-height: 34px;
+					line-height: 30px;
 				}
 				#dates .selected {
 			        font-size: 40px;
@@ -116,7 +116,7 @@
 		#prev {
 			position: absolute;
 			font-size: 70px;
-			top: 183%;
+			top: 185%;
 			width: 22px;
 			height: 38px;
 			background-position: 0 0;
@@ -145,11 +145,40 @@
   #timeline {
     height: 275px;
   }
+
+  #issues li {
+		width: 800px;
+	}
+
+  #next, #prev {
+		top: 151%;
+	}
 }
 
 @media only screen and (min-width: 64em) {
   #timeline {
     height: 352px;
   }
+
+  #issues li {
+		width: 850px;
+	}
+
+	#next, #prev {
+		top: 387%;
+	}
 }
 
+@media only screen and (min-width: 80em) {
+	#timeline {
+		height: 440px;
+	}
+
+	#issues li {
+		width: 900px;
+	}
+
+	#next, #prev {
+		top: 355%;
+	}
+}

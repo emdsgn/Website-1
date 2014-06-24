@@ -303,12 +303,12 @@ padding: 0.5em 0 0 1em;
 
 /* MEDICAL EDUCATION */
 .med-ex,
-#med-ed,
-#kol,
-#trainer,
-#ad-board,
-#speak-forum,
-#med-research {
+.med-ed,
+.kol,
+.trainer,
+.ad-board,
+.speak-forum,
+.med-research {
   padding: 1em;
 }
 
@@ -371,10 +371,10 @@ padding: 0.5em 0 0 1em;
 }
 
 /* WORKSHOP */
-#workshop,
-#facilitating,
-#training,
-#planning {
+.workshop,
+.facilitating,
+.training,
+.planning {
   padding: 1em
 }
 
@@ -385,10 +385,10 @@ padding: 0.5em 0 0 1em;
   padding: 0 0 0.5em 0;
 }
 
-#communications,
-#web-design,
-#brand-design,
-#market-strategy {
+.communications,
+.web-design,
+.brand-design,
+.market-strategy {
   padding: 1em;
 }
 
@@ -514,12 +514,12 @@ h4 {
 
   /* MEDICAL EDUCATION */
   .med-ex,
-  #med-ed,
-  #kol,
-  #trainer,
-  #ad-board,
-  #speak-forum,
-  #med-research {
+  .med-ed,
+  .kol,
+  .trainer,
+  .ad-board,
+  .speak-forum,
+  .med-research {
     padding: 2em;
   }
 
@@ -528,18 +528,18 @@ h4 {
   }
 
   /* WORKSHOP */
-  #workshop,
-  #facilitating,
-  #training,
-  #planning {
+  .workshop,
+  .facilitating,
+  .training,
+  .planning {
     padding: 2em
   }
 
   /* DPS ORGINAL MARKETING */
-  #communications,
-  #web-design,
-  #brand-design,
-  #market-strategy {
+  .communications,
+  .web-design,
+  .brand-design,
+  .market-strategy {
     padding: 2em;
   }
 
@@ -613,12 +613,12 @@ h4 {
 
   /* MEDICAL EDUCATION */
   .med-ex,
-  #med-ed,
-  #kol,
-  #trainer,
-  #ad-board,
-  #speak-forum,
-  #med-research {
+  .med-ed,
+  .kol,
+  .trainer,
+  .ad-board,
+  .speak-forum,
+  .med-research {
     padding: 3em;
   }
 
@@ -627,18 +627,18 @@ h4 {
   }
 
   /* WORKSHOP */
-  #workshop,
-  #facilitating,
-  #training,
-  #planning {
+  .workshop,
+  .facilitating,
+  .training,
+  .planning {
     padding: 3em
   }
 
   /* DPS ORGINAL MARKETING */
-  #communications,
-  #web-design,
-  #brand-design,
-  #market-strategy {
+  .communications,
+  .web-design,
+  .brand-design,
+  .market-strategy {
     padding: 3em;
   }
 }
@@ -650,12 +650,12 @@ h4 {
 
   /* MEDICAL EDUCATION */
   .med-ex,
-  #med-ed,
-  #kol,
-  #trainer,
-  #ad-board,
-  #speak-forum,
-  #med-research {
+  .med-ed,
+  .kol,
+  .trainer,
+  .ad-board,
+  .speak-forum,
+  .med-research {
     padding: 4em;
   }
 
@@ -664,18 +664,18 @@ h4 {
   }
 
   /* WORKSHOP */
-  #workshop,
-  #facilitating,
-  #training,
-  #planning {
+  .workshop,
+  .facilitating,
+  .training,
+  .planning {
     padding: 4em
   }
 
   /* DPS ORGINAL MARKETING */
-  #communications,
-  #web-design,
-  #brand-design,
-  #market-strategy {
+  .communications,
+  .web-design,
+  .brand-design,
+  .market-strategy {
     padding: 4em;
   }
 }
@@ -930,9 +930,9 @@ h4 {
 
   .company {
     position: relative;
-    left: 30%;
+    left: 33%;
     color: #FFF;
-    padding: 1em;
+    padding: 2em 4em;
   }
 
   .company h3 {
@@ -1074,13 +1074,12 @@ h4 {
 }
 
   /* MEDICAL EDUCATION */
-  .med-ex,
-  #med-ed,
-  #kol,
-  #trainer,
-  #ad-board,
-  #speak-forum,
-  #med-research {
+  .med-ed,
+  .kol,
+  .trainer,
+  .ad-board,
+  .speak-forum,
+  .med-research {
     padding: 5.6em;
   }
 
@@ -1098,24 +1097,28 @@ h4 {
 }
 
   /* WORKSHOP */
-  #workshop,
-  #facilitating,
-  #training,
-  #planning {
+  .workshop,
+  .facilitating,
+  .training,
+  .planning {
     padding: 5.6em
   }
 
   /* DPS ORGINAL MARKETING */
-  #communications,
-  #web-design,
-  #brand-design,
-  #market-strategy {
+  .market-logo {
+    padding: 0 0 0.3em 0;
+  }
+
+  .communications,
+  .web-design,
+  .brand-design,
+  .market-strategy {
     padding: 4.2em;
   }
 
   .logo-2 h3 {
-font-size: 3.4em;
-}
+    font-size: 3.4em;
+  }
 
   /* CONTACT */
   .contact {
@@ -1124,8 +1127,9 @@ font-size: 3.4em;
   }
 
   .c-logo {
-padding: 4.13em 2em 4.13em 0;
-}
+    padding: 4.13em 2em 4.13em 0;
+  }
+
   .contact-body {
     padding: 0.5em 0 1em 0;
   }
@@ -1137,8 +1141,8 @@ padding: 4.13em 2em 4.13em 0;
     padding: 0 2em 0 0em;
   }
 
-    .contact-nav a {
-  font-size: 0.9em;
+  .contact-nav a {
+    font-size: 0.9em;
   }
 }
 
@@ -1174,34 +1178,64 @@ padding: 4.13em 2em 4.13em 0;
   }
 
   .company {
-    padding: 4em;
-    left: 33%;
+    padding: 7em;
+  }
+
+  h3 {
+    font-size: 3em;
+  }
+
+  .sub-body-1 {
+    font-size: 0.9em;
   }
 
   /* SERVICES */
+  .sub-nav a {
+    padding: 1.5em 0 0.5em 0;
+  }
+
   .med-link {
-    padding: 4em 3em 4em 3em;
+    padding: 5.47em 3em;
   }
 
   .work-link {
-    padding: 9em 3em 9em 3em;
+    padding: 14em 3em;
   }
 
   .market-link {
-    padding: 7em 3em 7em 3em;
+    padding: 9.16em 3em;
   }
 
   .r-padding-2,
   .r-padding-3 {
-    padding: 6em 15em 6em 6em;
+    padding: 9.4em 15em 9.4em 6em;
+  }
+
+  .body-2, .body-1 {
+    font-size: 1.3em;
+  }
+
+  .list-1 {
+    font-size: 1em;
+  }
+
+  .list-1 li {
+    padding: 0 2.2em 0 0;
   }
 
   /* SERVICE PAGES */
-  .market-link-1,
-  .med-link-1,
-  .work-link-1 {
-    padding: 6em 2em 6em 2em;
+  .med-link-1 {
+    padding: 3em;
   }
+
+  .work-link-1 {
+    padding: 11.79em 3em;
+  }
+
+  .market-link-1 {
+    padding: 7.35em 3em;
+  }
+
   .r-padding {
     padding: 6em 15em 6em 6em;
   }
@@ -1210,15 +1244,22 @@ padding: 4.13em 2em 4.13em 0;
     padding: 3em 15em 3em 3em;
   }
 
+  .service-h3 {
+    font-size: 2em;
+  }
+
   /* MEDICAL EDUCATION */
-  .med-ex,
-  #med-ed,
-  #kol,
-  #trainer,
-  #ad-board,
-  #speak-forum,
-  #med-research {
-    padding: 9.6em;
+  .med-ed,
+  .kol,
+  .trainer,
+  .ad-board,
+  .speak-forum,
+  .med-research {
+    padding: 12em;
+  }
+
+  .med-ex {
+    padding: 6em;
   }
 
   .content {
@@ -1226,19 +1267,19 @@ padding: 4.13em 2em 4.13em 0;
   }
 
   /* WORKSHOP */
-  #workshop,
-  #facilitating,
-  #training,
-  #planning {
-    padding: 9.6em
+  .workshop,
+  .facilitating,
+  .training,
+  .planning {
+    padding: 12em;
   }
 
   /* DPS ORGINAL MARKETING */
-  #communications,
-  #web-design,
-  #brand-design,
-  #market-strategy {
-    padding: 7em;
+  .communications,
+  .web-design,
+  .brand-design,
+  .market-strategy {
+    padding: 11em;
   }
 }
 
@@ -1260,48 +1301,57 @@ padding: 4.13em 2em 4.13em 0;
   }
 
   /* SERVICES */
-  .r-padding-2, .r-padding-3 {
-    padding: 10em 25em 10em 5em;
+  .sub-nav a {
+    padding: 2em 0 0.5em 0;
   }
 
-  .med-link,
-  .market-link {
-    padding: 10em 3em 10em 3em;
+  .r-padding-2, .r-padding-3 {
+    padding: 10em 18em 10em 5em;
+  }
+
+  .med-link {
+    padding: 10em 4em;
   }
 
   .work-link {
-    padding: 12em 3em 12em 3em;
+    padding: 17.6em 4em;
+  }
+
+  .market-link {
   }
 
   /* SERVICE PAGES */
   .med-link-1 {
-    padding: 7em 3em 7em 3em;
+    padding: 8em 4em;
   }
 
   .work-link-1 {
-    padding: 10em 3em 10em 3em;
+    padding: 15.7em 4em;
   }
 
   .market-link-1 {
-    padding: 10em 3em 10em 3em;
+    padding: 13em 4em;
   }
 
   .r-padding {
     padding: 10em 15em 10em 6em;
   }
   .r-padding-1 {
-    padding: 5em 25em 5em 5em;
+    padding: 8em 15em 8em 6em;
   }
 
   /* MEDICAL EDUCATION */
-  .med-ex,
-  #med-ed,
-  #kol,
-  #trainer,
-  #ad-board,
-  #speak-forum,
-  #med-research {
-    padding: 13em;
+  .med-ed,
+  .kol,
+  .trainer,
+  .ad-board,
+  .speak-forum,
+  .med-research {
+    padding: 16em;
+  }
+
+  .med-ex {
+    padding: 8em;
   }
 
   .content {
@@ -1309,19 +1359,23 @@ padding: 4.13em 2em 4.13em 0;
   }
 
   /* WORKSHOP */
-  #workshop,
-  #facilitating,
-  #training,
-  #planning {
-    padding: 13em
+  .workshop,
+  .facilitating,
+  .training,
+  .planning {
+    padding: 16em;
   }
 
   /* DPS ORGINAL MARKETING */
-  #communications,
-  #web-design,
-  #brand-design,
-  #market-strategy {
-    padding: 9.4em;
+  .logo-2 h3 {
+    font-size: 4.88em;
+  }
+
+  .communications,
+  .web-design,
+  .brand-design,
+  .market-strategy {
+    padding: 15em;
   }
 }
 
@@ -1332,10 +1386,6 @@ padding: 4.13em 2em 4.13em 0;
 
   #cssmenu a {
     padding: 0 58.7px;
-  }
-
-  #cssmenu a {
-    padding: 0 60.3px;
   }
 
   /* SERVICES */
@@ -1350,13 +1400,12 @@ padding: 4.13em 2em 4.13em 0;
 
   /* SERVICE PAGES */
   /* MEDICAL EDUCATION */
-  .med-ex,
-  #med-ed,
-  #kol,
-  #trainer,
-  #ad-board,
-  #speak-forum,
-  #med-research {
+  .med-ed,
+  .kol,
+  .trainer,
+  .ad-board,
+  .speak-forum,
+  .med-research {
     padding: 14.9em;
   }
 
@@ -1365,18 +1414,18 @@ padding: 4.13em 2em 4.13em 0;
   }
 
   /* WORKSHOP */
-  #workshop,
-  #facilitating,
-  #training,
-  #planning {
+  .workshop,
+  .facilitating,
+  .training,
+  .planning {
     padding: 14.9em
   }
 
   /* DPS ORGINAL MARKETING */
-  #communications,
-  #web-design,
-  #brand-design,
-  #market-strategy {
+  .communications,
+  .web-design,
+  .brand-design,
+  .market-strategy {
     padding: 10.5em;
   }
 }
@@ -1420,13 +1469,12 @@ padding: 4.13em 2em 4.13em 0;
 
   /* SERVICE PAGES */
   /* MEDICAL EDUCATION */
-  .med-ex,
-  #med-ed,
-  #kol,
-  #trainer,
-  #ad-board,
-  #speak-forum,
-  #med-research {
+  .med-ed,
+  .kol,
+  .trainer,
+  .ad-board,
+  .speak-forum,
+  .med-research {
     padding: 18em;
   }
 
@@ -1435,18 +1483,18 @@ padding: 4.13em 2em 4.13em 0;
   }
 
   /* WORKSHOP */
-  #workshop,
-  #facilitating,
-  #training,
-  #planning {
+  .workshop,
+  .facilitating,
+  .training,
+  .planning {
     padding: 18em
   }
 
   /* DPS ORGINAL MARKETING */
-  #communications,
-  #web-design,
-  #brand-design,
-  #market-strategy {
+  .communications,
+  .web-design,
+  .brand-design,
+  .market-strategy {
     padding: 12em;
   }
 }
@@ -1466,13 +1514,12 @@ padding: 4.13em 2em 4.13em 0;
 
   /* SERVICE PAGES */
   /* MEDICAL EDUCATION */
-  .med-ex,
-  #med-ed,
-  #kol,
-  #trainer,
-  #ad-board,
-  #speak-forum,
-  #med-research {
+  .med-ed,
+  .kol,
+  .trainer,
+  .ad-board,
+  .speak-forum,
+  .med-research {
     padding: 19em;
   }
 
@@ -1481,18 +1528,18 @@ padding: 4.13em 2em 4.13em 0;
   }
 
   /* WORKSHOP */
-  #workshop,
-  #facilitating,
-  #training,
-  #planning {
+  .workshop,
+  .facilitating,
+  .training,
+  .planning {
     padding: 19em
   }
 
   /* DPS ORGINAL MARKETING */
-  #communications,
-  #web-design,
-  #brand-design,
-  #market-strategy {
+  .communications,
+  .web-design,
+  .brand-design,
+  .market-strategy {
     padding: 13em;
   }
 }
@@ -1508,13 +1555,12 @@ padding: 4.13em 2em 4.13em 0;
 
   /* SERVICE PAGES */
   /* MEDICAL EDUCATION */
-  .med-ex,
-  #med-ed,
-  #kol,
-  #trainer,
-  #ad-board,
-  #speak-forum,
-  #med-research {
+  .med-ed,
+  .kol,
+  .trainer,
+  .ad-board,
+  .speak-forum,
+  .med-research {
     padding: 20em;
   }
 
@@ -1523,18 +1569,18 @@ padding: 4.13em 2em 4.13em 0;
   }
 
   /* WORKSHOP */
-  #workshop,
-  #facilitating,
-  #training,
-  #planning {
+  .workshop,
+  .facilitating,
+  .training,
+  .planning {
     padding: 20em
   }
 
   /* DPS ORGINAL MARKETING */
-  #communications,
-  #web-design,
-  #brand-design,
-  #market-strategy {
+  .communications,
+  .web-design,
+  .brand-design,
+  .market-strategy {
     padding: 18em;
   }
 }
