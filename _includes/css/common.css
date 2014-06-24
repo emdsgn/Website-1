@@ -69,12 +69,12 @@ body {
 }
 
 .flex-img-1 {
-  display: none;
+  display: block;
   width: 100%;
 }
 
 .flex-img-2 {
-  display: block;
+  display: none;
   width: 100%;
 }
 
@@ -299,6 +299,11 @@ h3 {
 font-size: 0.9em;
 margin: 0;
 padding: 0.5em 0 0 1em;
+}
+
+.relative {
+  position: relative;
+  background-color: #FFF;
 }
 
 /* MEDICAL EDUCATION */
@@ -702,6 +707,15 @@ h4 {
     display: block;
     width: 50%;
     padding: 0.5em;
+  }
+
+  .flex-img-2 {
+    display: block;
+    width: 100%;
+  }
+
+  .flex-img-1 {
+    display: none;
   }
 
   .logo {
@@ -1318,6 +1332,7 @@ h4 {
   }
 
   .market-link {
+    padding: 14.7em 4em;
   }
 
   /* SERVICE PAGES */
@@ -1388,16 +1403,6 @@ h4 {
     padding: 0 58.7px;
   }
 
-  /* SERVICES */
-  .med-link,
-  .market-link {
-    padding: 15em 3em 15em 3em;
-  }
-
-  .work-link {
-    padding: 13em 3em 13em;
-  }
-
   /* SERVICE PAGES */
   /* MEDICAL EDUCATION */
   .med-ed,
@@ -1406,7 +1411,7 @@ h4 {
   .ad-board,
   .speak-forum,
   .med-research {
-    padding: 14.9em;
+    padding: 16em;
   }
 
   .content {
@@ -1418,7 +1423,7 @@ h4 {
   .facilitating,
   .training,
   .planning {
-    padding: 14.9em
+    padding: 16em;
   }
 
   /* DPS ORGINAL MARKETING */
@@ -1426,7 +1431,7 @@ h4 {
   .web-design,
   .brand-design,
   .market-strategy {
-    padding: 10.5em;
+    padding: 16em;
   }
 }
 
@@ -1440,34 +1445,39 @@ h4 {
   }
 
   #cssmenu a {
-    padding: 0 65px;
+    padding: 0 63.6px;
   }
 
   .company {
-    padding: 14em 10em 14em 10em;
-  }
-
-  /* MEDICAL EDUCATION */
-  .content {
-    height: 690px;
-  }
-}
-
-@media only screen and (min-width: 100em) {
-  .flex-logo-2 {
-    width: 23%;
-  }
-
-  #cssmenu a {
-    padding: 0 75.9px;
+    padding: 13em 14em;
   }
 
   /* SERVICES */
+  .sub-nav a {
+    font-size: 1.25em;
+  }
+
   .work-link {
-    padding: 15em 3em 15em;
+    padding: 20em 4em;
+  }
+
+  .market-link {
+    padding: 16.5em 4em;
   }
 
   /* SERVICE PAGES */
+  .work-link-1 {
+    padding: 18em 4em;
+  }
+
+  .market-link-1 {
+    padding: 15em 4em;
+  }
+
+  .logo-2 h3 {
+    font-size: 5.9em;
+  }
+
   /* MEDICAL EDUCATION */
   .med-ed,
   .kol,
@@ -1479,7 +1489,7 @@ h4 {
   }
 
   .content {
-    height: 767px;
+    height: 690px;
   }
 
   /* WORKSHOP */
@@ -1487,7 +1497,7 @@ h4 {
   .facilitating,
   .training,
   .planning {
-    padding: 18em
+    padding: 18em;
   }
 
   /* DPS ORGINAL MARKETING */
@@ -1495,63 +1505,20 @@ h4 {
   .web-design,
   .brand-design,
   .market-strategy {
-    padding: 12em;
+    padding: 18em;
   }
 }
 
-@media only screen and (min-width: 105em) {
-  sticknav {
-    height: 5.5%;
-  }
-
+@media only screen and (min-width: 100em) {
   .flex-logo-2 {
-    width: 21.8%;
+    width: 23%;
   }
 
   #cssmenu a {
-    padding: 0 81px;
+    padding: 0 74.3px;
   }
 
-  /* SERVICE PAGES */
-  /* MEDICAL EDUCATION */
-  .med-ed,
-  .kol,
-  .trainer,
-  .ad-board,
-  .speak-forum,
-  .med-research {
-    padding: 19em;
-  }
-
-  .content {
-    height: 805px;
-  }
-
-  /* WORKSHOP */
-  .workshop,
-  .facilitating,
-  .training,
-  .planning {
-    padding: 19em
-  }
-
-  /* DPS ORGINAL MARKETING */
-  .communications,
-  .web-design,
-  .brand-design,
-  .market-strategy {
-    padding: 13em;
-  }
-}
-
-@media only screen and (min-width: 120em) {
-  .flex-logo-2 {
-    width: 19.4%;
-  }
-
-  #cssmenu a {
-    padding: 0 97.3px;
-  }
+  /* SERVICES */
 
   /* SERVICE PAGES */
   /* MEDICAL EDUCATION */
@@ -1564,8 +1531,12 @@ h4 {
     padding: 20em;
   }
 
+  .med-ex {
+    padding: 12em;
+  }
+
   .content {
-    height: 920px;
+    height: 767px;
   }
 
   /* WORKSHOP */
@@ -1573,14 +1544,67 @@ h4 {
   .facilitating,
   .training,
   .planning {
-    padding: 20em
+    padding: 20em;
   }
 
   /* DPS ORGINAL MARKETING */
-  .communications,
-  .web-design,
-  .brand-design,
-  .market-strategy {
-    padding: 18em;
+}
+
+@media only screen and (min-width: 105em) {
+  sticknav {
+    height: 6.5%;
   }
+
+  .flex-logo-2 {
+    width: 21.8%;
+  }
+
+  #cssmenu a {
+    padding: 0 79.7px;
+  }
+
+  .company {
+    padding: 13em 16em;
+  }
+
+  /* SERVICE PAGES */
+  /* MEDICAL EDUCATION */
+  .content {
+    height: 805px;
+  }
+
+  /* WORKSHOP */
+
+  /* DPS ORGINAL MARKETING */
+}
+
+@media only screen and (min-width: 119em) {
+  .flex-logo-2 {
+    width: 19.4%;
+  }
+
+  #cssmenu a {
+    padding: 0 95.6px;
+  }
+
+  .company {
+    padding: 13em 20em;
+  }
+
+  .market-link {
+    padding: 17.5em 4em;
+  }
+
+  /* SERVICE PAGES */
+  /* MEDICAL EDUCATION */
+
+
+  .content {
+    height: 920px;
+  }
+
+  /* WORKSHOP */
+
+
+  /* DPS ORGINAL MARKETING */
 }

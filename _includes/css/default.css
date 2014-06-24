@@ -34,7 +34,7 @@ body, html { font-size: 100%; 	padding: 0; margin: 0;}
 	clear: both;
 }
 
-.main,
+.main-1,
 .container > header {
 	width: 70%;
 	margin: 0 auto;
@@ -42,7 +42,7 @@ body, html { font-size: 100%; 	padding: 0; margin: 0;}
 	display: block;
 }
 
-.main {
+.main-1 {
 	padding: 0;
 	position: fixed;
 	z-index: 100;
@@ -100,7 +100,7 @@ body, html { font-size: 100%; 	padding: 0; margin: 0;}
 
 @media screen and (max-width: 46.0625em) {
 
-	.main {
+	.main-1 {
 		padding: 0;
 	}
 

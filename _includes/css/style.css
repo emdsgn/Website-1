@@ -182,3 +182,73 @@
 		top: 355%;
 	}
 }
+
+@media only screen and (min-width: 85em) {
+	#timeline {
+		height: 470px;
+	}
+
+	#issues li {
+		width: 1030px;
+	}
+
+	#next, #prev {
+		top: 385%;
+	}
+}
+
+@media only screen and (min-width: 90em) {
+	#timeline {
+		height: 495px;
+	}
+
+	#issues li {
+		width: 1100px;
+	}
+
+	#next, #prev {
+		top: 350%;
+	}
+}
+
+@media only screen and (min-width: 100em) {
+	#timeline {
+		height: 550px;
+	}
+
+	#issues li {
+		width: 1200px;
+	}
+
+	#next, #prev {
+		top: 373%;
+	}
+}
+
+@media only screen and (min-width: 105em) {
+	#timeline {
+		height: 580px;
+	}
+
+	#issues li {
+		width: 1250px;
+	}
+
+	#next, #prev {
+		top: 383%;
+	}
+}
+
+@media only screen and (min-width: 119em) {
+	#timeline {
+		height: 660px;
+	}
+
+	#issues li {
+		width: 1430px;
+	}
+
+	#next, #prev {
+		top: 416%;
+	}
+}
