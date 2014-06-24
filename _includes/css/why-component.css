@@ -163,7 +163,8 @@
 
 .slideshow figcaption h3 {
 	font-weight: 300;
-	font-size: 200%;
+	font-size: 2em;
+	padding: 0 1em 0 0;
 }
 
 /* Navigation */
