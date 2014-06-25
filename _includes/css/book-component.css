@@ -19,7 +19,7 @@ body {
     width: 100%;
     background-color: #FFF;
     position: relative;
-    padding: 2em 2em 4em 2em;
+    padding: 2em 2em 6em 2em;
 }
 
 .bookshelf {
@@ -114,18 +114,18 @@ body {
 
 .buttons a {
     display: inline-block;
-    padding: 0 8px;
     color: rgba(100, 105, 106, 0.7);
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 0.65em;
     line-height: 1.5;
+    text-decoration: none;
 }
 
 .buttons a:first-child:not(:only-child) { }
 
 .buttons a:hover,
-.buttons a:active { color: #64696a }
+.buttons a:active { color: #64696a; border-bottom: 2px solid #64696a; }
 
 .bookshelf figcaption {
     position: absolute;
@@ -302,23 +302,81 @@ body {
     box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.05), inset -30px 0 40px -20px rgba(0, 0, 0, 0.15);
 }
 
-.page-layout-1 h3,
-.page-layout-1 p {
+.page-layout-1 {
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/maxwalk-2.jpg) center center;
+    background-size: cover;
+}
+
+.page-layout-1:last-child {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/maxwalk-3.jpg) center;
+    background-size: cover;
+}
+
+.page-layout-1 h3,
+.page-layout-1 p,
+.page-layout-2 h3,
+.page-layout-5 h3,
+.page-layout-6 h3,
+.page-layout-8 h3,
+.page-layout-9 h3 {
+    position: absolute;
+    top: 4%;
+    left: 27%;
     margin: 0;
-    max-width: 260px;
+    max-width: 200px;
     width: 100%;
     -webkit-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
 }
 
-.page-layout-1 h3 {
-    text-align: center;
-    font-weight: 400;
-    font-size: 3em;
-    font-family: "Sacramento", serif;
+.page-layout-1 h3,
+.page-layout-2 h3,
+.page-layout-5 h3,
+.page-layout-6 h3,
+.page-layout-8 h3,
+.page-layout-9 h3 {
+    font-weight: 300;
+    font-size: 1.5em;
+    background-color: #FFF;
+    border-bottom: none;
+    padding: 0.5em;
+}
+
+.page-layout-1:last-child .right,
+.page-layout-2:last-child .right,
+.page-layout-5:last-child .right,
+.page-layout-6:last-child .right,
+.page-layout-8:last-child .right,
+.page-layout-9:last-child .right {
+    position: absolute;
+    top: 4%;
+    left: 73%;
+    margin: 0;
+    max-width: 200px;
+    width: 100%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.page-layout-1:last-child .right,
+.page-layout-2:last-child .right,
+.page-layout-5:last-child .right,
+.page-layout-6:last-child .right,
+.page-layout-8:last-child .right,
+.page-layout-9:last-child .right {
+    font-weight: 300;
+    font-size: 1.5em;
+    background-color: #FFF;
+    border-bottom: none;
+    padding: 0.5em;
+    text-align: right;
 }
 
 .page-layout-1 h3 span {
@@ -328,7 +386,6 @@ body {
     border-bottom: 1px solid #333;
     text-transform: uppercase;
     font-size: 3em;
-    font-family: "Six Caps", sans-serif;
     line-height: 1;
 }
 
@@ -344,28 +401,21 @@ body {
     background: linear-gradient(to right, #64696a 50%, white 50%);
 }
 
-.page-layout-2:first-child {
-    background: -webkit-linear-gradient(left, white 50%, #64696a 50%);
-    background: linear-gradient(to right, white 50%, #64696a 50%);
-}
-
-.page-layout-2 div {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    padding: 0 10% 10%;
+.page-layout-2 {
+    right: 0;
     width: 50%;
+    height: 100%;
+    background: url(../img/maxwalk-4.jpg) center center;
+    background-size: cover;
 }
 
-.page-layout-2 div:first-child { left: 0 }
-
-.page-layout-2:first-child div:last-child,
-.page-layout-2:last-child div:first-child { color: #fff }
-
-.page-layout-2 h3 {
-    margin: 0;
-    font-size: 6em;
-    font-family: "Cardo", serif;
+.page-layout-2:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/maxwalk-5.jpg) left;
+    background-size: cover;
 }
 
 .page-layout-3:last-child {
@@ -373,25 +423,111 @@ body {
     right: 0;
     width: 50%;
     height: 100%;
-    background: url(../img/portrait.jpg) no-repeat top left;
-    background-size: cover;
+    background: url(../img/maxwalk-1.jpg) left;
+    background-size: contain;
 }
 
-.page-layout-3 div { padding: 10% }
+.page-layout-3 .title-pg,
+.page-layout-4 .title-pg,
+.page-layout-7 .title-pg
+{ padding: 188% 10% 10% 10%; }
 
 .page-layout-3 h3 {
     margin: 0;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 14em;
-    font-family: "Six Caps", sans-serif;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 4em;
+    width: 100%;
 }
 
 .page-layout-3 p {
     margin: 0;
-    text-indent: 5px;
-    font-style: italic;
-    font-family: "Cardo", serif;
+}
+
+.page-layout-4:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/nitor-1.jpg) center;
+    background-size: contain;
+}
+
+.page-layout-5 {
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/nitor-2.jpg) center center;
+    background-size: contain;
+}
+
+.page-layout-5:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/nitor-3.jpg) left;
+    background-size: contain;
+}
+
+.page-layout-6 {
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/nitor-4.jpg) center center;
+    background-size: contain;
+}
+
+.page-layout-6:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/nitor-5.jpg) center;
+    background-size: cover;
+}
+
+.page-layout-7:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/iah-1.jpg) center;
+    background-size: contain;
+}
+
+.page-layout-8 {
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/iah-2.jpg) center center;
+    background-size: contain;
+}
+
+.page-layout-8:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/iah-3.jpg) left;
+    background-size: contain;
+}
+
+.page-layout-9 {
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/iah-4.jpg) center center;
+    background-size: contain;
+}
+
+.page-layout-9:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/iah-5.jpg) center;
+    background-size: contain;
 }
 
 /* Book navigation */
@@ -411,7 +547,7 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: rgba(221, 221, 221, 0.7);
+    background: rgba(255, 255, 255, 1);
 }
 
 .bb-nav-prev,
@@ -484,48 +620,48 @@ body {
 .no-js .book[data-book="book-1"],
 .book[data-book="book-1"] .front {
     background-image: url(../img/cover-maxwalk.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-maxwalk.jpg), #009bdb;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-maxwalk.jpg), #009bdb;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-maxwalk.jpg), #eb1e23;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-maxwalk.jpg), #eb1e23;
 }
 
-.book[data-book="book-1"] .inner { border-color: #009bdb }
+.book[data-book="book-1"] .inner { border-color: #eb1e23; }
 
 .book[data-book="book-1"] .cover::before {
     background: url(../img/spine1.svg);
-    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine1.svg), #009bdb;
-    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine1.svg), #009bdb;
+    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine1.svg), #eb1e23;
+    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine1.svg), #eb1e23;
 }
 
 .no-csstransforms3d .book[data-book="book-2"],
 .no-js .book[data-book="book-2"],
 .book[data-book="book-2"] .front {
     background-image: url(../img/cover-nitor.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-nitor.jpg), #f6a7a5;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-nitor.jpg), #f6a7a5;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-nitor.jpg), #231f20;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-nitor.jpg), #231f20;
 }
 
-.book[data-book="book-2"] .inner { border-color: #f6a7a5 }
+.book[data-book="book-2"] .inner { border-color: #231f20; }
 
 .book[data-book="book-2"] .cover::before {
     background: url(../img/spine2.svg);
-    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine2.svg), #f6a7a5;
-    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine2.svg), #f6a7a5;
+    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine2.svg), #231f20;
+    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine2.svg), #231f20;
 }
 
 .no-csstransforms3d .book[data-book="book-3"],
 .no-js .book[data-book="book-3"],
 .book[data-book="book-3"] .front {
     background-image: url(../img/cover-iah.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-iah.jpg), #ebc989;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-iah.jpg), #ebc989;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-iah.jpg), #7fdef2;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-iah.jpg), #7fdef2;
 }
 
-.book[data-book="book-3"] .inner { border-color: #ebc989 }
+.book[data-book="book-3"] .inner { border-color: #7fdef2; }
 
 .book[data-book="book-3"] .cover::before {
     background: url(../img/spine3.svg);
-    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine3.svg), #ebc989;
-    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine3.svg), #ebc989;
+    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine3.svg), #7fdef2;
+    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine3.svg), #7fdef2;
 }
 
 .no-csstransforms3d .book[data-book="book-4"],
@@ -626,11 +762,11 @@ body {
 
 /* border around bookblock same as book cover color*/
 
-#book-1 { border-color: #009bdb }
+#book-1 { border-color: #eb1e23; }
 
-#book-2 { border-color: #f6a7a5 }
+#book-2 { border-color: #231f20; }
 
-#book-3 { border-color: #ebc989 }
+#book-3 { border-color: #7fdef2; }
 
 #book-4 { border-color: #a6a1a5 }
 
@@ -704,6 +840,7 @@ body {
     transition: visibility 0s;
     -webkit-animation: openBigBook 0.5s forwards;
     animation: openBigBook 0.5s forwards;
+    z-index: 10000;
 }
 
 .no-cssanimations .bb-custom-wrapper.show { opacity: 1 }
@@ -910,14 +1047,10 @@ body {
 
 @media screen and (max-width: 68.75em) {
   .bb-custom-wrapper { font-size: 75% }
-
-  .page-layout-3 h3 { font-size: 9em }
 }
 
 @media screen and (max-width: 41.375em) {
   .bb-custom-wrapper { font-size: 60% }
-
-  .page-layout-3 h3 { font-size: 6em }
 }
 
 @media screen and (max-width: 29.75em) {

@@ -60,6 +60,7 @@ body {
 .flex-logo-4 {
   display: block;
   width: 80%;
+  padding: 1em 0 0.5em 0;
 }
 /* END NAV HTML */
 
@@ -976,7 +977,7 @@ h4 {
     padding: 0.5em 1em 0 0;
   }
 
-  /* LEADER */
+  /* LEADERSHIP */
   .leader-text {
     text-align: center;
     padding: 2em 0 0 0;
@@ -989,24 +990,25 @@ h4 {
 
   /* SERVICES */
   .cl-effect-17 a::before {
-  color: #FFF;
-}
+    color: #FFF;
+  }
 
-.cl-effect-17 a::after {
-  background: #FFF;
-}
+  .cl-effect-17 a::after {
+    background: #FFF;
+  }
 
-.body-1 {
-  margin: 0 auto;
-  padding: 1em 0 0 0;
-  font-size: 1em;
-}
+  .body-1 {
+    margin: 0 auto;
+    padding: 1em 0 0 0;
+    font-size: 1em;
+  }
 
-.body-2 {
-  padding: 0;
-  margin: 0;
-  font-size: 1em;
-}
+  .body-2 {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+  }
+
   .workshop-img {
     position: absolute;
   }
@@ -1058,11 +1060,6 @@ h4 {
     background-color: rgba(0,0,0,0.3);
   }
 
-  .work-m {
-    text-align: center;
-    padding: 4em 4em 0 4em;
-  }
-
   /* SERVICE PAGES */
   .logo-1 .sub-body {
     color: #FFF;
@@ -1081,25 +1078,25 @@ h4 {
   }
 
   .r-padding {
-    padding: 2em 7em 0 2em;
+    padding: 5em 6em 5em 5em;
   }
 
   .r-padding-1 {
-    padding: 2em 7em 0 2em;
+    padding: 5em 6em 5em 5em;
   }
 
   .market-link-1 {
-    padding: 5.5em 2em 5.5em 2em;
+    padding: 6.7em 2em;
     background-color: rgba(0,0,0,0.3);
   }
 
   .med-link-1 {
-    padding: 3em 2em 3em 2em;
+    padding: 3em 2em;
     background-color: rgba(0,0,0,0.3);
   }
 
   .work-link-1 {
-    padding: 5em 2em 5em 2em;
+    padding: 8em 2em;
     background-color: rgba(0,0,0,0.3);
   }
 
@@ -1111,7 +1108,13 @@ h4 {
   .border {
   border-left: 1px solid #000;
   padding: 0 0 0 1em;
-}
+  }
+
+  /* OUR WORK */
+  .work-m {
+    text-align: center;
+    padding: 6em 4em 0 4em;
+  }
 
   /* MEDICAL EDUCATION */
   .med-ed,
@@ -1120,7 +1123,7 @@ h4 {
   .ad-board,
   .speak-forum,
   .med-research {
-    padding: 5.6em;
+    padding: 8em;
   }
 
   .inline {
@@ -1141,7 +1144,7 @@ h4 {
   .facilitating,
   .training,
   .planning {
-    padding: 5.6em
+    padding: 8em;
   }
 
   /* DPS ORGINAL MARKETING */
@@ -1153,16 +1156,22 @@ h4 {
   .web-design,
   .brand-design,
   .market-strategy {
-    padding: 4.2em;
+    padding: 8em;
   }
 
   .logo-2 h3 {
-    font-size: 3.4em;
+    font-size: 3.1em;
+  }
+
+  .flex-logo-5 {
+    display: block;
+    width: 46.5%;
+    padding: 0.5em;
   }
 
   /* CONTACT */
   .contact {
-    padding: 1.5em;
+    padding: 3.3em;
     text-align: center;
   }
 
@@ -1195,14 +1204,34 @@ h4 {
     height: 4.6%;
   }
 
-  .r-padding {
-    padding: 2em 10em 0 2em;
+  .market-link {
+    padding: 8em 2em;
+  }
+
+  #market-1 h3 {
+    font-size: 3.4em;
+  }
+
+  /* MARKETING */
+  .flex-logo-5 {
+    width: 44%;
+  }
+
+  .logo-2 h3 {
+    font-size: 3.33em;
+  }
+  .market-link-1 {
+    padding: 7.1em 2em;
+  }
+
+  .contact {
+    padding: 4.3em;
   }
 }
 
 @media only screen and (min-width: 64em) {
   sticknav {
-    height: 10%;
+    height: 8.3%;
   }
 
   .flex-logo-2 {
@@ -1243,7 +1272,7 @@ h4 {
   }
 
   .market-link {
-    padding: 9.16em 3em;
+    padding: 11.84em 3em;
   }
 
   .r-padding-2,
@@ -1252,7 +1281,11 @@ h4 {
   }
 
   .body-2, .body-1 {
-    font-size: 1.3em;
+    font-size: 1.2em;
+  }
+
+  .sub-body, .body {
+    font-size: 1.05em;
   }
 
   .list-1 {
