@@ -972,6 +972,11 @@ h4 {
     color: #000;
   }
 
+  .right-pad {
+    padding: 0.5em 1em 0 0;
+  }
+
+  /* LEADER */
   .leader-text {
     text-align: center;
     padding: 2em 0 0 0;
@@ -1034,15 +1039,28 @@ h4 {
     padding: 5em 6em 5em 5em;
   }
 
-  .med-link,
-  .market-link {
-    padding: 3em 2em 3em 2em;
+  .med-link {
+    padding: 3em 2em;
     background-color: rgba(0,0,0,0.3);
   }
 
-  .work-link {
-    padding: 5em 2em 5em 2em;
+  .market-link {
+    padding: 7em 2em;
     background-color: rgba(0,0,0,0.3);
+  }
+
+  #market-1 h3 {
+    font-size: 3.2em;
+  }
+
+  .work-link {
+    padding: 8em 2em;
+    background-color: rgba(0,0,0,0.3);
+  }
+
+  .work-m {
+    text-align: center;
+    padding: 4em 4em 0 4em;
   }
 
   /* SERVICE PAGES */
@@ -1052,6 +1070,14 @@ h4 {
 
   .logo-2 .sub-body {
     color: #FFF;
+  }
+
+  .list-1 li {
+    padding: 0 2.2em 0 0;
+  }
+
+  .service-h3 {
+    font-size: 1.2em;
   }
 
   .r-padding {
@@ -1231,10 +1257,6 @@ h4 {
 
   .list-1 {
     font-size: 1em;
-  }
-
-  .list-1 li {
-    padding: 0 2.2em 0 0;
   }
 
   /* SERVICE PAGES */
