@@ -195,6 +195,14 @@
 	#next, #prev {
 		top: 385%;
 	}
+
+	#dates {
+		width: 100%;
+		height: 298px;
+		overflow: hidden;
+		margin: 0;
+		padding: 7em 0 0 0em;
+	}
 }
 
 @media only screen and (min-width: 90em) {
@@ -207,7 +215,7 @@
 	}
 
 	#next, #prev {
-		top: 350%;
+		top: 435%;
 	}
 }
 
@@ -222,6 +230,10 @@
 
 	#next, #prev {
 		top: 373%;
+	}
+
+	#dates {
+		height: 375px;
 	}
 }
 

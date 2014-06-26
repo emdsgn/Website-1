@@ -62,6 +62,11 @@ body {
   width: 80%;
   padding: 1em 0 0.5em 0;
 }
+
+.flex-logo-5 {
+  display: none;
+}
+
 /* END NAV HTML */
 
 .flex-img {
@@ -733,6 +738,10 @@ h4 {
     text-align: left;
   }
 
+  .flex-logo-5 {
+    display: block;
+  }
+
   .mobile-layout {
     display: none;
   }
@@ -1231,7 +1240,7 @@ h4 {
 
 @media only screen and (min-width: 64em) {
   sticknav {
-    height: 8.3%;
+    height: 10%;
   }
 
   .flex-logo-2 {
@@ -1273,6 +1282,10 @@ h4 {
 
   .market-link {
     padding: 11.84em 3em;
+  }
+
+  #market-1 h3 {
+    font-size: 3.26em;
   }
 
   .r-padding-2,
@@ -1324,11 +1337,11 @@ h4 {
   .ad-board,
   .speak-forum,
   .med-research {
-    padding: 12em;
+    padding: 9em;
   }
 
   .med-ex {
-    padding: 6em;
+    padding: 4em 8em;
   }
 
   .content {
@@ -1340,7 +1353,7 @@ h4 {
   .facilitating,
   .training,
   .planning {
-    padding: 12em;
+    padding: 9em;
   }
 
   /* DPS ORGINAL MARKETING */
@@ -1348,7 +1361,28 @@ h4 {
   .web-design,
   .brand-design,
   .market-strategy {
-    padding: 11em;
+    padding: 9em;
+  }
+
+  .logo-2 h3 {
+    font-size: 3.73em;
+  }
+
+  .flex-logo-5 {
+    width: 34.6%;
+  }
+
+  /* CONTACT */
+  .contact {
+    padding: 6em 3em;
+  }
+
+  .c-logo {
+    padding: 2.13em 3em 2.13em 0;
+  }
+
+  .copyright {
+    padding: 0.5em 1em 0.5em 1em;
   }
 }
 
@@ -1417,11 +1451,10 @@ h4 {
   .ad-board,
   .speak-forum,
   .med-research {
-    padding: 16em;
   }
 
   .med-ex {
-    padding: 8em;
+    padding: 5em 8em;
   }
 
   .content {
@@ -1433,7 +1466,6 @@ h4 {
   .facilitating,
   .training,
   .planning {
-    padding: 16em;
   }
 
   /* DPS ORGINAL MARKETING */
@@ -1445,7 +1477,6 @@ h4 {
   .web-design,
   .brand-design,
   .market-strategy {
-    padding: 15em;
   }
 }
 
@@ -1458,6 +1489,14 @@ h4 {
     padding: 0 58.7px;
   }
 
+  .leader-text h3 {
+    padding: 1em 0 0 0;
+  }
+
+  #market-1 h3 {
+    font-size: 5.1em;
+  }
+
   /* SERVICE PAGES */
   /* MEDICAL EDUCATION */
   .med-ed,
@@ -1466,7 +1505,7 @@ h4 {
   .ad-board,
   .speak-forum,
   .med-research {
-    padding: 16em;
+    padding: 10em;
   }
 
   .content {
@@ -1478,7 +1517,7 @@ h4 {
   .facilitating,
   .training,
   .planning {
-    padding: 16em;
+    padding: 10em;
   }
 
   /* DPS ORGINAL MARKETING */
@@ -1486,17 +1525,21 @@ h4 {
   .web-design,
   .brand-design,
   .market-strategy {
-    padding: 16em;
+    padding: 10em;
+  }
+
+  .flex-logo-5 {
+    width: 24.8%;
   }
 }
 
 @media only screen and (min-width: 90em) {
   sticknav {
-    height: 6.5%;
+    height: 8%;
   }
 
   .flex-logo-2 {
-    width: 25.9%;
+    width: 25.4%;
   }
 
   #cssmenu a {
@@ -1520,6 +1563,10 @@ h4 {
     padding: 16.5em 4em;
   }
 
+  #market-1 h3 {
+    font-size: 5.58em;
+  }
+
   /* SERVICE PAGES */
   .work-link-1 {
     padding: 18em 4em;
@@ -1540,7 +1587,7 @@ h4 {
   .ad-board,
   .speak-forum,
   .med-research {
-    padding: 18em;
+    padding: 12em;
   }
 
   .content {
@@ -1552,7 +1599,7 @@ h4 {
   .facilitating,
   .training,
   .planning {
-    padding: 18em;
+    padding: 12em;
   }
 
   /* DPS ORGINAL MARKETING */
@@ -1560,7 +1607,16 @@ h4 {
   .web-design,
   .brand-design,
   .market-strategy {
-    padding: 18em;
+    padding: 12em;
+  }
+
+  .flex-logo-5 {
+  width: 23.7%;
+  }
+
+  /* CONTACT */
+  .contact {
+    padding: 8em 3em;
   }
 }
 

@@ -347,6 +347,7 @@ body {
     background-color: #FFF;
     border-bottom: none;
     padding: 0.5em;
+    text-align: center;
 }
 
 .page-layout-1:last-child .right,
@@ -376,7 +377,7 @@ body {
     background-color: #FFF;
     border-bottom: none;
     padding: 0.5em;
-    text-align: right;
+    text-align: center;
 }
 
 .page-layout-1 h3 span {
@@ -1044,6 +1045,69 @@ body {
 }
 
 /* Media Queries */
+@media screen and (min-width: 64em) {
+    .page-layout-3:last-child {
+        background: url(../img/maxwalk-1.jpg) left;
+        background-size: cover;
+    }
+
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg {
+    padding: 65% 10% 10% 10%;
+    }
+    .page-layout-1 h3, .page-layout-1 p, .page-layout-2 h3, .page-layout-5 h3, .page-layout-6 h3, .page-layout-8 h3, .page-layout-9 h3 {
+    top: 5%;
+    left: 17%;
+    margin: 0;
+    max-width: 35%;
+    }
+
+    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right {
+    top: 90%;
+    left: 83%;
+    margin: 0;
+    max-width: 35%;
+    }
+
+    .page-layout-2 {
+    background: url(../img/maxwalk-4.jpg) top center;
+    background-size: cover;
+    }
+
+    .page-layout-2:last-child {
+        background: url(../img/maxwalk-5_1.jpg) center;
+        background-size: cover;
+    }
+
+    .page-layout-5:last-child {
+        background: url(../img/nitor-3.jpg) center;
+        background-size: cover;
+    }
+
+    .page-layout-6 {
+        background: url(../img/nitor-4.jpg) top center;
+        background-size: cover;
+    }
+
+    .page-layout-7:last-child {
+        background: url(../img/iah-1.jpg) right;
+        background-size: cover;
+    }
+
+    .page-layout-8:last-child {
+        background: url(../img/iah-3.jpg) left;
+        background-size: cover;
+    }
+
+    .page-layout-9 {
+        background: url(../img/iah-4.jpg) center center;
+        background-size: cover;
+    }
+
+    .page-layout-9:last-child {
+        background: url(../img/iah-5.jpg) center;
+        background-size: cover;
+    }
+}
 
 @media screen and (max-width: 68.75em) {
   .bb-custom-wrapper { font-size: 75% }
