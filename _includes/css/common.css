@@ -139,6 +139,10 @@ h3 {
 }
 
 /* SUB NAVIGATION */
+.sub-nav {
+  padding: 0.5em 0;
+}
+
 .sub-nav a {
   position: relative;
   display: block;
@@ -327,7 +331,7 @@ padding: 0.5em 0 0 1em;
   margin-top:0;
   padding:0px;
   bottom:0px;
-  height: 1063px;
+  height: 1062px;
 }
 
 .demo{
@@ -393,7 +397,7 @@ padding: 0.5em 0 0 1em;
 .market-logo {
   width: 100%;
   display: block;
-  padding: 0 0 0.5em 0;
+  padding: 0 0 0.3em 0;
 }
 
 .communications,
@@ -486,7 +490,7 @@ h4 {
   }
 
   .content {
-    height: 1454px;
+    height: 1453px;
   }
 
   h3 {
@@ -904,6 +908,7 @@ h4 {
   .service-3 {
     display: block;
     color: #FFF;
+    padding: 1em 0 1.6em 0;
   }
 
   .service-1 h2,
@@ -913,6 +918,7 @@ h4 {
     text-transform: lowercase;
     font-size: 2em;
     font-weight: 300;
+    padding: 0;
   }
 
   .sub-head {
@@ -944,6 +950,28 @@ h4 {
     text-align: center;
     font-weight: lighter;
     font-size: 0.9em;
+  }
+
+  .icon-nav a {
+    position: relative;
+    display: block;
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -ms-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
+  }
+
+  .icon-nav a:hover,
+  .icon-nav a:focus {
+    outline: none;
+  }
+
+  .icon-effect a:hover,
+  .icon-effect a:focus {
+    background-color: rgba(0,0,0,0.7);
   }
   /* END THREE SERVICE BUCKETS */
 
@@ -984,6 +1012,10 @@ h4 {
 
   .right-pad {
     padding: 0.5em 1em 0 0;
+  }
+
+  .logo-spacer {
+    padding: 1.5em;
   }
 
   /* LEADERSHIP */
