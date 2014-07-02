@@ -52,20 +52,19 @@
 			position: absolute;
 		}
 			#issues li {
-				width: 800px;
+				width: 768px;
 				height: 280px;
 				list-style: none;
 				float: left;
 			}
-				#issues li.selected img {
+				#issues li.selected h1 {
 					-webkit-transform: scale(1.1,1.1);
 					-moz-transform: scale(1.1,1.1);
 				    -o-transform: scale(1.1,1.1);
 				    -ms-transform: scale(1.1,1.1);
 				    transform: scale(1.1,1.1);
 				}
-				#issues li img {
-					float: left;
+				#issues li h1 {
 					margin: 0 1.5em 0 6em;
 					background: transparent;
 					-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */
@@ -85,13 +84,12 @@
 				#issues li h1 {
 					color: #152a3f;
 					font-size: 1.5em;
-					margin: 0 auto;
 					line-height: normal;
 					font-weight: 400;
-					padding: 0.3em 3em;
+					padding: 0 1em 0 7em;
 				}
 				#issues li p {
-					font-size: 0.9em;
+					font-size: 1em;
 					margin: 0 auto;
 					font-weight: 300;
 					line-height: normal;
@@ -167,7 +165,7 @@
 	}
 
   #next, #prev {
-		top: 151%;
+		padding: 3.1em 0;
 	}
 }
 
@@ -177,12 +175,16 @@
   }
 
   #issues li {
-		width: 850px;
+		width: 1024px;
 	}
 
-	#next, #prev {
-		top: 387%;
-	}
+	#issues li h1 {
+font-size: 2em;
+}
+
+#issues li p {
+font-size: 1.08em;
+}
 }
 
 @media only screen and (min-width: 80em) {
@@ -191,12 +193,12 @@
 	}
 
 	#issues li {
-		width: 900px;
+		width: 1200px;
 	}
 
-	#next, #prev {
-		top: 355%;
-	}
+	#issues li h1 {
+padding: 0 0em 0 3em;
+}
 }
 
 @media only screen and (min-width: 85em) {
@@ -205,19 +207,11 @@
 	}
 
 	#issues li {
-		width: 1030px;
+		width: 1300px;
 	}
 
-	#next, #prev {
-		top: 385%;
-	}
-
-	#dates {
-		width: 100%;
-		height: 298px;
-		overflow: hidden;
-		margin: 0;
-		padding: 7em 0 0 0em;
+	#issues li p {
+		padding: 0 16.5em 0.5em 0;
 	}
 }
 
@@ -227,12 +221,13 @@
 	}
 
 	#issues li {
-		width: 1100px;
+		width: 1400px;
 	}
 
-	#next, #prev {
-		top: 435%;
-	}
+	#issues li p {
+padding: 0 19em 0.5em 0;
+}
+
 }
 
 @media only screen and (min-width: 100em) {
@@ -241,16 +236,16 @@
 	}
 
 	#issues li {
-		width: 1200px;
+		width: 1550px;
 	}
 
-	#next, #prev {
-		top: 373%;
-	}
+	#issues li h1 {
+padding: 0 0em 0 5.7em;
+}
 
-	#dates {
-		height: 375px;
-	}
+#issues li p {
+padding: 0 23.6em 0.5em 0;
+}
 }
 
 @media only screen and (min-width: 105em) {
@@ -259,11 +254,7 @@
 	}
 
 	#issues li {
-		width: 1250px;
-	}
-
-	#next, #prev {
-		top: 383%;
+		width: 1550px;
 	}
 }
 
@@ -273,7 +264,7 @@
 	}
 
 	#issues li {
-		width: 1430px;
+		width: 1640px;
 	}
 
 	#next, #prev {

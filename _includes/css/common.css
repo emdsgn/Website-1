@@ -818,7 +818,7 @@ h4 {
 
   #cssmenu a {
     color: #FFF;
-    padding: 0 19px;
+    padding: 0 18.1px;
   }
 
   #cssmenu ul { text-transform: uppercase; border-bottom: 1px solid #FFF; text-align: center;}
@@ -1093,7 +1093,7 @@ h4 {
   }
 
   #market-1 h3 {
-    font-size: 3.2em;
+    font-size: 3.09em;
   }
 
   .work-link {
@@ -1250,7 +1250,7 @@ h4 {
   }
 
   #market-1 h3 {
-    font-size: 3.4em;
+    font-size: 3.3em;
   }
 
   /* MARKETING */
@@ -1280,7 +1280,7 @@ h4 {
   }
 
   #cssmenu a {
-    padding: 0 35px;
+    padding: 0 34.9px;
   }
 
   #cssmenu ul ul {
@@ -1297,6 +1297,10 @@ h4 {
 
   .sub-body-1 {
     font-size: 0.9em;
+  }
+
+  .logo-spacer {
+    padding: 1.3em;
   }
 
   /* SERVICES */
@@ -1428,7 +1432,7 @@ h4 {
   }
 
   #cssmenu a {
-    padding: 0 53px;
+    padding: 0 52.04px;
   }
 
   .company {
@@ -1567,19 +1571,23 @@ h4 {
 
 @media only screen and (min-width: 90em) {
   sticknav {
-    height: 8%;
+    height: 6.5%;
   }
 
   .flex-logo-2 {
-    width: 25.4%;
+    width: 25.5%;
   }
 
   #cssmenu a {
-    padding: 0 63.6px;
+    padding: 0 62.7px;
   }
 
   .company {
     padding: 13em 14em;
+  }
+
+  .logo-spacer {
+    padding: 2em;
   }
 
   /* SERVICES */
@@ -1596,7 +1604,7 @@ h4 {
   }
 
   #market-1 h3 {
-    font-size: 5.58em;
+    font-size: 5.55em;
   }
 
   /* SERVICE PAGES */
@@ -1658,7 +1666,7 @@ h4 {
   }
 
   #cssmenu a {
-    padding: 0 74.3px;
+    padding: 0 73.3px;
   }
 
   /* SERVICES */
