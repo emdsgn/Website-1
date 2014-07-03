@@ -337,14 +337,32 @@ body {
 }
 
 .page-layout-1 h3,
-.page-layout-2 h3,
+.page-layout-2 h3 {
+    font-weight: 300;
+    font-size: 1.5em;
+    background-color: #eb1e23;
+    border-bottom: none;
+    padding: 0.5em;
+    text-align: center;
+    color: #FFF;
+}
+
 .page-layout-5 h3,
-.page-layout-6 h3,
+.page-layout-6 h3 {
+    font-weight: 300;
+    font-size: 1.5em;
+    background-color: #231f20;
+    border-bottom: none;
+    padding: 0.5em;
+    text-align: center;
+    color: #FFF;
+}
+
 .page-layout-8 h3,
 .page-layout-9 h3 {
     font-weight: 300;
     font-size: 1.5em;
-    background-color: #FFF;
+    background-color: #7fdef2;
     border-bottom: none;
     padding: 0.5em;
     text-align: center;
@@ -367,14 +385,32 @@ body {
 }
 
 .page-layout-1:last-child .right,
-.page-layout-2:last-child .right,
+.page-layout-2:last-child .right {
+    font-weight: 300;
+    font-size: 1.5em;
+    background-color: #eb1e23;
+    border-bottom: none;
+    padding: 0.5em;
+    text-align: center;
+    color: #FFF;
+}
+
 .page-layout-5:last-child .right,
-.page-layout-6:last-child .right,
+.page-layout-6:last-child .right {
+    font-weight: 300;
+    font-size: 1.5em;
+    background-color: #231f20;
+    border-bottom: none;
+    padding: 0.5em;
+    text-align: center;
+    color: #FFF;
+}
+
 .page-layout-8:last-child .right,
 .page-layout-9:last-child .right {
     font-weight: 300;
     font-size: 1.5em;
-    background-color: #FFF;
+    background-color: #7fdef2;
     border-bottom: none;
     padding: 0.5em;
     text-align: center;
