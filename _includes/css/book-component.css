@@ -325,7 +325,7 @@ body {
 .page-layout-5 h3,
 .page-layout-6 h3,
 .page-layout-8 h3,
-.page-layout-9 h3 {
+.page-layout-9 h3{
     position: absolute;
     top: 4%;
     left: 27%;
@@ -373,7 +373,10 @@ body {
 .page-layout-5:last-child .right,
 .page-layout-6:last-child .right,
 .page-layout-8:last-child .right,
-.page-layout-9:last-child .right {
+.page-layout-9:last-child .right,
+.page-layout-10:last-child .right,
+.page-layout-11:last-child .right,
+.page-layout-12:last-child .right {
     position: absolute;
     top: 4%;
     left: 73%;
@@ -466,10 +469,18 @@ body {
 
 .page-layout-3 .title-pg,
 .page-layout-4 .title-pg,
-.page-layout-7 .title-pg
+.page-layout-7 .title-pg,
+.page-layout-10 .title-pg,
+.page-layout-11 .title-pg,
+.page-layout-12 .title-pg
 { padding: 188% 10% 10% 10%; }
 
-.page-layout-3 h3 {
+.page-layout-3 .title-pg h3,
+.page-layout-4 .title-pg h3,
+.page-layout-7 .title-pg h3,
+.page-layout-10 .title-pg h3,
+.page-layout-11 .title-pg h3,
+.page-layout-12 .title-pg h3 {
     margin: 0;
     text-transform: capitalize;
     font-weight: 300;
@@ -477,7 +488,12 @@ body {
     width: 100%;
 }
 
-.page-layout-3 p {
+.page-layout-3 p,
+.page-layout-4 p,
+.page-layout-7 p,
+.page-layout-10 p,
+.page-layout-11 p,
+.page-layout-12 p {
     margin: 0;
 }
 
@@ -565,6 +581,63 @@ body {
     height: 100%;
     background: url(../img/iah-5.jpg) center;
     background-size: contain;
+}
+
+.page-layout-10:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/spriva-1.jpg) left;
+    background-size: contain;
+}
+
+.page-layout-10:last-child .right {
+    font-weight: 300;
+    font-size: 1.5em;
+    background-color: #0c90dc;
+    border-bottom: none;
+    padding: 0.5em;
+    text-align: center;
+    color: #FFF;
+}
+
+.page-layout-11:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/medtronic-1.jpg) left;
+    background-size: contain;
+}
+
+.page-layout-11:last-child .right {
+    font-weight: 300;
+    font-size: 1.5em;
+    background-color: #eb6130;
+    border-bottom: none;
+    padding: 0.5em;
+    text-align: center;
+    color: #FFF;
+}
+
+.page-layout-12:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/pow-1.jpg) left;
+    background-size: contain;
+}
+
+.page-layout-12:last-child .right {
+    font-weight: 300;
+    font-size: 1.5em;
+    background-color: #7294c5;
+    border-bottom: none;
+    padding: 0.5em;
+    text-align: center;
+    color: #FFF;
 }
 
 /* Book navigation */
@@ -704,9 +777,9 @@ body {
 .no-csstransforms3d .book[data-book="book-4"],
 .no-js .book[data-book="book-4"],
 .book[data-book="book-4"] .front {
-    background: url(../img/cover4.svg);
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover4.svg), #a6a1a5;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover4.svg), #a6a1a5;
+    background-image: url(../img/cover-spriva.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-spriva.jpg), #a6a1a5;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-spriva.jpg), #a6a1a5;
 }
 
 .book[data-book="book-4"] .inner { border-color: #a6a1a5 }
@@ -720,9 +793,9 @@ body {
 .no-csstransforms3d .book[data-book="book-5"],
 .no-js .book[data-book="book-5"],
 .book[data-book="book-5"] .front {
-    background: url(../img/cover5.svg);
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover5.svg), #4cbb97;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover5.svg), #4cbb97;
+    background-image: url(../img/cover-medtronic.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-medtronic.jpg), #4cbb97;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover-medtronic.jpg), #4cbb97;
 }
 
 .book[data-book="book-5"] .inner { border-color: #4cbb97 }
@@ -805,11 +878,11 @@ body {
 
 #book-3 { border-color: #7fdef2; }
 
-#book-4 { border-color: #a6a1a5 }
+#book-4 { border-color: #0c90dc; }
 
-#book-5 { border-color: #4cbb97 }
+#book-5 { border-color: #eb6130; }
 
-#book-6 { border-color: #a1cae5 }
+#book-6 { border-color: #7294c5; }
 
 #book-7 { border-color: #ebe6e5 }
 
