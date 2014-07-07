@@ -21,11 +21,11 @@
 		position: relative;
 	}
 		#dates {
-			width: 100%;
-			height: 170px;
+			width: 0%;
+			height: 0px;
 			overflow: hidden;
 			margin: 0;
-			padding: 4.5em 0 0 0em;
+			padding: 0;
 		}
 			#dates li {
 				list-style: none;
@@ -45,7 +45,7 @@
 
 		#issues {
 			width: 800px;
-			height: 340px;
+			height: 440px;
 			overflow: hidden;
 			margin: 0 auto;
 			padding: 2em 0;
@@ -65,7 +65,7 @@
 				    transform: scale(1.1,1.1);
 				}
 				#issues li h1 {
-					margin: 0 1.5em 0 6em;
+					margin: 0 1.5em 0 3.7em;
 					background: transparent;
 					-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */
 					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */
@@ -86,15 +86,16 @@
 					font-size: 1.5em;
 					line-height: normal;
 					font-weight: 400;
-					padding: 0 1em 0 7em;
+					padding: 0;
 				}
 				#issues li p {
 					font-size: 1em;
 					margin: 0 auto;
 					font-weight: 300;
 					line-height: normal;
-					padding: 0 7em 0.5em 0;
+					padding: 0 5em 0.5em 0;
 					letter-spacing: 0.2px;
+					text-align: justify;
 				}
 
 		#grad_left,
@@ -114,7 +115,11 @@
 			}
 
 			.timeline-wrapper {
-				height: 340px;
+				height: 440px;
+			}
+
+			.middle {
+				padding: 6em 0;
 			}
 
 		#next,

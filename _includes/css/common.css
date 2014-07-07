@@ -140,7 +140,7 @@ h3 {
 
 /* SUB NAVIGATION */
 .sub-nav {
-  padding: 0.5em 0;
+  padding: 1.2em 0;
 }
 
 .sub-nav a {
@@ -238,6 +238,10 @@ h3 {
 .bring,
 .partners {
   padding: 1em 1em 1em 1em;
+}
+
+.logo-spacer {
+  padding: 2em 1em;
 }
 
 /* LEADERSHIP */
@@ -626,6 +630,10 @@ h4 {
     font-size: 1em;
   }
 
+  .logo-spacer {
+    padding: 3em 1em;
+  }
+
   /* MEDICAL EDUCATION */
   .med-ex,
   .med-ed,
@@ -984,7 +992,7 @@ h4 {
     position: relative;
     left: 33%;
     color: #FFF;
-    padding: 2em 4em;
+    padding: 4em 4em;
   }
 
   .company h3 {
@@ -1015,13 +1023,13 @@ h4 {
   }
 
   .logo-spacer {
-    padding: 1.5em;
+    padding: 2.5 1em;
   }
 
   /* LEADERSHIP */
   .leader-text {
     text-align: center;
-    padding: 2em 0 0 0;
+    padding: 5em 0 0 0;
   }
 
   .leader-text h3 {
@@ -1030,6 +1038,14 @@ h4 {
   }
 
   /* SERVICES */
+  .sub-nav {
+    padding: 0;
+  }
+
+  .sub-nav a {
+    padding: 1em 0 0.5em 0;
+  }
+
   .cl-effect-17 a::before {
     color: #FFF;
   }
@@ -1079,7 +1095,7 @@ h4 {
   }
 
   .r-padding-3 {
-    padding: 5em 6em 5em 5em;
+    padding: 4.9em 6em 4.9em 5em;
   }
 
   .med-link {
@@ -1127,12 +1143,12 @@ h4 {
   }
 
   .market-link-1 {
-    padding: 6.7em 2em;
+    padding: 5.6em 2em;
     background-color: rgba(0,0,0,0.3);
   }
 
   .med-link-1 {
-    padding: 3em 2em;
+    padding: 2.1em 2em;
     background-color: rgba(0,0,0,0.3);
   }
 
@@ -1173,7 +1189,7 @@ h4 {
   }
 
   .content {
-  height: 369px;
+  height: 368px;
 }
 
 .list-1 {
@@ -1571,7 +1587,7 @@ h4 {
 
 @media only screen and (min-width: 90em) {
   sticknav {
-    height: 6.5%;
+    height: 8.3%;
   }
 
   .flex-logo-2 {
@@ -1588,6 +1604,10 @@ h4 {
 
   .logo-spacer {
     padding: 2em;
+  }
+
+  .leader-text {
+    padding: 6em 0 0 0;
   }
 
   /* SERVICES */
