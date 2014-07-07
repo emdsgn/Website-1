@@ -1269,6 +1269,10 @@ h4 {
     font-size: 3.3em;
   }
 
+  .content {
+height: 383px;
+}
+
   /* MARKETING */
   .flex-logo-5 {
     width: 44%;
@@ -1278,7 +1282,7 @@ h4 {
     font-size: 3.33em;
   }
   .market-link-1 {
-    padding: 7.1em 2em;
+    padding: 6.3em 2em;
   }
 
   .contact {
@@ -1288,7 +1292,7 @@ h4 {
 
 @media only screen and (min-width: 64em) {
   sticknav {
-    height: 10%;
+    height: 8.3%;
   }
 
   .flex-logo-2 {
@@ -1316,7 +1320,7 @@ h4 {
   }
 
   .logo-spacer {
-    padding: 1.3em;
+    padding: 2em 1em;
   }
 
   /* SERVICES */
@@ -1325,7 +1329,7 @@ h4 {
   }
 
   .med-link {
-    padding: 5.47em 3em;
+    padding: 5.6em 3em;
   }
 
   .work-link {
@@ -1359,15 +1363,15 @@ h4 {
 
   /* SERVICE PAGES */
   .med-link-1 {
-    padding: 3em;
-  }
+padding: 5.6em 3em;
+}
 
   .work-link-1 {
     padding: 11.79em 3em;
   }
 
   .market-link-1 {
-    padding: 7.35em 3em;
+    padding: 9.5em 3em;
   }
 
   .r-padding {
@@ -1397,7 +1401,7 @@ h4 {
   }
 
   .content {
-    height: 490px;
+    height: 491px;
   }
 
   /* WORKSHOP */
@@ -1417,7 +1421,7 @@ h4 {
   }
 
   .logo-2 h3 {
-    font-size: 3.73em;
+    font-size: 3.26em;
   }
 
   .flex-logo-5 {
@@ -1454,6 +1458,10 @@ h4 {
   .company {
     padding: 11em 10em 11em 10em;
   }
+
+  .logo-spacer {
+padding: 2.5em 1em;
+}
 
   /* SERVICES */
   .sub-nav a {
