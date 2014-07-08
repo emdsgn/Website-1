@@ -272,13 +272,23 @@ padding: 3.72em 0;
 	#timeline {
 		height: 440px;
 	}
+	.timeline-wrapper {
+height: 350px;
+}
 
+#issues {
+height: 350px;
+}
 	#issues li {
 		width: 1280px;
 	}
 
 	#issues li h2 {
 padding: 0 0 0 2em;
+}
+
+#next, #prev {
+padding: 3.18em 0;
 }
 
 }
@@ -289,21 +299,25 @@ padding: 0 0 0 2em;
 	}
 
 	#issues li {
-		width: 1300px;
+		width: 1366px;
 	}
 
-	#issues li p {
-		padding: 0 16.5em 0.5em 0;
-	}
+	#issues li h1 {
+margin: 0 1em 0 5.5em;
 }
 
-@media only screen and (min-width: 90em) {
+	#issues li p {
+padding: 0 10em 0.5em 0em;
+}
+}
+
+@media only screen and (min-width: 89em) {
 	#timeline {
 		height: 495px;
 	}
 
 	#issues li {
-		width: 1400px;
+		width: 1440px;
 	}
 
 	#issues li p {
@@ -318,7 +332,7 @@ padding: 0 19em 0.5em 0;
 	}
 
 	#issues li {
-		width: 1550px;
+		width: 1600px;
 	}
 
 	#issues li h1 {
@@ -336,7 +350,7 @@ padding: 0 23.6em 0.5em 0;
 	}
 
 	#issues li {
-		width: 1550px;
+		width: 1680px;
 	}
 }
 
@@ -346,7 +360,7 @@ padding: 0 23.6em 0.5em 0;
 	}
 
 	#issues li {
-		width: 1640px;
+		width: 1920px;
 	}
 
 	#next, #prev {

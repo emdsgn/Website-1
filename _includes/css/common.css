@@ -1173,6 +1173,24 @@ h4 {
     padding: 6em 4em 0 4em;
   }
 
+  .work-w,
+  .work-med {
+    text-align: center;
+    padding: 2em 4em;
+    background-color: #152a3f;
+    color: #FFF;
+  }
+
+  .work-w h3,
+  .work-med h3 {
+    border-color: #FFF;
+  }
+
+  .work-w .sub-body,
+  .work-med .sub-body {
+    color: #FFF;
+  }
+
   /* MEDICAL EDUCATION */
   .med-ed,
   .kol,
@@ -1541,6 +1559,10 @@ padding: 2.5em 1em;
 }
 
 @media only screen and (min-width: 85em) {
+  sticknav {
+    height: 8%;
+  }
+
   .flex-logo-2 {
     width: 26.4%;
   }
@@ -1556,6 +1578,10 @@ padding: 2.5em 1em;
   #market-1 h3 {
     font-size: 5.1em;
   }
+
+  .logo-spacer {
+padding: 2.3em 1em;
+}
 
   /* SERVICE PAGES */
   /* MEDICAL EDUCATION */
@@ -1593,7 +1619,7 @@ padding: 2.5em 1em;
   }
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 89em) {
   sticknav {
     height: 8.3%;
   }
@@ -1611,8 +1637,8 @@ padding: 2.5em 1em;
   }
 
   .logo-spacer {
-    padding: 2em;
-  }
+padding: 1.9em 1em;
+}
 
   .leader-text {
     padding: 6em 0 0 0;
@@ -1634,6 +1660,10 @@ padding: 2.5em 1em;
   #market-1 h3 {
     font-size: 5.55em;
   }
+
+  .r-padding-2, .r-padding-3 {
+padding: 17em 18em 10em 5em;
+}
 
   /* SERVICE PAGES */
   .work-link-1 {
