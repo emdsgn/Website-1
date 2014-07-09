@@ -22,6 +22,14 @@ body {
     padding: 2em 2em 6em 2em;
 }
 
+.main-2 {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #FFF;
+    position: relative;
+    padding: 2em;
+}
+
 .bookshelf {
     position: relative;
     list-style: none;
@@ -32,7 +40,7 @@ body {
     position: relative;
     display: inline-block;
     vertical-align: top;
-    padding: 0 1.6em;
+    margin: 2%;
 }
 
 /* Perspectiv wrapper, figure and book */
@@ -131,18 +139,18 @@ body {
     display: grid;
     position: absolute;
     bottom: 0;
-    width: 77.8%;
+    width: 100%;
     background-color: rgba(0,0,0,0.5);
     height: 100%;
     text-align: center;
     color: #FFF;
-    padding: 0 1.25em;
+    padding: 0;
 }
 
 .bookshelf figcaption {
     position: absolute;
     top: 0;
-    width: 77.7%;
+    width: 100%;
     height: 100%;
     padding: 5em 1em;
 }
@@ -387,7 +395,11 @@ body {
 .page-layout-9:last-child .right,
 .page-layout-10:last-child .right,
 .page-layout-11:last-child .right,
-.page-layout-12:last-child .right {
+.page-layout-12:last-child .right,
+.page-layout-13:last-child .right,
+.page-layout-14:last-child .right,
+.page-layout-15:last-child .right,
+.page-layout-16:last-child .right {
     position: absolute;
     top: 4%;
     left: 73%;
@@ -483,7 +495,11 @@ body {
 .page-layout-7 .title-pg,
 .page-layout-10 .title-pg,
 .page-layout-11 .title-pg,
-.page-layout-12 .title-pg
+.page-layout-12 .title-pg,
+.page-layout-13 .title-pg,
+.page-layout-14 .title-pg,
+.page-layout-15 .title-pg,
+.page-layout-16 .title-pg
 { padding: 188% 10% 10% 10%; }
 
 .page-layout-3 .title-pg h3,
@@ -491,7 +507,11 @@ body {
 .page-layout-7 .title-pg h3,
 .page-layout-10 .title-pg h3,
 .page-layout-11 .title-pg h3,
-.page-layout-12 .title-pg h3 {
+.page-layout-12 .title-pg h3,
+.page-layout-13 .title-pg h3,
+.page-layout-14 .title-pg h3,
+.page-layout-15 .title-pg h3,
+.page-layout-16 .title-pg h3 {
     margin: 0;
     text-transform: capitalize;
     font-weight: 300;
@@ -504,7 +524,11 @@ body {
 .page-layout-7 p,
 .page-layout-10 p,
 .page-layout-11 p,
-.page-layout-12 p {
+.page-layout-12 p,
+.page-layout-13 p,
+.page-layout-14 p,
+.page-layout-15 p,
+.page-layout-16 p {
     margin: 0;
 }
 
@@ -645,6 +669,82 @@ body {
     font-weight: 300;
     font-size: 1.5em;
     background-color: #7294c5;
+    border-bottom: none;
+    padding: 0.5em;
+    text-align: center;
+    color: #FFF;
+}
+
+.page-layout-13:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/agenda-1.jpg) left;
+    background-size: contain;
+}
+
+.page-layout-13:last-child .right {
+    font-weight: 300;
+    font-size: 1.5em;
+    background-color: #739c5b;
+    border-bottom: none;
+    padding: 0.5em;
+    text-align: center;
+    color: #FFF;
+}
+
+.page-layout-14:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/agenda-2.jpg) left;
+    background-size: contain;
+}
+
+.page-layout-14:last-child .right {
+    font-weight: 300;
+    font-size: 1.5em;
+    background-color: #02335c;
+    border-bottom: none;
+    padding: 0.5em;
+    text-align: center;
+    color: #FFF;
+}
+
+.page-layout-15:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/agenda-3.jpg) left;
+    background-size: contain;
+}
+
+.page-layout-15:last-child .right {
+    font-weight: 300;
+    font-size: 1.5em;
+    background-color: #d9a143;
+    border-bottom: none;
+    padding: 0.5em;
+    text-align: center;
+    color: #FFF;
+}
+
+.page-layout-16:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/agenda-4.jpg) left;
+    background-size: contain;
+}
+
+.page-layout-16:last-child .right {
+    font-weight: 300;
+    font-size: 1.5em;
+    background-color: #1d5f89;
     border-bottom: none;
     padding: 0.5em;
     text-align: center;
@@ -837,64 +937,64 @@ body {
 .no-js .book[data-book="book-7"],
 .book[data-book="book-7"] .front {
     background-image: url(../img/cover-a1.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover7.svg), #ebe6e5;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover7.svg), #ebe6e5;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover7.svg), #739c5b;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover7.svg), #739c5b;
 }
 
-.book[data-book="book-7"] .inner { border-color: #ebe6e5 }
+.book[data-book="book-7"] .inner { border-color: #739c5b }
 
 .book[data-book="book-7"] .cover::before {
     background: url(../img/spine7.svg);
-    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine7.svg), #ebe6e5;
-    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine7.svg), #ebe6e5;
+    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine7.svg), #739c5b;
+    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine7.svg), #739c5b;
 }
 
 .no-csstransforms3d .book[data-book="book-8"],
 .no-js .book[data-book="book-8"],
 .book[data-book="book-8"] .front {
     background-image: url(../img/cover-a2.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover8.svg), #f8eb48;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover8.svg), #f8eb48;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover8.svg), #02335c;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover8.svg), #02335c;
 }
 
-.book[data-book="book-8"] .inner { border-color: #f8eb48 }
+.book[data-book="book-8"] .inner { border-color: #02335c }
 
 .book[data-book="book-8"] .cover::before {
     background: url(../img/spine8.svg);
-    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine8.svg), #f8eb48;
-    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine8.svg), #f8eb48;
+    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine8.svg), #02335c;
+    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine8.svg), #02335c;
 }
 
 .no-csstransforms3d .book[data-book="book-9"],
 .no-js .book[data-book="book-9"],
 .book[data-book="book-9"] .front {
     background-image: url(../img/cover-a3.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover9.svg), #f7a56e;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover9.svg), #f7a56e;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover9.svg), #d9a143;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover9.svg), #d9a143;
 }
 
-.book[data-book="book-9"] .inner { border-color: #f7a56e }
+.book[data-book="book-9"] .inner { border-color: #d9a143 }
 
 .book[data-book="book-9"] .cover::before {
     background: url(../img/spine9.svg);
-    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine9.svg), #f7a56e;
-    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine9.svg), #f7a56e;
+    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine9.svg), #d9a143;
+    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine9.svg), #d9a143;
 }
 
 .no-csstransforms3d .book[data-book="book-10"],
 .no-js .book[data-book="book-10"],
 .book[data-book="book-10"] .front {
     background-image: url(../img/cover-a4.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover9.svg), #f7a56e;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover9.svg), #f7a56e;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover9.svg), #1d5f89;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover9.svg), #1d5f89;
 }
 
-.book[data-book="book-10"] .inner { border-color: #f7a56e }
+.book[data-book="book-10"] .inner { border-color: #1d5f89 }
 
 .book[data-book="book-10"] .cover::before {
     background: url(../img/spine9.svg);
-    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine9.svg), #f7a56e;
-    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine9.svg), #f7a56e;
+    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine9.svg), #1d5f89;
+    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine9.svg), #1d5f89;
 }
 
 /* border around bookblock same as book cover color*/
@@ -911,13 +1011,13 @@ body {
 
 #book-6 { border-color: #7294c5; }
 
-#book-7 { border-color: #ebe6e5 }
+#book-7 { border-color: #739c5b; }
 
-#book-8 { border-color: #f8eb48 }
+#book-8 { border-color: #02335c; }
 
-#book-9 { border-color: #f7a56e }
+#book-9 { border-color: #d9a143; }
 
-#book-10 { border-color: #f7a56e }
+#book-10 { border-color: #1d5f89; }
 
 /****** Transitions ******/
 

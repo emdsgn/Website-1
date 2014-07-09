@@ -1,0 +1,961 @@
+/*
+••••••••••••••••••••••••
+
+Powered by Type & Grids™
+www.typeandgrids.com
+
+••••••••••••••••••••••••
+*/
+
+/*
+Responsive grid is from Skeleton by Dave Gamache
+www.getskeleton.com
+*/
+
+/*===================================================================================================
+Contents
+=====================================================================================================
+	1) Reset & basics
+	2) Basic styles
+	3) Typography
+	4) Links
+	5) Lists
+	6) Images
+	7) Buttons
+	8) Forms
+	9) Misc
+	10) Base 960 grid
+    11) Tablet (Portrait)
+    12) Mobile (Portrait)
+    13) Mobile (Landscape)
+    14) Clearing
+	15) Portfolio slider
+	16) Site styles
+	17) Media queries
+	18) Print styles
+*/
+
+
+/*===================================================================================================
+7) Buttons
+===================================================================================================*/
+	.projectNav button,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"] {
+		background: #FFF; /* Old browsers */
+	  border: none;
+	  color: #444;
+	  display: inline-block;
+	  font-size: 11px;
+	  font-weight: bold;
+	  cursor: pointer;
+	  padding: 0.5em 0;
+	}
+
+	.projectNav button:hover,
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	input[type="button"]:hover {
+		color: blue;
+	  border: none;}
+
+	.projectNav button:active,
+	input[type="submit"]:active,
+	input[type="reset"]:active,
+	input[type="button"]:active {
+		}
+
+	.projectNav button.full-width,
+	input[type="submit"].full-width,
+	input[type="reset"].full-width,
+	input[type="button"].full-width {
+		width: 100%;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		text-align: center; }
+
+	/* Fix for odd Mozilla border & padding issues */
+		button::-moz-focus-inner,
+		input::-moz-focus-inner {
+	    border: 0;
+	    padding: 0;
+	}
+
+/*===================================================================================================
+8) Forms
+===================================================================================================*/
+	form {
+		margin-bottom: 20px; }
+	fieldset {
+		margin-bottom: 20px; }
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea,
+	select {
+		border: 1px solid #ccc;
+		padding: 6px 4px;
+		outline: none;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		font: 13px Arial, sans-serif;
+		color: #444;
+		margin: 0;
+		width: 210px;
+		max-width: 100%;
+		display: block;
+		margin-bottom: 20px;
+		background: #fff; }
+	select {
+		padding: 0; }
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="email"]:focus,
+	textarea:focus {
+		border: 1px solid #aaa;
+ 		color: #444;
+ 		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		box-shadow:  0 0 3px rgba(0,0,0,.2); }
+	textarea {
+		min-height: 60px; }
+	label,
+	legend {
+		display: block;
+		font-size: 13px;  }
+	select {
+		width: 220px; }
+	input[type="checkbox"] {
+		display: inline; }
+	label span,
+	legend span {
+		font-weight: normal;
+		font-size: 13px;
+		color: #444; }
+
+/*===================================================================================================
+9) Misc
+===================================================================================================*/
+	.remove-bottom { margin-bottom: 0 !important; }
+	.half-bottom { margin-bottom: 10px !important; }
+	.add-bottom { margin-bottom: 20px !important; }
+
+
+
+    /* Use clearfix class on parent to clear nested columns, or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+
+/*===================================================================================================
+15) Portfolio slider
+===================================================================================================*/
+	.portfolioSlider {	
+		position:relative;
+		
+		/* Set width and height of slider here, in px, % or em */
+		width: 600px;
+		height: 300px;
+		
+		/* Used to prevent content "jumping" on page load - this property is removed when JavaScript is loaded and slider is instantiated */
+		overflow: hidden;
+	}
+
+	/* Slides area */
+	.portfolioSlider .portfolioWrapper {
+		overflow:hidden;	
+		position:relative;
+		width:100%; 
+		height:100%;
+	}
+	
+	.portfolioSlider .portfolioSlide,
+	.portfolioSlider .portfolioWrapper {
+		/* Bakground behind slides  */
+		
+		background: #000000;
+		/*
+		background: -moz-linear-gradient(top, #111111 0%, #242424 100%); 	
+		background: -webkit-linear-gradient(top, #111111 0%,#242424 100%); 
+		background: -o-linear-gradient(top, #111111 0%,#242424 100%);
+		background: -ms-linear-gradient(top, #111111 0%,#242424 100%); 	
+		background: linear-gradient(top, #111111 0%,#242424 100%);
+		*/
+	}
+	
+	/* Slides holder, grabbing container */
+	.portfolioSlider .portfolioSlidesContainer {
+		position: relative;
+		left: 0;
+		top: 0 !important;
+		list-style:none !important;
+		margin:0 !important;
+		padding:0 !important;
+		border: 0 !important;
+	}
+	
+	/* Slide item */
+	.portfolioSlider .portfolioSlide {
+		padding: 0 !important;
+		margin: 0 !important;	
+		border: 0 !important;
+		list-style: none !important;
+		position:relative;
+		float:left;
+		overflow:hidden;	
+	}
+
+	/* Arrow navigation */
+	.portfolioSlider .arrow {	
+		/*background:url(../img/controlsSprite.png) no-repeat 0 0;*/
+		background-color: #C00;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+	
+		/* Change arrow size here */
+		width: 45px;
+		height: 90px;
+		top:50%;
+		margin-top:-45px;
+		cursor: pointer;
+		display: block;
+		position: absolute;		
+		z-index:25;
+	}
+	
+	.portfolioSlider .arrow:hover {
+		
+	}
+	.portfolioSlider .arrow.disabled {
+		
+	}
+	
+	/* Left arrow */
+	.portfolioSlider .arrow.left {
+		background-position: top left;
+		left: 0;	
+	}
+	
+	/* Right arrow */
+	.portfolioSlider .arrow.right {
+		background-position: top right;
+		right: 0;
+	}
+	
+	/* Control navigation container (bullets or thumbs) */
+	.portfolioSlider .portfolioControlNavOverflow {
+		width:100%;
+		overflow:hidden;
+		position:absolute;
+		margin-top:-20px;
+		z-index:25;
+	}
+	/* This container is inside ".portfolioControlNavContainer"  
+	   and is used for auto horizontal centering */
+	.portfolioSlider .portfolioControlNavCenterer {	
+		float: left;
+		position: relative;
+		left: -50%;
+	}
+	
+	/* Control navigation container*/ 
+	.portfolioSlider .portfolioControlNavContainer {
+		float: left;
+		position: relative;
+		left: 50%;	
+	}
+	
+	/* Scrollable thumbnails containers */
+	.portfolioSlider .portfolioControlNavThumbsContainer {		
+		left:0;
+		position:relative;
+	}
+	
+	.portfolioSlider .thumbsAndArrowsContainer {
+		overflow:hidden;
+		width: 100%;
+		position: relative;
+	}
+	
+	.portfolioSlider .portfolioControlNavOverflow.portfolioThumbs {	
+		width: auto;
+		position: relative;
+		overflow: hidden;
+		margin-top:4px;	
+	}
+	
+	.portfolioSlider .portfolioControlNavOverflow a{	
+		background:#0C0 none no-repeat scroll 0 0;
+		width:20px;
+		height:20px;	
+		float:left;	
+		cursor:pointer;	
+		position:relative;
+		display:block;
+		text-indent: -9999px;	
+	}
+	
+	/* Current control navigation item */
+	.portfolioSlider .portfolioControlNavOverflow a.current {	
+		background-color: #C00;	
+	}
+	
+	/* Hover state navigation item */
+	.portfolioSlider .portfolioControlNavOverflow a:hover {	
+		background-color: #00C;
+	}
+	
+	/* Thumbnails */
+	.portfolioSlider .portfolioControlNavOverflow a.portfolioThumb{	
+		/*background: none no-repeat 0 0;*/
+		/*background-color: ;*/
+		width:144px;
+		height:60px;	
+		/* thumbnails spacing, use margin-right only */	
+		margin-right:4px;
+	}
+	
+	.portfolioSlider .portfolioControlNavOverflow a.portfolioThumb.current {	
+		background-position: -3px -3px  !important;
+		border:3px solid #C00 !important;
+		width:138px;
+		height:54px;
+	}
+	
+	.portfolioSlider .portfolioControlNavOverflow a.portfolioThumb:hover {	
+		background-position: -3px -3px;	
+		border:3px solid #00C;
+		width:138px;
+		height:54px;
+	}
+	
+	.portfolioSlider .thumbsArrow {	
+		width: 38px;
+		height: 68px;	
+		cursor: pointer;
+		display: block;
+		position: relative;		
+		z-index: 25;
+		background: #C99;
+	}
+	
+	.portfolioSlider .thumbsArrow.left {	
+		float: left;
+	}
+	
+	.portfolioSlider .thumbsArrow.right {	
+		float: right;
+	}
+	
+	.portfolioSlider .thumbsArrow:hover  {
+		
+	}
+	
+	.portfolioSlider .thumbsArrow.disabled {
+		
+	}
+	
+	/* Captions container */
+	.portfolioSlider .portfolioCaption {
+		z-index:20;
+		display:block;
+		position:absolute;	
+		left:0;
+		top:0;
+		/*font: normal normal normal 1em/1.5em Georgia, serif;
+		color:#FFF;		*/
+	}
+	
+	/* Caption item */
+	.portfolioSlider .portfolioCaptionItem {
+		position:absolute;	
+		left:0;
+		top:0;
+		margin: 0;
+		padding: 0;
+	}
+	
+	/* Loading screen */
+	.portfolioSlider .portfolioLoadingScreen {
+		background:#FFF;
+		width:100%;
+		height:100%;
+		position:absolute;
+		z-index:99;	
+	}
+	
+	/* Loading screen text ("Loading...") */
+	.portfolioSlider .portfolioLoadingScreen p {		
+		width:100%;
+		position:absolute;	
+		margin:0 auto;
+		top: 45%;
+		text-align:center;
+	}
+	
+	/* Single slide image preloader */
+	.portfolioSlider .portfolioPreloader {	
+		position: absolute;
+		width: 30px;
+		height: 30px;
+		left: 50%;
+		top: 50%;
+		margin-left: -12px;
+		margin-top: -12px;	
+		z-index: 0;	
+		background-image: url(slider_assets/preloader.gif);
+	}
+	
+	.portfolioSlider .grab-cursor{cursor:move;}
+	.portfolioSlider .grab-cursor{cursor:url("slider_assets/grab.png") 8 8,-moz-grab;}
+	.portfolioSlider .grab-cursor{*cursor:url(slider_assets/grab.cur);}
+	.portfolioSlider .grab-cursor{cursor:move\0/;} /* ie8 hack */
+	
+	.portfolioSlider .grabbing-cursor{cursor:move;}
+	.portfolioSlider .grabbing-cursor{cursor:url("slider_assets/grabbing.png") 8 8,-moz-grabbing;}
+	.portfolioSlider .grabbing-cursor{*cursor:url(slider_assets/grabbing.cur);}
+	
+	/* Cursor used if mouse dragging is disabled */
+	.portfolioSlider .auto-cursor{cursor:auto;}
+	
+	.portfolioSlider .portfolioHtmlContent {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	
+	.portfolioSlider .non-draggable {
+		cursor: auto;
+	}
+	
+	.portfolioSlider .fade-container .portfolioSlide{
+		position: absolute;
+		left: 0;
+		top: 0;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		z-index: 10;
+	}
+	
+	.portfolioSlider .portfolioImage {
+		max-width:none;
+		margin:0;
+		padding: 0 !important;
+		border: 0 !important;	
+	}
+
+	/* Customization */
+	.projectThumbnail {
+		cursor: pointer;	
+	}
+	
+	.project img.thumbnailImage {
+		max-width: 100%;
+		height: auto;
+		cursor: pointer;
+	}
+	
+	.portfolioSlider {
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		overflow: hidden;
+		z-index: 10;
+	}
+	
+	.portfolioSliderData {
+		display: none;
+		overflow: hidden;
+	}
+	
+	.portfolioSlidesContainer {
+		display: block;
+	}
+	
+	.first-img-preloader {
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 12;
+		background: #000;
+		/*background: rgba(0,0,0,1.0);*/
+		/*filter:inherit;*/
+	}
+	
+	.preloader-graphics {
+		position: relative;
+		width: 30px;
+		height: 30px;
+		left: 50%;
+		top: 50%;
+		margin-left: -12px;
+		margin-top: -12px;	
+		z-index: 0;	
+		background-image: url(slider_assets/preloader.gif);
+	}
+
+/*===================================================================================================
+16) Site styles
+===================================================================================================*/
+
+.currentPage, button.currentPage:hover {
+	color: #bbb;
+	cursor: default;
+}
+
+button.currentPage:hover {
+	cursor: auto;
+}
+
+#sitePreloader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	z-index: 2;
+}
+
+#preloaderImage {
+	width: 30px;
+	margin: 100px auto;
+}
+
+#overview {
+	padding-bottom: 10px;	
+}
+
+#overview h3 {
+	font-family: Georgia, Arial, sans-serif;
+	font-weight: normal;
+    font-style: normal;
+	font-size: 36px;
+	line-height: 1.2;
+	letter-spacing: -0.04em;
+	text-rendering: auto;
+	color: #333;
+	margin-top: -7px;
+	margin-bottom: 22px;	
+}
+
+.project {
+	position: relative;
+	overflow: hidden;
+}
+
+.projectThumbnail {
+	max-width: 100%;
+	height: 100%;
+}
+
+.projectThumbnail img {
+	display: block;
+	width: 100%;
+}
+
+.projectThumbnailHover {
+	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 10;
+}
+
+.projectThumbnailHover h4 {
+	font-weight: normal;
+    font-style: normal;
+	font-size: 2em;
+	text-rendering: auto;
+	color: #fff;
+	position: absolute;
+	padding: 1em 0;
+	display: none;
+}
+
+.projectThumbnailHover h5 {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+    font-style: normal;
+	font-size: 12px;
+	line-height: 1.2;
+	letter-spacing: 0;
+	text-rendering: auto;
+	color: #fff;
+	position: absolute;
+	padding-top: 69px;
+	display: none;
+}
+
+.projectInfo {
+	overflow: hidden;
+	padding: 1em;
+}
+
+.projectInfo h4 {
+    font-style: normal;
+	font-size: 1em;
+	text-rendering: auto;
+	color: #444;
+	padding: 0 0 0.5em 0;
+}
+
+.projectNav {
+    font-style: normal;
+	text-rendering: auto;
+	color: #444;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	height: 30px;
+}
+
+.projectNavCounter {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+    font-style: normal;
+	font-size: 12px;
+	letter-spacing: 0;
+	text-rendering: auto;
+	color: #444;
+	font-size: 12px;
+	padding-top: 11px;
+	float: right;
+	text-align: right;
+}
+
+.projectNavClose button, .projectNavButtons button, .projectNavEnlarge button {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+    font-style: normal;
+	font-size: 11px;
+	line-height: 1.2;
+	text-rendering: auto;
+	color: #444;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+	text-decoration: none;
+}
+
+.projectNav button:hover, .projectNav button:active, .projectNav button:focus {
+	color: #777;
+	outline: 0;
+}
+
+.projectNavInactive, button.projectNavInactive, button.projectNavInactive:hover, button.projectNavInactive:active {
+	color: #ccc;
+	text-decoration: none;
+	cursor: auto;
+}
+
+.projectNavEnlarge {
+	float: left;
+	/*padding-left: 1px;*/
+	padding-top: 7px\9; /* IE adjustment */
+	width: auto;
+}
+
+.projectNavClose {
+	float: right;
+
+	padding-top: 7px\9; /* IE adjustment */
+}
+
+.projectNavButtons {
+
+	padding-top: 7px\9; /* IE adjustment */
+	text-align: center;
+}
+
+/* Tweak positioning slightly in Firefox */
+@-moz-document url-prefix() {
+	.projectNavEnlarge, .projectNavClose, .projectNavButtons {
+		padding-top: 7px;
+	}
+}
+
+.projectInfo, .linedList {
+}
+
+.projectInfo p:nth-of-type(1) {
+}
+
+.projectInfo p:nth-last-child(2) {
+}
+
+
+.projectInfo strong {
+	color: #444;
+}
+
+.projectInfo p, .projectInfo li {
+	font-size: 0.9em;
+}
+
+.projectInfo ul {
+	margin-top: -8px;
+	margin-bottom: 7px;
+}
+
+.projectInfo p + ul {
+	margin-top: -20px;
+}
+
+.projectInfo li, .linedList li {
+	border-top: 1px solid #ddd;
+	margin-top: 6px;
+	margin-bottom: -1px;
+	padding-top: 6px;
+	padding-bottom: 0px;
+}
+
+.projectInfo li:first-child {
+	border-top: none;
+}
+
+.projectInfo li:last-child {
+	margin-bottom: -2px;
+}
+
+.linedList {
+	padding-bottom: 7px;
+}
+
+#about img, #detailView img {
+	max-width: 100%;
+	height: auto;
+}
+
+#detailView img {
+	padding-bottom: 12px;
+}
+
+#detailViewImages {
+	text-align: center;
+}
+
+#detailViewBack {
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: -18px;
+}
+
+#detailViewBack a {
+	text-decoration: none;
+}
+
+.video {
+	margin-bottom: 30px;
+}
+
+#faq p:first-child, #heroNav a, #heroNav a:visited, .contentModule a, .contentModule a:visited {
+	color: #333333;
+}
+
+#formField {
+	border: 1px solid #555555;
+	margin: 0;
+	width: 200px;
+	height: 20px;
+	display: inline;
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+    font-style: normal;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0;
+	text-decoration: none;
+	text-transform: none;
+	text-rendering: auto;
+}
+
+#formSubmit {
+	display: inline;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border: none;
+	background: none;
+	padding-left: 5px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+    font-style: normal;
+	font-size: 12px;
+	line-height: 1.2;
+	letter-spacing: 0.09em;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-rendering: auto;
+	text-shadow: none;
+	-webkit-transition: color 0.2s ease-out;
+	-moz-transition: color 0.2s ease-out;
+	-o-transition: color 0.2s ease-out;
+	transition: color 0.2s ease-out;
+}
+
+#formField, #content #heroNav ul li, #footerLinks li, #heroNav, .contentModule {
+	border-color: #dddddd;
+}
+
+#formSubmit, #formField {
+	color: #444444;
+}
+
+#formField {
+	background: #fff;
+}
+
+#formField:focus {
+	background: #fff;
+}
+
+#content img {
+	max-width: 100%;
+	height: auto;
+}
+
+#hero {
+	margin-top: -15px;
+	margin-bottom: -1px;
+}
+
+#heroNav {
+	margin-top: 20px;
+	padding-top: 18px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	margin-bottom: 26px;
+}
+
+#content #heroNav ul li {
+	display: inline;
+	padding-left: 12px;
+	margin-left: 0;
+	border-right: 1px solid;
+	padding-right: 15px;
+}
+
+#content #heroNav ul li:last-child {
+	border-right: none;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+#heroNav ul li:first-child {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#heroNav ul {
+	text-align: center;
+	margin-bottom: 18px;
+}
+
+#heroNav a {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+    font-style: normal;
+	font-size: 16px;
+	line-height: 1.2;
+	letter-spacing: 0;
+	text-decoration: underline;
+	text-transform: none;
+	text-rendering: auto;
+}
+
+#content ul li {
+	list-style-type: disc;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+.contentModule ul, .contentModule ol {
+	padding-top: 8px;
+}
+
+#footerLinks li {
+	font-weight: bold;
+	font-size: 12px;
+	display: inline;
+	padding-left: 12px;
+	margin-left: 0;
+	border-right: 1px solid;
+	padding-right: 15px;
+}
+
+#footerLinks li:first-child {
+	padding-left: 0;
+}
+
+#footerLinks li:last-child {
+	border-right: none;
+}
+
+.contentModule {
+	margin-bottom: 22px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid;
+}
+
+.contentModule p {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	line-height: 1.4;
+}
+
+.contentModule li:first-child, .contentModule p:first-child {
+	margin-top: -3px;
+}
+
+.contentModule:last-child {
+	border-bottom: none;
+}
+
+.thumbnailMask {
+	/*background-image: url("../images/masks/rounded.png");*/
+	/*
+	Disable pointer events to allow swipe navigation - needed to use a svg instead of a div since no versions of IE support pointer events on divs
+	*/
+	pointer-events: none;
+	position: absolute;
+	z-index: 24;
+}
+
+
+/*===================================================================================================
+18) Print
+===================================================================================================*/
+@media print {
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */

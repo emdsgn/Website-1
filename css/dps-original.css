@@ -11,3 +11,4 @@
 {% include css/normalize.css %}
 {% include css/bookblock.css %}
 {% include css/book-component.css %}
+{% include css/base.css %}
