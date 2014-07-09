@@ -594,7 +594,7 @@ button.currentPage:hover {
 .projectThumbnailHover h4 {
 	font-weight: normal;
     font-style: normal;
-	font-size: 2em;
+	font-size: 1.2em;
 	text-rendering: auto;
 	color: #fff;
 	position: absolute;
