@@ -618,6 +618,9 @@ button.currentPage:hover {
 
 .projectInfo {
 	overflow: hidden;
+}
+
+.p-info {
 	padding: 1em;
 }
 
@@ -947,6 +950,49 @@ button.currentPage:hover {
 	pointer-events: none;
 	position: absolute;
 	z-index: 24;
+}
+
+@media only screen and (min-width: 20em) {
+	.projectThumbnailHover h4 {
+		font-size: 1.5em;
+	}
+
+	.p-info {
+		padding: 2em;
+	}
+}
+
+@media only screen and (min-width: 22.5em) {
+	.projectThumbnailHover h4 {
+	font-size: 1.9em;
+	}
+}
+
+
+@media only screen and (min-width: 37.5em) {
+	.projectThumbnailHover h4 {
+	font-size: 2.5em;
+	}
+
+	.p-info {
+		padding: 4em;
+	}
+
+		.projectInfo h4 {
+	font-size: 1.5em;
+	}
+
+	.projectNav {
+	height: 28px;
+	}
+
+	.projectNavClose button, .projectNavButtons button, .projectNavEnlarge button {
+			font-size: 12px;
+	}
+
+	.projectInfo p, .projectInfo li {
+	font-size: 1em;
+	}
 }
 
 

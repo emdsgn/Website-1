@@ -167,6 +167,10 @@
 	padding: 0 1em 0 0;
 }
 
+figcaption .body {
+	font-size: 1em;
+}
+
 /* Navigation */
 .nav-next-1 {
 	font-size: 3em;

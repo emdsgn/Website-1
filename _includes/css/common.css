@@ -495,7 +495,7 @@ h4 {
 }
 
 .copyright {
-    padding: 0 1em 0.5em 1em;
+    padding: 1em;
     width: 100%;
 }
 
@@ -655,7 +655,7 @@ h4 {
   }
 
   .logo-spacer {
-    padding: 3em 1em;
+    padding: 2.8em 1em;
   }
 
   /* MEDICAL EDUCATION */
@@ -1061,6 +1061,10 @@ h4 {
     border-bottom: 1px solid #FFF;
   }
 
+  .leader-text .sub-body {
+    color: #FFF;
+  }
+
   /* SERVICES */
   .sub-nav {
     padding: 0;
@@ -1201,18 +1205,18 @@ h4 {
   .work-med {
     text-align: center;
     padding: 2em 4em;
-    background-color: #152a3f;
-    color: #FFF;
+    color: #000;
+    border-top: 1px solid #000;
   }
 
   .work-w h3,
   .work-med h3 {
-    border-color: #FFF;
+    border-color: #000;
   }
 
   .work-w .sub-body,
   .work-med .sub-body {
-    color: #FFF;
+    color: #000;
   }
 
   /* MEDICAL EDUCATION */
@@ -1334,7 +1338,7 @@ height: 383px;
 
 @media only screen and (min-width: 64em) {
   sticknav {
-    height: 8.3%;
+    height: 9.9%;
   }
 
   .flex-logo-2 {
@@ -1362,7 +1366,7 @@ height: 383px;
   }
 
   .logo-spacer {
-    padding: 2em 1em;
+    padding: 1.15em 1em;
   }
 
   /* SERVICES */
@@ -1480,7 +1484,7 @@ padding: 5.6em 3em;
   }
 
   .copyright {
-    padding: 0.5em 1em 0.5em 1em;
+    padding: 0.5em;
   }
 }
 
@@ -1572,7 +1576,7 @@ padding: 2.5em 1em;
 
   /* DPS ORGINAL MARKETING */
   .logo-2 h3 {
-    font-size: 4.88em;
+    font-size: 4.6em;
   }
 
   .communications,
@@ -1590,6 +1594,10 @@ padding: 2.5em 1em;
   .flex-logo-2 {
     width: 26.4%;
   }
+
+  .flex-logo-5 {
+width: 27.5%;
+}
 
   #cssmenu a {
     padding: 0 58.7px;
