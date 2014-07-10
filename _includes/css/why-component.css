@@ -53,6 +53,7 @@
 	width: 33.3%;
 	float: left;
 	cursor: pointer;
+	list-style: none;
 }
 
 .why-dps-1 figure {
@@ -155,6 +156,7 @@
 	overflow: hidden;
 	color: #000;
 	padding: 5em;
+	text-align: justify;
 }
 
 .slideshow figcaption {
@@ -174,7 +176,7 @@ figcaption .body {
 /* Navigation */
 .nav-next-1 {
 	font-size: 3em;
-	padding: 76% 0 76% 1em;
+	padding: 1.31em 0 1.31em 2.7em;
 }
 
 .slideshow nav span {
@@ -272,26 +274,36 @@ span.nav-close:before {
 
 /* MARKETING SECTION */
 /* General style */
-.grid-gallery-1 ul {
+.grid-gallery-1,
+.grid-gallery-2,
+.grid-gallery-3 ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 
-.grid-gallery-1 figure {
+.grid-gallery-1,
+.grid-gallery-2,
+.grid-gallery-3 figure {
 	margin: 0;
 }
 
-.grid-gallery-1 figure img {
+.grid-gallery-1,
+.grid-gallery-2,
+.grid-gallery-3 figure img {
 	display: block;
 	width: 100%;
 }
 
-.grid-gallery-1 figcaption h3 {
+.grid-gallery-1,
+.grid-gallery-2,
+.grid-gallery-3 figcaption h3 {
 	margin: 0;
 }
 
-.grid-gallery-1 figcaption p {
+.grid-gallery-1,
+.grid-gallery-2,
+.grid-gallery-3 figcaption p {
 	margin: 0;
 	padding: 0.5em 0;
 	font-weight: 300;
@@ -314,7 +326,7 @@ span.nav-close:before {
 }
 
 .why-dps-1 figure {
-	-webkit-transition: opacity 0.2s;
+	-webkit-transition: opagridcity 0.2s;
 	transition: opacity 0.2s;
 }
 
@@ -361,16 +373,19 @@ span.nav-close:before {
 	transform: translate3d(0,0,150px);
 	-webkit-transition: -webkit-transform 0.5s;
 	transition: transform 0.5s;
+	margin: 0 auto;
 }
 
 .slideshow-1 ul.animatable li {
 	-webkit-transition: -webkit-transform 0.5s;
 	transition: transform 0.5s;
+	margin: 0 auto;
 }
 
 .slideshow-1-open .slideshow-1 ul {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+	margin: 0 auto;
 }
 
 .slideshow-1 li {
@@ -415,6 +430,7 @@ span.nav-close:before {
 	/* background-color: rgba(0,0,0,0.5); */
 	padding: 5em;
 	background-position: center center;
+	text-align: justify;
 }
 
 .slideshow-1 figcaption {
@@ -594,6 +610,13 @@ span.nav-close:before {
 	}
 }
 
+@media only screen and (min-width: 48em) {
+	.nav-next-1 {
+		font-size: 3em;
+		padding: 1.31em 0 1.31em 2.7em;
+	}
+}
+
 @media only screen and (min-width: 64em) {
 .slideshow li {
 	width: 800px;
@@ -630,7 +653,7 @@ padding: 2em;
 	width: 850px;
 	left: 17%;
 	}
-	
+
 	.slideshow figure {
 		padding: 3em;
 	}
@@ -651,12 +674,16 @@ padding: 2em;
 		width: 850px;
 		left: 18.5%;
 	}
+
+	figcaption .body {
+font-size: 1.1em;
+}
 }
 
-@media only screen (min-width: 90em) {
-	.slideshow li {
+@media only screen and (min-width: 100em) {
+.slideshow li {
 width: 850px;
-left: 20.5%;
+left: 23%;
 }
 
 .slideshow-1 figure {

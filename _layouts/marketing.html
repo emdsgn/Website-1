@@ -35,14 +35,14 @@
             <ul class="dl-submenu">
               <li><a href='{{site.baseurl}}/#medical'>Medical Education</a></li>
               <li><a href='{{site.baseurl}}/#workshop'>Workshops & Training</a></li>
-              <li><a href='{{site.baseurl}}/#market'>Marketing</a></li>
+              <li><a href='{{site.baseurl}}/#market'>DPS Marketing & Design</a></li>
             </ul>
           </li>
           <li><a href="{{site.baseurl}}#work">Work</a>
             <ul class="dl-submenu">
               <li><a href='{{site.baseurl}}/medical.html#med'>Medical Education</a></li>
               <li><a href='{{site.baseurl}}/workshop.html#work'>Workshops & Training</a></li>
-              <li><a href='{{site.baseurl}}/marketing.html#mark'>Marketing</a></li>
+              <li><a href='{{site.baseurl}}/marketing.html#mark'>DPS Marketing & Design</a></li>
             </ul>
           </li>
           <li><a href="#contact">Contact</a></li>
@@ -93,7 +93,7 @@
 {{content}}
 
 {% include footer.html %}
-  
+
   <script src="js/bookblock.min.js"></script>
   <script src="js/classie.js"></script>
   <script src="js/bookshelf.js"></script>
@@ -135,6 +135,33 @@
               }
           });
       });
+</script>
+<script>
+$(document).ready(function(){
+
+  // hide #back-top first
+  $("#back-top").show();
+  
+  // fade in #back-top
+  $(function () {
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) {
+        $('#back-top').fadeIn();
+      } else {
+        $('#back-top').fadeOut();
+      }
+    });
+
+    // scroll body to 0px on click
+    $('#back-top a').click(function () {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    });
+  });
+
+});
 </script>
 </body>
 </html>
