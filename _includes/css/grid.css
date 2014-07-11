@@ -33,6 +33,12 @@
   }
 }
 
+@media only screen and (min-width: 15em) {
+  .unit-s-1-1 {
+    display: block;
+  }
+}
+
 @media only screen and (min-width: 20em) {
   .unit-s-1-1 {
     display: block;

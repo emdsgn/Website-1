@@ -401,10 +401,10 @@ body {
 .page-layout-15:last-child .right,
 .page-layout-16:last-child .right {
     position: absolute;
-    top: 4%;
-    left: 73%;
+    top: 8%;
+    left: 84%;
     margin: 0;
-    max-width: 200px;
+    max-width: 120px;
     width: 100%;
     -webkit-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
@@ -413,7 +413,7 @@ body {
 .page-layout-1:last-child .right,
 .page-layout-2:last-child .right {
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1em;
     background-color: #eb1e23;
     border-bottom: none;
     padding: 0.5em;
@@ -629,12 +629,13 @@ body {
 
 .page-layout-10:last-child .right {
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1em;
     background-color: #0c90dc;
     border-bottom: none;
     padding: 0.5em;
     text-align: center;
     color: #FFF;
+    letter-spacing: 1px;
 }
 
 .page-layout-11:last-child {
@@ -648,12 +649,13 @@ body {
 
 .page-layout-11:last-child .right {
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1em;
     background-color: #eb6130;
     border-bottom: none;
     padding: 0.5em;
     text-align: center;
     color: #FFF;
+    letter-spacing: 1px;
 }
 
 .page-layout-12:last-child {
@@ -667,12 +669,13 @@ body {
 
 .page-layout-12:last-child .right {
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1em;
     background-color: #7294c5;
     border-bottom: none;
     padding: 0.5em;
     text-align: center;
     color: #FFF;
+    letter-spacing: 1px;
 }
 
 .page-layout-13:last-child {
@@ -686,12 +689,13 @@ body {
 
 .page-layout-13:last-child .right {
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1em;
     background-color: #739c5b;
     border-bottom: none;
     padding: 0.5em;
     text-align: center;
     color: #FFF;
+    letter-spacing: 1px;
 }
 
 .page-layout-14:last-child {
@@ -705,12 +709,13 @@ body {
 
 .page-layout-14:last-child .right {
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1em;
     background-color: #02335c;
     border-bottom: none;
     padding: 0.5em;
     text-align: center;
     color: #FFF;
+    letter-spacing: 1px;
 }
 
 .page-layout-15:last-child {
@@ -724,12 +729,13 @@ body {
 
 .page-layout-15:last-child .right {
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1em;
     background-color: #d9a143;
     border-bottom: none;
     padding: 0.5em;
     text-align: center;
     color: #FFF;
+    letter-spacing: 1px;
 }
 
 .page-layout-16:last-child {
@@ -743,12 +749,13 @@ body {
 
 .page-layout-16:last-child .right {
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1em;
     background-color: #1d5f89;
     border-bottom: none;
     padding: 0.5em;
     text-align: center;
     color: #FFF;
+    letter-spacing: 1px;
 }
 
 /* Book navigation */
@@ -795,7 +802,7 @@ body {
     position: absolute;
     top: 0;
     left: 25%;
-    width: 1px;
+    width: 2px;
     height: 50%;
     background: #333;
     content: '';
@@ -804,7 +811,7 @@ body {
 .bb-custom-wrapper > nav a.bb-nav-close::before,
 .bb-custom-wrapper > nav a.bb-nav-close::after {
     top: 15%;
-    left: 50%;
+    left: 45%;
     height: 70%;
 }
 
