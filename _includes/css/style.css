@@ -228,6 +228,41 @@ padding: 3.91em 0;
 }
 }
 
+@media only screen and (min-width: 54em) {
+  #timeline {
+    height: 300px;
+  }
+
+  .timeline-wrapper {
+		height: 380px;
+	}
+
+  #issues {
+	height: 380px;
+	}
+
+  #issues li {
+		width: 868px;
+	}
+
+	#issues li h1 {
+margin: 0 1em 0 3.8em;
+}
+
+#issues li h2 {
+margin: 0 1em 0 3.8em;
+}
+
+.middle {
+padding: 1.5em 0;
+}
+
+  #next,
+  #prev {
+padding: 3.46em 0;
+}
+}
+
 @media only screen and (min-width: 64em) {
   #timeline {
     height: 352px;
