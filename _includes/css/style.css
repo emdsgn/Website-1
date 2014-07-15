@@ -593,21 +593,33 @@ height: 527px;
 #issues li {
 	width: 1550px;
 }
+
+#issues li p {
+padding: 0 11em 0.5em 0;
+}
 }
 
 @media only screen and (min-width: 100em) {
 	#timeline {
-		height: 550px;
-	}
+height: 544px;
+}
 
 	#issues li {
 		width: 1600px;
 	}
+
+	.middle-2 {
+padding: 1.6em 0;
+}
+
+.middle {
+padding: 3.1em 0;
+}
 }
 
 @media only screen and (min-width: 105em) {
 	#timeline {
-		height: 580px;
+		height: 572px;
 	}
 
 	#issues li {
@@ -615,16 +627,78 @@ height: 527px;
 	}
 }
 
+@media only screen and (min-width: 109em) {
+	#timeline {
+height: 596px;
+}
+
+#issues li {
+		width: 1750px;
+	}
+
+#issues li p {
+padding: 0 17em 0.5em 0;
+}
+
+#issues li h1 {
+margin: 0 1em 0 7.5em;
+}
+
+#issues li h2 {
+padding: 0 0 0 5em;
+}
+}
+
+@media only screen and (min-width: 112em) {
+	#timeline {
+height: 614px;
+}
+
+#issues li {
+		width: 1800px;
+	}
+
+#issues li h1 {
+margin: 0 1em 0 8em;
+}
+
+#issues li h2 {
+padding: 0 0 0 6.5em;
+}
+}
+
+@media only screen and (min-width: 115em) {
+#issues li {
+		width: 1850px;
+	}
+
+	#timeline {
+height: 630px;
+}
+
+#issues li h1 {
+margin: 0 1em 0 8.5em;
+}
+}
+
 @media only screen and (min-width: 119em) {
 	#timeline {
-		height: 660px;
+		height: 655px;
 	}
 
 	#issues li {
 		width: 1920px;
 	}
 
-	#next, #prev {
-		top: 416%;
-	}
+	#issues li p {
+padding: 0 22em 0.5em 0;
+}
+
+#issues li h1 {
+margin: 0 1em 0 9em;
+}
+
+#issues li h2 {
+padding: 0 0 0 7em;
+}
 }

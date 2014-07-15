@@ -2135,10 +2135,16 @@ padding: 0 70px;
 padding: 15em 14em 14.6em 56em;
 }
 
-
+.leader-text {
+padding: 11.6em 5em;
+}
 }
 
 @media only screen and (min-width: 100em) {
+  sticknav {
+height: 6.4%;
+}
+
   .flex-logo-2 {
     width: 23%;
   }
@@ -2146,6 +2152,14 @@ padding: 15em 14em 14.6em 56em;
   #cssmenu a {
     padding: 0 73.3px;
   }
+
+.company {
+padding: 16em 15em 15em 58em;
+}
+
+.leader-text {
+padding: 12.1em 5em;
+}
 
   /* SERVICES */
 
@@ -2180,21 +2194,25 @@ padding: 15em 14em 14.6em 56em;
 }
 
 @media only screen and (min-width: 105em) {
-  sticknav {
-    height: 6.5%;
-  }
+sticknav {
+height: 5.6%;
+}
 
-  .flex-logo-2 {
-    width: 21.8%;
-  }
+.flex-logo-2 {
+width: 22.1%;
+}
 
-  #cssmenu a {
-    padding: 0 79.7px;
-  }
+#cssmenu a {
+padding: 0 78.6px;
+}
 
-  .company {
-    padding: 13em 16em;
-  }
+.company {
+padding: 17em 18em 17em 60em;
+}
+
+.leader-text {
+padding: 13em 5em;
+}
 
   /* SERVICE PAGES */
   /* MEDICAL EDUCATION */
@@ -2207,21 +2225,83 @@ padding: 15em 14em 14.6em 56em;
   /* DPS ORGINAL MARKETING */
 }
 
+@media only screen and (min-width: 109em) {
+.flex-logo-2 {
+width: 21.3%;
+}
+
+#cssmenu a {
+padding: 0 83.3px;
+}
+
+.company {
+padding: 18em 20em 18em 62em;
+}
+
+.leader-text {
+padding: 13.7em 5em;
+}
+
+.market-link {
+padding: 17.7em 4em;
+}
+}
+
+@media only screen and (min-width: 112em) {
+.flex-logo-2 {
+width: 20.6%;
+}
+
+#cssmenu a {
+padding: 0 86.6px;
+}
+
+.company {
+padding: 19em 17em 19em 68em;
+}
+
+.leader-text {
+padding: 14.2em 5em;
+}
+}
+
+@media only screen and (min-width: 115em) {
+  .flex-logo-2 {
+width: 20%;
+}
+
+#cssmenu a {
+padding: 0 90px;
+}
+
+.company {
+padding: 20em 17em 20em 70em;
+}
+
+.leader-text {
+padding: 14.7em 5em;
+}
+}
+
 @media only screen and (min-width: 119em) {
   .flex-logo-2 {
-    width: 19.4%;
-  }
+width: 19.7%;
+}
 
-  #cssmenu a {
-    padding: 0 95.6px;
-  }
+#cssmenu a {
+padding: 0 94.5px;
+}
 
-  .company {
-    padding: 13em 20em;
-  }
+.company {
+padding: 21em 20em 21em 73em;
+}
+
+.leader-text {
+padding: 15.4em 5em;
+}
 
   .market-link {
-    padding: 17.5em 4em;
+    padding: 18em 4em;
   }
 
   /* SERVICE PAGES */

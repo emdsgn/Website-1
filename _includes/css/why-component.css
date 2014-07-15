@@ -701,14 +701,21 @@ padding: 6em 18em;
 }
 
 @media only screen and (min-width: 100em) {
-.slideshow li {
-width: 850px;
-left: 23%;
-}
-
 .slideshow-1 figure {
 padding: 15em;
 background-position: center center;
 background-size: cover;
+}
+}
+
+@media only screen and (min-width: 112em) {
+	.slideshow figure {
+padding: 6em 25em;
+}
+}
+
+@media only screen and (min-width: 119em) {
+	.slideshow figure {
+padding: 6em 30em;
 }
 }
