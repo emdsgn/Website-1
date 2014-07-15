@@ -1329,3 +1329,194 @@ body {
       transform: rotateY(90deg);
   }
 }
+
+@media screen and (min-width: 50em) {
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+padding: 75em 2em;
+}
+}
+
+@media only screen and (min-width: 54em) {
+.page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+left: 85.5%;
+}
+
+.page-layout-13:last-child {
+background: url(../img/agenda-1.jpg) center;
+background-size: cover;
+}
+
+.page-layout-15:last-child {
+background: url(../img/agenda-3.jpg) center;
+background-size: cover;
+}
+
+.page-layout-16:last-child {
+background: url(../img/agenda-4.jpg) center;
+background-size: cover;
+}
+}
+
+@media only screen and (min-width: 56em) {
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+padding: 33em 2em;
+}
+}
+
+@media only screen and (min-width: 60em) {
+    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+left: 87%;
+}
+}
+
+@media only screen and (min-width: 64em) {
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+padding: 30em 2em;
+}
+
+    .page-layout-1 h3, .page-layout-1 p, .page-layout-2 h3, .page-layout-5 h3, .page-layout-6 h3, .page-layout-8 h3, .page-layout-9 h3 {
+    top: 5%;
+    left: 17%;
+    margin: 0;
+    max-width: 35%;
+    }
+
+.page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+left: 88%;
+}
+
+    .page-layout-2 {
+    background: url(../img/maxwalk-4.jpg) top center;
+    background-size: cover;
+    }
+
+    .page-layout-2:last-child {
+        background: url(../img/maxwalk-5_1.jpg) center;
+        background-size: cover;
+    }
+
+    .page-layout-3:last-child {
+        background: url(../img/maxwalk-1.jpg) left;
+        background-size: cover;
+    }
+
+    .page-layout-5:last-child {
+        background: url(../img/nitor-3.jpg) center;
+        background-size: cover;
+    }
+
+    .page-layout-6 {
+        background: url(../img/nitor-4.jpg) top center;
+        background-size: cover;
+    }
+
+    .page-layout-7:last-child {
+        background: url(../img/iah-1.jpg) right;
+        background-size: cover;
+    }
+
+    .page-layout-8:last-child {
+        background: url(../img/iah-3.jpg) left;
+        background-size: cover;
+    }
+
+    .page-layout-9 {
+        background: url(../img/iah-4.jpg) center center;
+        background-size: cover;
+    }
+
+    .page-layout-9:last-child {
+        background: url(../img/iah-5.jpg) center;
+        background-size: cover;
+    }
+
+    .page-layout-11:last-child {
+background: url(../img/medtronic-1.jpg) center;
+background-size: cover;
+}
+
+.page-layout-12:last-child {
+background: url(../img/pow-1.jpg) center;
+background-size: cover;
+}
+}
+
+@media only screen and (min-width: 66em) {
+    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+left: 89%;
+top: 13%;
+}
+
+.page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+padding: 40em 4em;
+}
+}
+
+@media only screen and (min-width: 68em) {
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+padding: 23em 4em;
+}
+}
+
+@media only screen and (min-width: 73em) {
+    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+left: 90%;
+}
+}
+
+@media only screen and (min-width: 80em) {
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+padding: 30em 4em;
+}
+}
+
+@media only screen and (min-width: 85em) {
+    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+left: 91%;
+}
+}
+
+@media only screen and (min-width: 87em) {
+    .page-layout-14:last-child {
+background: url(../img/agenda-2.jpg) center ;
+background-size: cover;
+}
+}
+
+@media only screen and (min-width: 89em) {
+    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+left: 91.5%;
+}
+
+.page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+padding: 28em 4em;
+}
+}
+
+@media only screen and (min-width: 96em) {
+    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+left: 92%;
+}
+}
+
+@media only screen and (min-width: 105em) {
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+padding: 40em 4em;
+}
+
+.page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+left: 93%;
+}
+}
+
+@media only screen and (min-width: 115em) {
+    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+left: 94%;
+}
+}
+
+@media only screen and (min-width: 119em) {
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+padding: 40em 10em;
+}
+}
