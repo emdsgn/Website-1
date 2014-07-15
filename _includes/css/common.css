@@ -1363,18 +1363,23 @@ padding: 1.7em 0;
   }
 
   #cssmenu a {
-padding: 0 21.2px;
+padding: 0 20.2px;
 }
 
 .company {
-padding: 2.3em 3em 2.3em 27em;
+padding: 2.3em 3em 2em 27em;
 }
+
+.leader-text {
+padding: 4.7em 5em;
+}
+
   .market-link {
-    padding: 8em 2em;
+    padding: 7.5em 2em;
   }
 
   #market-1 h3 {
-    font-size: 3.41em;
+    font-size: 3.31em;
   }
 
   .content {
@@ -1404,7 +1409,7 @@ width: 44%;
 }
 
 #cssmenu a {
-padding: 0 25.7px;
+padding: 0 24.8px;
 }
 
   .logo-spacer {
@@ -1412,11 +1417,15 @@ padding: 1.4em 1em;
 }
 
 .company {
-padding: 3em 3em 3em 33em;
+padding: 3em 3em 3em 31em;
+}
+
+.leader-text {
+padding: 5.4em 5em;
 }
 
 #market-1 h3 {
-font-size: 3.83em;
+font-size: 3.73em;
 }
 
 .market-link-1 {
@@ -1430,41 +1439,41 @@ width: 41%;
 
 @media only screen and (min-width: 56em) {
 #cssmenu a {
-padding: 0 28px;
+padding: 0 26.9px;
 }
 
 .company {
-padding: 4em 3em 4em 33em;
+padding: 4.5em 3em 4.3em 31em;
+}
+
+.leader-text {
+padding: 5.7em 5em;
 }
 
 #market-1 h3 {
-font-size: 4.04em;
+font-size: 3.93em;
 }
 }
 
 @media only screen and (min-width: 60em) {
-sticknav {
-height: 6.6%;
-}
-
 .flex-logo-2 {
 width: 38%;
 }
 
 #cssmenu a {
-padding: 0 32.1px;
+padding: 0 31.2px;
 }
 
 .company {
-padding: 6.2em 3em 6.2em 32.6em;
+padding: 6em 3em 5.9em 31.8em;
 }
 
 .leader-text {
-padding: 6.6em 5em;
+padding: 6.4em 5em;
 }
 
 #market-1 h3 {
-font-size: 4.45em;
+font-size: 4.34em;
 }
 
 .sub-nav a {
@@ -1478,19 +1487,19 @@ width: 37%;
 }
 
 #cssmenu a {
-padding: 0 34.3px;
+padding: 0 33.3px;
 }
 
 .company {
-padding: 7em 3em 6.6em 34em;
+padding: 7em 3em 6em 33.8em;
 }
 
 .leader-text {
-padding: 7em 5em;
+padding: 6.8em 5em;
 }
 
 #market-1 h3 {
-font-size: 4.63em;
+font-size: 4.54em;
 }
 }
 
@@ -1500,7 +1509,7 @@ font-size: 4.63em;
   }
 
   #cssmenu a {
-    padding: 0 35.9px;
+    padding: 0 34.9px;
   }
 
   #cssmenu ul ul {
@@ -1508,7 +1517,7 @@ font-size: 4.63em;
   }
 
 .company {
-padding: 6em 3em 5em 35em;
+padding: 5em 3em 5em 34em;
 }
 
   h3 {
@@ -1524,7 +1533,7 @@ padding: 6em 3em 5em 35em;
   }
 
   .leader-text {
-padding: 6.4em 5em;
+padding: 6.2em 5em;
 }
 
   /* SERVICES */
@@ -1541,11 +1550,11 @@ padding: 6.4em 5em;
   }
 
   .market-link {
-    padding: 11.84em 3em;
+    padding: 11em 3em;
   }
 
   #market-1 h3 {
-    font-size: 3.26em;
+    font-size: 3.18em;
   }
 
   .r-padding-2,
@@ -1658,19 +1667,19 @@ width: 35%;
 }
 
 #cssmenu a {
-padding: 0 38.8px;
+padding: 0 37.8px;
 }
 
 .company {
-padding: 6.3em 5em 6.2em 36em;
+padding: 6em 5em 6em 35em;
 }
 
 .leader-text {
-padding: 6.9em 5em;
+padding: 6.7em 5em;
 }
 
 #market-1 h3 {
-font-size: 3.55em;
+font-size: 3.45em;
 }
 }
 
@@ -1680,19 +1689,19 @@ width: 34%;
 }
 
 #cssmenu a {
-padding: 0 41px;
+padding: 0 40px;
 }
 
 .company {
-padding: 7em 5em 6.7em 38em;
+padding: 7em 5em 6em 37em;
 }
 
 .leader-text {
-padding: 7.2em 5em;
+padding: 7em 5em;
 }
 
 #market-1 h3 {
-font-size: 3.76em;
+font-size: 3.65em;
 }
 
 .sub-nav a {
@@ -1706,41 +1715,71 @@ width: 32%;
 }
 
 #cssmenu a {
-padding: 0 45.5px;
+padding: 0 44.5px;
 }
 
 .company {
-padding: 8em 7em 8em 40em;
+padding: 8em 6em 7.6em 40em;
 }
 
 .leader-text {
-padding: 7.9em 5em;
+padding: 7.7em 5em;
 }
 
 #market-1 h3 {
-font-size: 4.17em;
+font-size: 4.1em;
+}
+
+.market-link {
+padding: 11.1em 3em;
+}
+}
+
+@media only screen and (min-width: 75em) {
+#cssmenu a {
+padding: 0 46.7px;
+}
+
+.company {
+padding: 8.3em 6em 8.3em 42em;
+}
+
+.leader-text {
+padding: 8em 5em;
+}
+
+#market-1 h3 {
+font-size: 4.29em;
+}
+
+.market-link {
+padding: 12.3em 3em;
 }
 }
 
 @media only screen and (min-width: 80em) {
   sticknav {
-    height: 7.5%;
+    height: 7.4%;
   }
 
   .flex-logo-2 {
-    width: 29.3%;
+    width: 29.6%;
   }
 
   #cssmenu a {
     padding: 0 52.04px;
   }
 
-  .company {
-    padding: 11em 10em 11em 10em;
-  }
+.company {
+padding: 9.7em 7em 9.6em 44em;
+}
+
+.leader-text {
+padding: 8.8em 5em;
+}
 
   .logo-spacer {
-padding: 2.5em 1em;
+padding: 2em 1em;
 }
 
   /* SERVICES */
@@ -1823,31 +1862,61 @@ padding: 2.5em 1em;
   .flex-logo-5 {
 width: 27%;
 }
+
+#market-1 h3 {
+font-size: 4.46em;
+}
+}
+
+@media only screen and (min-width: 81em) {
+.flex-logo-2 {
+width: 29%;
+}
+
+#cssmenu a {
+padding: 0 53.3px;
+}
+
+.company {
+padding: 10em 7em 10em 47em;
+}
+
+.leader-text {
+padding: 9em 5em;
+}
+
+#market-1 h3 {
+font-size: 4.61em;
+}
 }
 
 @media only screen and (min-width: 85em) {
   sticknav {
-    height: 8%;
+    height: 7.7%;
   }
 
   .flex-logo-2 {
-    width: 28%;
-  }
+width: 27.6%;
+}
 
   #cssmenu a {
     padding: 0 57.7px;
   }
 
-  .leader-text h3 {
-    padding: 1em 0 0 0;
-  }
+  .company {
+padding: 11em 10em 11em 48em;
+}
+
+.leader-text {
+padding: 9.8em 5em;
+}
 
   #market-1 h3 {
-    font-size: 5.1em;
+    font-size: 5.02em;
   }
 
-  .logo-spacer {
-padding: 2.3em 1em;
+.logo-spacer {
+padding: 1.8em 1em;
 }
 
   /* SERVICE PAGES */
@@ -1890,30 +1959,60 @@ padding: 2.3em 1em;
   }
 }
 
+@media only screen and (min-width: 87em) {
+.flex-logo-2 {
+width: 27%;
+}
+
+#cssmenu a {
+padding: 0 60px;
+}
+
+.company {
+padding: 12em 10em 12em 50em;
+}
+
+.logo-spacer {
+padding: 1.6em 1em;
+}
+
+.leader-text {
+padding: 10em 5em;
+}
+
+#market-1 h3 {
+font-size: 5.25em;
+}
+
+.market-link {
+padding: 10.6em 4em;
+}
+}
+
 @media only screen and (min-width: 89em) {
   sticknav {
-    height: 8.3%;
+    height: 8.2%;
   }
 
   .flex-logo-2 {
-    width: 25.5%;
+    width: 25.8%;
   }
 
   #cssmenu a {
-    padding: 0 62.7px;
-  }
+padding: 0 62.5px;
+}
 
   .company {
     padding: 13em 10em 13em 50em;
   }
 
   .logo-spacer {
-padding: 3em 1.5em;
+padding: 1.3em 1.5em;
 }
 
-  .leader-text {
-    padding: 6em 0 0 0;
-  }
+.leader-text {
+padding: 10.5em 5em;
+}
 
   /* SERVICES */
   .sub-nav a {
@@ -1932,9 +2031,9 @@ padding: 10em 4em;
     padding: 16.5em 4em;
   }
 
-  #market-1 h3 {
-    font-size: 5.55em;
-  }
+#market-1 h3 {
+font-size: 5.49em;
+}
 
   .r-padding-2, .r-padding-3 {
 padding: 15em 18em 10em 5em;
@@ -1991,6 +2090,52 @@ padding: 15em 18em 10em 5em;
   .contact {
     padding: 8em 3em;
   }
+}
+
+@media only screen and (min-width: 93em) {
+sticknav {
+height: 7.7%;
+}
+
+.flex-logo-2 {
+width: 25%;
+}
+
+#cssmenu a {
+padding: 0 66.6px;
+}
+
+.company {
+padding: 14em 11em 13.4em 54em;
+}
+
+.leader-text {
+padding: 11.1em 5em;
+}
+
+#market-1 h3 {
+font-size: 5.88em;
+}
+
+.market-link {
+padding: 17em 4em;
+}
+}
+
+@media only screen and (min-width: 96em) {
+.flex-logo-2 {
+width: 24%;
+}
+
+#cssmenu a {
+padding: 0 70px;
+}
+
+.company {
+padding: 15em 14em 14.6em 56em;
+}
+
+
 }
 
 @media only screen and (min-width: 100em) {
