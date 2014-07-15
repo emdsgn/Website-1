@@ -524,7 +524,7 @@ h4 {
   }
 
   .content {
-    height: 1363px;
+  height: 1453px;
   }
 
   h3 {
@@ -733,6 +733,12 @@ h4 {
   }
 }
 
+@media only screen and (min-width: 38em) {
+  .content {
+height: 3677px;
+}
+}
+
 @media only screen and (min-width: 39em) {
   .logo {
     padding: 16% 0 11% 0;
@@ -917,17 +923,15 @@ h4 {
   }
 
   .show {
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.85);
   }
 
   sticknav {
-    height: 6.6%;
     width: 100%;
     margin-right: 0px;
     left: 0px;
     position: relative;
     z-index: 9999;
-    background: rgba(0,0,0,0);
     }
 
   .fixed {
@@ -1021,8 +1025,8 @@ h4 {
   .company {
     position: relative;
     color: #FFF;
-    padding: 1.5em 2em 1.4em 25em;
-    background-color: rgba(0,0,0,0.3);
+    padding: 2.3em 2em 2.3em 25em;
+    background-color: rgba(0,0,0,0.35);
     text-align: justify;
   }
 
@@ -1059,8 +1063,7 @@ h4 {
 
   /* LEADERSHIP */
   .leader-text {
-    text-align: center;
-    padding: 5em 0 0 0;
+    padding: 4.5em 5em;
   }
 
   .leader-text h3 {
@@ -1152,7 +1155,7 @@ h4 {
   }
 
   #market-1 h3 {
-    font-size: 3.09em;
+    font-size: 3.2em;
   }
 
   .work-link {
@@ -1356,19 +1359,22 @@ padding: 1.7em 0;
 
 @media only screen and (min-width: 50em) {
   .flex-logo-2 {
-    width: 47%;
+    width: 48%;
   }
 
-  sticknav {
-    height: 6.7%;
-  }
+  #cssmenu a {
+padding: 0 21.2px;
+}
 
+.company {
+padding: 2.3em 3em 2.3em 27em;
+}
   .market-link {
     padding: 8em 2em;
   }
 
   #market-1 h3 {
-    font-size: 3.3em;
+    font-size: 3.41em;
   }
 
   .content {
@@ -1397,12 +1403,20 @@ height: 383px;
 width: 44%;
 }
 
+#cssmenu a {
+padding: 0 25.7px;
+}
+
   .logo-spacer {
 padding: 1.4em 1em;
 }
 
 .company {
 padding: 3em 3em 3em 33em;
+}
+
+#market-1 h3 {
+font-size: 3.83em;
 }
 
 .market-link-1 {
@@ -1412,29 +1426,90 @@ padding: 6.6em 2em;
 .flex-logo-5 {
 width: 41%;
 }
+}
 
+@media only screen and (min-width: 56em) {
+#cssmenu a {
+padding: 0 28px;
+}
+
+.company {
+padding: 4em 3em 4em 33em;
+}
+
+#market-1 h3 {
+font-size: 4.04em;
+}
+}
+
+@media only screen and (min-width: 60em) {
+sticknav {
+height: 6.6%;
+}
+
+.flex-logo-2 {
+width: 38%;
+}
+
+#cssmenu a {
+padding: 0 32.1px;
+}
+
+.company {
+padding: 6.2em 3em 6.2em 32.6em;
+}
+
+.leader-text {
+padding: 6.6em 5em;
+}
+
+#market-1 h3 {
+font-size: 4.45em;
+}
+
+.sub-nav a {
+padding: 2em 0 0.5em 0;
+}
+}
+
+@media only screen and (min-width: 62em) {
+.flex-logo-2 {
+width: 37%;
+}
+
+#cssmenu a {
+padding: 0 34.3px;
+}
+
+.company {
+padding: 7em 3em 6.6em 34em;
+}
+
+.leader-text {
+padding: 7em 5em;
+}
+
+#market-1 h3 {
+font-size: 4.63em;
+}
 }
 
 @media only screen and (min-width: 64em) {
-  sticknav {
-    height: 9.9%;
-  }
-
   .flex-logo-2 {
-    width: 37%;
+    width: 36%;
   }
 
   #cssmenu a {
-    padding: 0 34.9px;
+    padding: 0 35.9px;
   }
 
   #cssmenu ul ul {
     min-width: 120px;
   }
 
-  .company {
-    padding: 7em;
-  }
+.company {
+padding: 6em 3em 5em 35em;
+}
 
   h3 {
     font-size: 3em;
@@ -1447,6 +1522,10 @@ width: 41%;
   .logo-spacer {
     padding: 1.15em 1em;
   }
+
+  .leader-text {
+padding: 6.4em 5em;
+}
 
   /* SERVICES */
   .sub-nav a {
@@ -1571,6 +1650,76 @@ padding: 5.6em 3em;
   .copyright {
     padding: 0.5em;
   }
+}
+
+@media only screen and (min-width: 66em) {
+.flex-logo-2 {
+width: 35%;
+}
+
+#cssmenu a {
+padding: 0 38.8px;
+}
+
+.company {
+padding: 6.3em 5em 6.2em 36em;
+}
+
+.leader-text {
+padding: 6.9em 5em;
+}
+
+#market-1 h3 {
+font-size: 3.55em;
+}
+}
+
+@media only screen and (min-width: 68em) {
+  .flex-logo-2 {
+width: 34%;
+}
+
+#cssmenu a {
+padding: 0 41px;
+}
+
+.company {
+padding: 7em 5em 6.7em 38em;
+}
+
+.leader-text {
+padding: 7.2em 5em;
+}
+
+#market-1 h3 {
+font-size: 3.76em;
+}
+
+.sub-nav a {
+font-size: 1.1em;
+}
+}
+
+@media only screen and (min-width: 73em) {
+.flex-logo-2 {
+width: 32%;
+}
+
+#cssmenu a {
+padding: 0 45.5px;
+}
+
+.company {
+padding: 8em 7em 8em 40em;
+}
+
+.leader-text {
+padding: 7.9em 5em;
+}
+
+#market-1 h3 {
+font-size: 4.17em;
+}
 }
 
 @media only screen and (min-width: 80em) {

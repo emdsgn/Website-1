@@ -64,7 +64,13 @@
   }
 }
 
-@media only screen and (min-width: 38em) and (max-width: 60em) {
+@media only screen and (max-width: 38em) {
+  .unit-s-1-1 {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 48em) and (max-width: 60em) {
   .unit-m-hidden {
     display: none;
     visibility: hidden;
