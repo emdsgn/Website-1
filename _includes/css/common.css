@@ -261,7 +261,7 @@ h3 {
 
 /* SERVICE PAGE COMMON CSSS */
 .logo-1 {
-  padding: 45% 1em 1.84em 1em;
+  padding: 40% 1em 1.84em 1em;
   position: relative;
   background-color: rgba(0,0,0,0.56);
   width: 100%;
@@ -286,7 +286,7 @@ h3 {
   color: #FFF;
   display: inline-block;
   border-bottom: 1px solid #FFF;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 .body-1 {
@@ -365,7 +365,7 @@ padding: 0.5em 0 0 1em;
   margin-top:0;
   padding:0px;
   bottom:0px;
-  height: 1062px;
+  height: 972px;
 }
 
 .demo{
@@ -524,7 +524,7 @@ h4 {
   }
 
   .content {
-  height: 1453px;
+  height: 1363px;
   }
 
   h3 {
@@ -538,11 +538,11 @@ h4 {
   }
 
   .logo-1 {
-    padding: 72% 1em 1em 1em;
+    padding: 67% 1em 1em 1em;
   }
 
   .logo-2 h3 {
-    font-size: 2.5em;
+    font-size: 2.4em;
   }
 
   .mob-padding {
@@ -573,7 +573,7 @@ h4 {
   }
 
   .content {
-    height: 1937px;
+    height: 1844px;
   }
 
   /* WORKSHOP */
@@ -607,11 +607,11 @@ h4 {
   }
 
   .content {
-    height: 2177px;
+    height: 2088px;
   }
 
   .logo-2 h3 {
-    font-size: 2.9em;
+    font-size: 2.8em;
   }
 }
 
@@ -625,6 +625,10 @@ h4 {
   .contact {
     padding: 2em;
   }
+
+  .content {
+height: 2522px;
+}
 }
 
 @media only screen and (min-width: 33em) {
@@ -676,8 +680,8 @@ h4 {
   }
 
   .content {
-    height: 3224px;
-  }
+height: 3132px;
+}
 
   /* WORKSHOP */
   .workshop,
@@ -694,6 +698,10 @@ h4 {
   .market-strategy {
     padding: 3em;
   }
+
+  .logo-2 h3 {
+font-size: 3em;
+}
 }
 
 @media only screen and (min-width: 37em) {
@@ -713,8 +721,8 @@ h4 {
   }
 
   .content {
-    height: 3630px;
-  }
+height: 3537px;
+}
 
   /* WORKSHOP */
   .workshop,
@@ -733,9 +741,13 @@ h4 {
   }
 }
 
-@media only screen and (min-width: 38em) {
-  .content {
-height: 3677px;
+@media only screen and (min-width: 37.6em) {
+.content {
+height: 3555px;
+}
+
+.logo-2 h3 {
+font-size: 3.7em;
 }
 }
 
@@ -743,6 +755,10 @@ height: 3677px;
   .logo {
     padding: 16% 0 11% 0;
   }
+
+  .content {
+height: 3684px;
+}
 }
 
 @media only screen and (min-width: 48em) {
@@ -1226,12 +1242,12 @@ height: 3677px;
   }
 
   .market-link-1 {
-    padding: 5.6em 2em;
+    padding: 4.7em 2em;
     background-color: rgba(0,0,0,0.3);
   }
 
   .med-link-1 {
-    padding: 2.1em 2em;
+    padding: 1.8em 2em;
     background-color: rgba(0,0,0,0.3);
   }
 
@@ -1281,7 +1297,7 @@ height: 3677px;
   .ad-board,
   .speak-forum,
   .med-research {
-    padding: 7.7em;
+    padding: 7em;
   }
 
   .inline {
@@ -1290,7 +1306,7 @@ height: 3677px;
   }
 
   .content {
-  height: 368px;
+  height: 360px;
 }
 
 .list-1 {
@@ -1318,7 +1334,7 @@ height: 3677px;
   }
 
   .logo-2 h3 {
-    font-size: 3.1em;
+    font-size: 3em;
   }
 
   .flex-logo-5 {
@@ -1383,7 +1399,7 @@ padding: 4.7em 5em;
   }
 
   .content {
-height: 383px;
+height: 376px;
 }
 
   /* MARKETING */
@@ -1424,6 +1440,10 @@ padding: 3em 3em 3em 31em;
 padding: 5.4em 5em;
 }
 
+.content {
+height: 409px;
+}
+
 #market-1 h3 {
 font-size: 3.73em;
 }
@@ -1450,6 +1470,10 @@ padding: 4.5em 3em 4.3em 31em;
 padding: 5.7em 5em;
 }
 
+.content {
+height: 424px;
+}
+
 #market-1 h3 {
 font-size: 3.93em;
 }
@@ -1470,6 +1494,10 @@ padding: 6em 3em 5.9em 31.8em;
 
 .leader-text {
 padding: 6.4em 5em;
+}
+
+.content {
+height: 457px;
 }
 
 #market-1 h3 {
@@ -1496,6 +1524,10 @@ padding: 7em 3em 6em 33.8em;
 
 .leader-text {
 padding: 6.8em 5em;
+}
+
+.content {
+height: 472px;
 }
 
 #market-1 h3 {
@@ -1614,7 +1646,7 @@ padding: 5.6em 3em;
   }
 
   .content {
-    height: 491px;
+    height: 484px;
   }
 
   /* WORKSHOP */
@@ -1678,6 +1710,10 @@ padding: 6em 5em 6em 35em;
 padding: 6.7em 5em;
 }
 
+.content {
+height: 521px;
+}
+
 #market-1 h3 {
 font-size: 3.45em;
 }
@@ -1698,6 +1734,10 @@ padding: 7em 5em 6em 37em;
 
 .leader-text {
 padding: 7em 5em;
+}
+
+.content {
+height: 552px;
 }
 
 #market-1 h3 {
@@ -1724,6 +1764,10 @@ padding: 8em 6em 7.6em 40em;
 
 .leader-text {
 padding: 7.7em 5em;
+}
+
+.content {
+height: 568px;
 }
 
 #market-1 h3 {
@@ -1838,7 +1882,7 @@ padding: 2em 1em;
   }
 
   .content {
-    height: 610px;
+    height: 606px;
   }
 
   /* WORKSHOP */
@@ -1883,6 +1927,10 @@ padding: 10em 7em 10em 47em;
 
 .leader-text {
 padding: 9em 5em;
+}
+
+.content {
+height: 616px;
 }
 
 #market-1 h3 {
@@ -1931,7 +1979,7 @@ padding: 1.8em 1em;
   }
 
   .content {
-    height: 655px;
+    height: 647px;
   }
 
   /* WORKSHOP */
@@ -1978,6 +2026,10 @@ padding: 1.6em 1em;
 
 .leader-text {
 padding: 10em 5em;
+}
+
+.content {
+height: 664px;
 }
 
 #market-1 h3 {
@@ -2063,8 +2115,8 @@ padding: 15em 18em 10em 5em;
   }
 
   .content {
-    height: 690px;
-  }
+height: 684px;
+}
 
   /* WORKSHOP */
   .workshop,
@@ -2094,7 +2146,7 @@ padding: 15em 18em 10em 5em;
 
 @media only screen and (min-width: 93em) {
 sticknav {
-height: 7.7%;
+height: 6.7%;
 }
 
 .flex-logo-2 {
@@ -2111,6 +2163,10 @@ padding: 14em 11em 13.4em 54em;
 
 .leader-text {
 padding: 11.1em 5em;
+}
+
+.content {
+height: 712px;
 }
 
 #market-1 h3 {
@@ -2137,6 +2193,10 @@ padding: 15em 14em 14.6em 56em;
 
 .leader-text {
 padding: 11.6em 5em;
+}
+
+.content {
+height: 736px;
 }
 }
 
@@ -2179,7 +2239,7 @@ padding: 12.1em 5em;
   }
 
   .content {
-    height: 767px;
+    height: 760px;
   }
 
   /* WORKSHOP */
@@ -2214,6 +2274,10 @@ padding: 17em 18em 17em 60em;
 padding: 13em 5em;
 }
 
+.content {
+height: 798px;
+}
+
   /* SERVICE PAGES */
   /* MEDICAL EDUCATION */
   .content {
@@ -2242,6 +2306,10 @@ padding: 18em 20em 18em 62em;
 padding: 13.7em 5em;
 }
 
+.content {
+height: 831px;
+}
+
 .market-link {
 padding: 17.7em 4em;
 }
@@ -2263,6 +2331,10 @@ padding: 19em 17em 19em 68em;
 .leader-text {
 padding: 14.2em 5em;
 }
+
+.content {
+height: 856px;
+}
 }
 
 @media only screen and (min-width: 115em) {
@@ -2280,6 +2352,10 @@ padding: 20em 17em 20em 70em;
 
 .leader-text {
 padding: 14.7em 5em;
+}
+
+.content {
+height: 880px;
 }
 }
 
@@ -2309,7 +2385,7 @@ padding: 15.4em 5em;
 
 
   .content {
-    height: 920px;
+    height: 913px;
   }
 
   /* WORKSHOP */

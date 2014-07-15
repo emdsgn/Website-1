@@ -500,7 +500,7 @@ body {
 .page-layout-14 .title-pg,
 .page-layout-15 .title-pg,
 .page-layout-16 .title-pg
-{ padding: 45em 2em; }
+{ padding: 55em 2em; }
 
 .page-layout-3 .title-pg h3,
 .page-layout-4 .title-pg h3,
@@ -515,7 +515,7 @@ body {
     margin: 0;
     text-transform: capitalize;
     font-weight: 300;
-    font-size: 4em;
+    font-size: 3.1em;
     width: 100%;
 }
 
@@ -623,8 +623,8 @@ body {
     right: 0;
     width: 50%;
     height: 100%;
-    background: url(../img/spriva-1.jpg) left;
-    background-size: contain;
+    background: url(../img/spriva-1.jpg) center;
+    background-size: cover;
 }
 
 .page-layout-10:last-child .right {
@@ -683,8 +683,8 @@ body {
     right: 0;
     width: 50%;
     height: 100%;
-    background: url(../img/agenda-1.jpg) left;
-    background-size: contain;
+    background: url(../img/agenda-1.jpg) center;
+    background-size: cover;
 }
 
 .page-layout-13:last-child .right {
@@ -723,8 +723,8 @@ body {
     right: 0;
     width: 50%;
     height: 100%;
-    background: url(../img/agenda-3.jpg) left;
-    background-size: contain;
+    background: url(../img/agenda-3.jpg) center;
+    background-size: cover;
 }
 
 .page-layout-15:last-child .right {
@@ -743,8 +743,8 @@ body {
     right: 0;
     width: 50%;
     height: 100%;
-    background: url(../img/agenda-4.jpg) left;
-    background-size: contain;
+    background: url(../img/agenda-4.jpg) center;
+    background-size: cover;
 }
 
 .page-layout-16:last-child .right {
@@ -1291,95 +1291,7 @@ body {
 
 /* Media Queries */
 
-@media only screen and (min-width: 54em) {
-    .page-layout-10:last-child {
-background: url(../img/spriva-1.jpg) center;
-background-size: cover;
-}
-.page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
-left: 87%;
-}
-
-.page-layout-13:last-child {
-background: url(../img/agenda-1.jpg) center;
-background-size: cover;
-}
-
-.page-layout-15:last-child {
-background: url(../img/agenda-3.jpg) center;
-background-size: cover;
-}
-
-.page-layout-16:last-child {
-background: url(../img/agenda-4.jpg) center;
-background-size: cover;
-}
-}
-
-@media only screen and (min-width: 64em) {
-    .page-layout-3:last-child {
-        background: url(../img/maxwalk-1.jpg) left;
-        background-size: cover;
-    }
-
-    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg {
-    padding: 65% 10% 10% 10%;
-    }
-    .page-layout-1 h3, .page-layout-1 p, .page-layout-2 h3, .page-layout-5 h3, .page-layout-6 h3, .page-layout-8 h3, .page-layout-9 h3 {
-    top: 5%;
-    left: 17%;
-    margin: 0;
-    max-width: 35%;
-    }
-
-    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right {
-    top: 90%;
-    left: 83%;
-    margin: 0;
-    max-width: 35%;
-    }
-
-    .page-layout-2 {
-    background: url(../img/maxwalk-4.jpg) top center;
-    background-size: cover;
-    }
-
-    .page-layout-2:last-child {
-        background: url(../img/maxwalk-5_1.jpg) center;
-        background-size: cover;
-    }
-
-    .page-layout-5:last-child {
-        background: url(../img/nitor-3.jpg) center;
-        background-size: cover;
-    }
-
-    .page-layout-6 {
-        background: url(../img/nitor-4.jpg) top center;
-        background-size: cover;
-    }
-
-    .page-layout-7:last-child {
-        background: url(../img/iah-1.jpg) right;
-        background-size: cover;
-    }
-
-    .page-layout-8:last-child {
-        background: url(../img/iah-3.jpg) left;
-        background-size: cover;
-    }
-
-    .page-layout-9 {
-        background: url(../img/iah-4.jpg) center center;
-        background-size: cover;
-    }
-
-    .page-layout-9:last-child {
-        background: url(../img/iah-5.jpg) center;
-        background-size: cover;
-    }
-}
-
+ 
 @media screen and (max-width: 68.75em) {
   .bb-custom-wrapper { font-size: 75% }
 }
