@@ -1,6 +1,7 @@
 ---
 ---
 
+{% include css/normalize.css %}
 {% include css/common.css %}
 {% include css/component.css %}
 {% include css/default.css %}
@@ -8,7 +9,6 @@
 {% include css/style.css %}
 {% include css/why-demo.css %}
 {% include css/why-component.css %}
-{% include css/normalize.css %}
 {% include css/bookblock.css %}
 {% include css/book-component.css %}
-{% include css/base.css %}
+{% include css/mob-portfolio.css %}

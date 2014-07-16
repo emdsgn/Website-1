@@ -844,7 +844,6 @@ height: 3684px;
     display: inline-block;
   }
 
-  #cssmenu ul li.hover,
   #cssmenu ul li:hover {
     position: relative;
     z-index: 599;
@@ -1210,7 +1209,7 @@ height: 3684px;
     -moz-transition: 1s;
     transition: 1s;
     font-size: 3em;
-    font-family: 'PT SANS';
+    font-family: 'LATO', sans-serif;
   }
 
   #back-top a:hover span {
