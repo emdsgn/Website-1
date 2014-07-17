@@ -656,6 +656,14 @@ padding: 12em;
 	.slideshow-1 figure {
 padding: 15em;
 }
+
+.slideshow figure {
+padding: 3em 6em;
+}
+
+figcaption .body {
+font-size: 0.95em;
+}
 }
 
 

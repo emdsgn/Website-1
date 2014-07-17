@@ -1350,8 +1350,7 @@ height: 3684px;
   }
 
   .c-logo {
-    padding: 1.73em 1em 1.73em 0;
-    background-color: gray;
+    padding: 2.65em 1em 2.65em 0;
   }
 
   .flex-logo-8 {
@@ -1365,8 +1364,7 @@ height: 3684px;
   }
 
   .c-bucket {
-padding: 1.7em 0;
-background-color: red;
+padding: 1em 0;
 }
 
   .contact-body {
@@ -1382,6 +1380,12 @@ background-color: red;
 
   .contact-nav a {
     font-size: 0.9em;
+  }
+
+  .phone .body {
+    color: #FFF;
+    font-size: 0.9em;
+    padding: 1em 2em 0 2em;
   }
 }
 
@@ -1477,7 +1481,7 @@ padding: 6.8em 2em;
 }
 
 .c-bucket {
-padding: 2.84em 0;
+padding: 2.11em 0;
 }
 }
 
@@ -1519,7 +1523,7 @@ padding: 7.3em 2em;
 }
 
 .c-bucket {
-padding: 3.03em 0;
+padding: 2.3em 0;
 }
 }
 
@@ -1561,7 +1565,7 @@ width: 35.5%;
 }
 
 .c-bucket {
-padding: 4.11em 0;
+padding: 3.4em 0;
 }
 }
 
@@ -1603,7 +1607,7 @@ padding: 7.6em 2em;
 }
 
 .c-bucket {
-padding: 4.27em 0;
+padding: 3.55em 0;
 }
 }
 
@@ -1761,7 +1765,11 @@ padding: 5.6em 3em;
   }
 
   .c-bucket {
-padding: 4.2em 0;
+padding: 2.15em 0;
+}
+
+.phone .body {
+padding: 2em 7em 0 7em;
 }
 
   .copyright {
@@ -1800,6 +1808,10 @@ font-size: 3.45em;
 
 .market-link-1 {
 padding: 10em 3em;
+}
+
+.c-bucket {
+padding: 2.6em 0;
 }
 }
 
