@@ -481,6 +481,23 @@ body {
     background-size: cover;
 }
 
+.page-layout-1-2 {
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/maxwalk-logo1.jpg) center center;
+    background-size: contain;
+}
+
+.page-layout-1-2:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/maxwalk-logo2.jpg) center;
+    background-size: contain;
+}
+
 .page-layout-3:last-child {
     position: absolute;
     right: 0;
@@ -598,6 +615,23 @@ body {
     width: 50%;
     height: 100%;
     background: url(../img/iah-3.jpg) left;
+    background-size: contain;
+}
+
+.page-layout-8-1 {
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/iah-logo1.jpg) center center;
+    background-size: contain;
+}
+
+.page-layout-8-1:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/iah-logo2.jpg) left;
     background-size: contain;
 }
 
@@ -1320,7 +1354,7 @@ background-size: cover;
 
 @media only screen and (min-width: 56em) {
     .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
-padding: 33em 2em;
+padding: 70em 2em;
 }
 }
 
@@ -1409,14 +1443,12 @@ top: 13%;
 }
 
 .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
-padding: 40em 4em;
+padding: 30em 4em;
 }
 }
 
 @media only screen and (min-width: 68em) {
-    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
-padding: 23em 4em;
-}
+
 }
 
 @media only screen and (min-width: 73em) {

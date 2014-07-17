@@ -947,6 +947,7 @@ height: 3684px;
     left: 0px;
     position: relative;
     z-index: 9999;
+    height: inherit;
     }
 
   .fixed {
@@ -1095,7 +1096,7 @@ height: 3684px;
     font-weight: 300;
     padding: 0.5em 0 0 0;
     margin: 0 0 -0.5em;
-    color: #FFF;
+    color: #000;
   }
 
   /* SERVICES */
@@ -1407,10 +1408,10 @@ height: 376px;
   }
 
   .logo-2 h3 {
-    font-size: 3.33em;
+    font-size: 3.25em;
   }
   .market-link-1 {
-    padding: 6.3em 2em;
+    padding: 6em 2em;
   }
 
   .contact {
@@ -1454,6 +1455,14 @@ padding: 6.6em 2em;
 .flex-logo-5 {
 width: 41%;
 }
+
+.logo-2 h3 {
+font-size: 3.67em;
+}
+
+.market-link-1 {
+padding: 6.8em 2em;
+}
 }
 
 @media only screen and (min-width: 56em) {
@@ -1475,6 +1484,18 @@ height: 424px;
 
 #market-1 h3 {
 font-size: 3.93em;
+}
+
+.flex-logo-5 {
+width: 38%;
+}
+
+.logo-2 h3 {
+font-size: 3.87em;
+}
+
+.market-link-1 {
+padding: 7.3em 2em;
 }
 }
 
@@ -1506,6 +1527,14 @@ font-size: 4.34em;
 .sub-nav a {
 padding: 2em 0 0.5em 0;
 }
+
+.logo-2 h3 {
+font-size: 4.34em;
+}
+
+.flex-logo-5 {
+width: 35%;
+}
 }
 
 @media only screen and (min-width: 62em) {
@@ -1531,6 +1560,14 @@ height: 472px;
 
 #market-1 h3 {
 font-size: 4.54em;
+}
+
+.logo-2 h3 {
+font-size: 4.54em;
+}
+
+.market-link-1 {
+padding: 7.5em 2em;
 }
 }
 
@@ -1665,7 +1702,7 @@ padding: 5.6em 3em;
   }
 
   .logo-2 h3 {
-    font-size: 3.26em;
+    font-size: 3.18em;
   }
 
   .flex-logo-5 {
@@ -1716,6 +1753,14 @@ height: 521px;
 #market-1 h3 {
 font-size: 3.45em;
 }
+
+.logo-2 h3 {
+font-size: 3.45em;
+}
+
+.market-link-1 {
+padding: 10em 3em;
+}
 }
 
 @media only screen and (min-width: 68em) {
@@ -1745,6 +1790,14 @@ font-size: 3.65em;
 
 .sub-nav a {
 font-size: 1.1em;
+}
+
+.logo-2 h3 {
+font-size: 3.65em;
+}
+
+.flex-logo-5 {
+width: 31.5%;
 }
 }
 
@@ -1776,6 +1829,18 @@ font-size: 4.1em;
 .market-link {
 padding: 11.1em 3em;
 }
+
+.flex-logo-5 {
+width: 28.5%;
+}
+
+.logo-2 h3 {
+font-size: 4.1em;
+}
+
+.market-link-1 {
+padding: 10.2em 3em;
+}
 }
 
 @media only screen and (min-width: 75em) {
@@ -1798,13 +1863,17 @@ font-size: 4.29em;
 .market-link {
 padding: 12.3em 3em;
 }
+
+.logo-2 h3 {
+font-size: 4.28em;
+}
+
+.market-link-1 {
+padding: 11.4em 3em;
+}
 }
 
 @media only screen and (min-width: 80em) {
-  sticknav {
-    height: 7.4%;
-  }
-
   .flex-logo-2 {
     width: 29.6%;
   }
@@ -1893,8 +1962,8 @@ padding: 2em 1em;
 
   /* DPS ORGINAL MARKETING */
   .logo-2 h3 {
-    font-size: 4.6em;
-  }
+font-size: 4.46em;
+}
 
   .communications,
   .web-design,
@@ -1935,13 +2004,17 @@ height: 616px;
 #market-1 h3 {
 font-size: 4.61em;
 }
+
+.flex-logo-5 {
+width: 26%;
+}
+
+.logo-2 h3 {
+font-size: 4.61em;
+}
 }
 
 @media only screen and (min-width: 85em) {
-  sticknav {
-    height: 7.7%;
-  }
-
   .flex-logo-2 {
 width: 27.6%;
 }
@@ -1998,11 +2071,11 @@ padding: 1.8em 1em;
   }
 
   .logo-2 h3 {
-    font-size: 5.1em;
+    font-size: 5em;
   }
 
   .flex-logo-5 {
-    width: 25.9%;
+    width: 25%;
   }
 }
 
@@ -2038,13 +2111,17 @@ font-size: 5.25em;
 .market-link {
 padding: 10.6em 4em;
 }
+
+.flex-logo-5 {
+width: 24.5%;
+}
+
+.logo-2 h3 {
+font-size: 5.25em;
+}
 }
 
 @media only screen and (min-width: 89em) {
-  sticknav {
-    height: 8.2%;
-  }
-
   .flex-logo-2 {
     width: 25.8%;
   }
@@ -2144,10 +2221,6 @@ height: 684px;
 }
 
 @media only screen and (min-width: 93em) {
-sticknav {
-height: 6.7%;
-}
-
 .flex-logo-2 {
 width: 25%;
 }
@@ -2175,6 +2248,18 @@ font-size: 5.88em;
 .market-link {
 padding: 17em 4em;
 }
+
+.flex-logo-5 {
+width: 23.2%;
+}
+
+.logo-2 h3 {
+font-size: 5.88em;
+}
+
+.market-link-1 {
+padding: 16.8em 4em;
+}
 }
 
 @media only screen and (min-width: 96em) {
@@ -2197,13 +2282,13 @@ padding: 11.6em 5em;
 .content {
 height: 736px;
 }
+
+.flex-logo-5 {
+width: 22.2%;
+}
 }
 
 @media only screen and (min-width: 100em) {
-  sticknav {
-height: 6.4%;
-}
-
   .flex-logo-2 {
     width: 23%;
   }
@@ -2250,13 +2335,12 @@ padding: 12.1em 5em;
   }
 
   /* DPS ORGINAL MARKETING */
+  .flex-logo-5 {
+width: 21.7%;
+}
 }
 
 @media only screen and (min-width: 105em) {
-sticknav {
-height: 5.6%;
-}
-
 .flex-logo-2 {
 width: 22.1%;
 }
@@ -2286,6 +2370,9 @@ height: 798px;
   /* WORKSHOP */
 
   /* DPS ORGINAL MARKETING */
+  .flex-logo-5 {
+width: 20.6%;
+}
 }
 
 @media only screen and (min-width: 109em) {
@@ -2312,6 +2399,14 @@ height: 831px;
 .market-link {
 padding: 17.7em 4em;
 }
+
+.flex-logo-5 {
+width: 19.4%;
+}
+
+.market-link-1 {
+padding: 17.7em 4em;
+}
 }
 
 @media only screen and (min-width: 112em) {
@@ -2334,6 +2429,10 @@ padding: 14.2em 5em;
 .content {
 height: 856px;
 }
+
+.flex-logo-5 {
+width: 19.3%;
+}
 }
 
 @media only screen and (min-width: 115em) {
@@ -2355,6 +2454,10 @@ padding: 14.7em 5em;
 
 .content {
 height: 880px;
+}
+
+.flex-logo-5 {
+width: 18.6%;
 }
 }
 
@@ -2391,4 +2494,7 @@ padding: 15.4em 5em;
 
 
   /* DPS ORGINAL MARKETING */
+  .flex-logo-5 {
+width: 18.1%;
+}
 }
