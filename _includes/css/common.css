@@ -1082,12 +1082,12 @@ height: 3684px;
   }
 
   .leader-text h3 {
-    color: #FFF;
-    border-bottom: 1px solid #FFF;
+    color: #000;
+    border-bottom: 1px solid #000;
   }
 
   .leader-text .sub-body {
-    color: #FFF;
+    color: #000;
   }
 
   .lowerc {
