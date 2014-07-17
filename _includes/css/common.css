@@ -789,7 +789,7 @@ height: 3684px;
   }
 
   .logo {
-    padding: 0% 0 5% 0;
+    padding: 0% 0 3% 0;
   }
 
   .logo-1 {
@@ -1041,7 +1041,7 @@ height: 3684px;
   .company {
     position: relative;
     color: #FFF;
-    padding: 2.3em 2em 2.3em 25em;
+    padding: 1.4em 2em 1.4em 25em;
     background-color: rgba(0,0,0,0.35);
     text-align: justify;
   }
@@ -1166,12 +1166,12 @@ height: 3684px;
   }
 
   .market-link {
-    padding: 7em 2em;
+    padding: 6.5em 2em;
     background-color: rgba(0,0,0,0.3);
   }
 
   #market-1 h3 {
-    font-size: 3.2em;
+    font-size: 3.08em;
   }
 
   .work-link {
@@ -1350,7 +1350,17 @@ height: 3684px;
   }
 
   .c-logo {
-    padding: 0 1em 0 0;
+    padding: 1.73em 1em 1.73em 0;
+  }
+
+  .flex-logo-8 {
+    width: 100%;
+    padding: 0 0 1em 0;
+  }
+  
+  .flex-logo-7 {
+    width: 100%;
+    margin-left: -15%;
   }
 
   .c-bucket {

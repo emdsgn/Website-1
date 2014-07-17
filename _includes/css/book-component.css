@@ -321,23 +321,6 @@ body {
     box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.05), inset -30px 0 40px -20px rgba(0, 0, 0, 0.15);
 }
 
-.page-layout-1 {
-    right: 0;
-    width: 50%;
-    height: 100%;
-    background: url(../img/maxwalk-2.jpg) center center;
-    background-size: cover;
-}
-
-.page-layout-1:last-child {
-    position: absolute;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    background: url(../img/maxwalk-3.jpg) center;
-    background-size: cover;
-}
-
 .page-layout-1 h3,
 .page-layout-1 p,
 .page-layout-2 h3,
@@ -442,6 +425,48 @@ body {
     text-align: center;
 }
 
+.page-layout-3 .title-pg,
+.page-layout-4 .title-pg,
+.page-layout-7 .title-pg,
+.page-layout-10 .title-pg,
+.page-layout-11 .title-pg,
+.page-layout-12 .title-pg,
+.page-layout-13 .title-pg,
+.page-layout-14 .title-pg,
+.page-layout-15 .title-pg,
+.page-layout-16 .title-pg
+{ padding: 55em 2em; }
+
+.page-layout-3 .title-pg h3,
+.page-layout-4 .title-pg h3,
+.page-layout-7 .title-pg h3,
+.page-layout-10 .title-pg h3,
+.page-layout-11 .title-pg h3,
+.page-layout-12 .title-pg h3,
+.page-layout-13 .title-pg h3,
+.page-layout-14 .title-pg h3,
+.page-layout-15 .title-pg h3,
+.page-layout-16 .title-pg h3 {
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 3.1em;
+    width: 100%;
+}
+
+.page-layout-3 p,
+.page-layout-4 p,
+.page-layout-7 p,
+.page-layout-10 p,
+.page-layout-11 p,
+.page-layout-12 p,
+.page-layout-13 p,
+.page-layout-14 p,
+.page-layout-15 p,
+.page-layout-16 p {
+    margin: 0;
+}
+
 .page-layout-1 h3 span {
     display: block;
     padding: 5px 0 15px;
@@ -457,6 +482,23 @@ body {
     text-align: right;
     font-style: italic;
     font-family: "Cardo", serif;
+}
+
+.page-layout-1 {
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/maxwalk-2.jpg) center center;
+    background-size: cover;
+}
+
+.page-layout-1:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/maxwalk-3.jpg) center;
+    background-size: cover;
 }
 
 .page-layout-2 {
@@ -505,48 +547,6 @@ body {
     height: 100%;
     background: url(../img/maxwalk-1.jpg) left;
     background-size: contain;
-}
-
-.page-layout-3 .title-pg,
-.page-layout-4 .title-pg,
-.page-layout-7 .title-pg,
-.page-layout-10 .title-pg,
-.page-layout-11 .title-pg,
-.page-layout-12 .title-pg,
-.page-layout-13 .title-pg,
-.page-layout-14 .title-pg,
-.page-layout-15 .title-pg,
-.page-layout-16 .title-pg
-{ padding: 55em 2em; }
-
-.page-layout-3 .title-pg h3,
-.page-layout-4 .title-pg h3,
-.page-layout-7 .title-pg h3,
-.page-layout-10 .title-pg h3,
-.page-layout-11 .title-pg h3,
-.page-layout-12 .title-pg h3,
-.page-layout-13 .title-pg h3,
-.page-layout-14 .title-pg h3,
-.page-layout-15 .title-pg h3,
-.page-layout-16 .title-pg h3 {
-    margin: 0;
-    text-transform: capitalize;
-    font-weight: 300;
-    font-size: 3.1em;
-    width: 100%;
-}
-
-.page-layout-3 p,
-.page-layout-4 p,
-.page-layout-7 p,
-.page-layout-10 p,
-.page-layout-11 p,
-.page-layout-12 p,
-.page-layout-13 p,
-.page-layout-14 p,
-.page-layout-15 p,
-.page-layout-16 p {
-    margin: 0;
 }
 
 .page-layout-4:last-child {
@@ -677,8 +677,8 @@ body {
     right: 0;
     width: 50%;
     height: 100%;
-    background: url(../img/medtronic-1.jpg) left;
-    background-size: contain;
+    background: url(../img/medtronic-1.jpg) center;
+    background-size: cover;
 }
 
 .page-layout-11:last-child .right {
@@ -697,8 +697,8 @@ body {
     right: 0;
     width: 50%;
     height: 100%;
-    background: url(../img/pow-1.jpg) left;
-    background-size: contain;
+    background: url(../img/pow-1.jpg) center;
+    background-size: cover;
 }
 
 .page-layout-12:last-child .right {
@@ -737,8 +737,8 @@ body {
     right: 0;
     width: 50%;
     height: 100%;
-    background: url(../img/agenda-2.jpg) left;
-    background-size: contain;
+    background: url(../img/agenda-2.jpg) center;
+    background-size: cover;
 }
 
 .page-layout-14:last-child .right {
