@@ -1351,13 +1351,14 @@ height: 3684px;
 
   .c-logo {
     padding: 1.73em 1em 1.73em 0;
+    background-color: gray;
   }
 
   .flex-logo-8 {
     width: 100%;
     padding: 0 0 1em 0;
   }
-  
+
   .flex-logo-7 {
     width: 100%;
     margin-left: -15%;
@@ -1365,6 +1366,7 @@ height: 3684px;
 
   .c-bucket {
 padding: 1.7em 0;
+background-color: red;
 }
 
   .contact-body {
@@ -1401,7 +1403,7 @@ padding: 4.7em 5em;
 }
 
   .market-link {
-    padding: 7.5em 2em;
+    padding: 7.6em 2em;
   }
 
   #market-1 h3 {
@@ -1473,9 +1475,17 @@ font-size: 3.67em;
 .market-link-1 {
 padding: 6.8em 2em;
 }
+
+.c-bucket {
+padding: 2.84em 0;
+}
 }
 
 @media only screen and (min-width: 56em) {
+  .flex-logo-2 {
+width: 42.5%;
+}
+
 #cssmenu a {
 padding: 0 26.9px;
 }
@@ -1497,7 +1507,7 @@ font-size: 3.93em;
 }
 
 .flex-logo-5 {
-width: 38%;
+width: 38.8%;
 }
 
 .logo-2 h3 {
@@ -1507,11 +1517,15 @@ font-size: 3.87em;
 .market-link-1 {
 padding: 7.3em 2em;
 }
+
+.c-bucket {
+padding: 3.03em 0;
+}
 }
 
 @media only screen and (min-width: 60em) {
 .flex-logo-2 {
-width: 38%;
+width: 38.8%;
 }
 
 #cssmenu a {
@@ -1543,13 +1557,17 @@ font-size: 4.34em;
 }
 
 .flex-logo-5 {
-width: 35%;
+width: 35.5%;
+}
+
+.c-bucket {
+padding: 4.11em 0;
 }
 }
 
 @media only screen and (min-width: 62em) {
 .flex-logo-2 {
-width: 37%;
+width: 37.5%;
 }
 
 #cssmenu a {
@@ -1572,18 +1590,26 @@ height: 472px;
 font-size: 4.54em;
 }
 
+.flex-logo-5 {
+width: 35%;
+}
+
 .logo-2 h3 {
 font-size: 4.54em;
 }
 
 .market-link-1 {
-padding: 7.5em 2em;
+padding: 7.6em 2em;
+}
+
+.c-bucket {
+padding: 4.27em 0;
 }
 }
 
 @media only screen and (min-width: 64em) {
   .flex-logo-2 {
-    width: 36%;
+    width: 36.5%;
   }
 
   #cssmenu a {
@@ -1733,6 +1759,10 @@ padding: 5.6em 3em;
   .c-logo {
     padding: 2.13em 3em 2.13em 0;
   }
+
+  .c-bucket {
+padding: 4.2em 0;
+}
 
   .copyright {
     padding: 0.5em;
