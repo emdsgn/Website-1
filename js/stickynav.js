@@ -12,7 +12,7 @@ $(document).ready(function() {
  //Use outerHeight() instead of height() if have padding
 
 
-    var aboveHeight = $('header').outerHeight();
+    var aboveHeight = $().outerHeight('header');
 
 
  // when scroll
@@ -30,7 +30,7 @@ $(document).ready(function() {
 
    // add padding top to the #content (value is same as the height of the sticknav)
 
-            $('sticknav').addClass('fixed').css('top','0').next().css('padding-top','60px');
+            $('sticknav').addClass('fixed').css('top','0').next().css('padding-top','0px');
 
         } else {
 

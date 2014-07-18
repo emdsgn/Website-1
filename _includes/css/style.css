@@ -15,7 +15,7 @@
 
 	#timeline {
 		width: 100%;
-		height: 265px;
+		height: 303px;
 		overflow: hidden;
 		margin: 0;
 		position: relative;
@@ -195,7 +195,7 @@
 
 @media only screen and (min-width: 50em) {
   #timeline {
-    height: 275px;
+    height: 316px;
   }
 
   .timeline-wrapper {
@@ -230,7 +230,7 @@ padding: 3.91em 0;
 
 @media only screen and (min-width: 54em) {
   #timeline {
-    height: 300px;
+    height: 344px;
   }
 
   .timeline-wrapper {
@@ -265,7 +265,7 @@ padding: 3.46em 0;
 
 @media only screen and (min-width: 56em) {
 #timeline {
-height: 305px;
+height: 356px;
 }
 
 #issues li {
@@ -283,7 +283,7 @@ margin: 0 1em 0 5em;
 
 @media only screen and (min-width: 60em) {
 	#timeline {
-height: 328px;
+height: 383px;
 }
 
 #issues li {
@@ -305,7 +305,7 @@ margin: 0 1em 0 6em;
 
 @media only screen and (min-width: 62em) {
 	#timeline {
-height: 340px;
+height: 396px;
 }
 
 #issues li {
@@ -323,7 +323,7 @@ padding: 2.7em 0;
 
 @media only screen and (min-width: 64em) {
   #timeline {
-    height: 347px;
+    height: 406px;
   }
 
   #issues li {
@@ -369,7 +369,7 @@ padding: 3.82em 0;
 
 @media only screen and (min-width: 66em) {
 	#timeline {
-height: 362px;
+height: 423px;
 }
 
 #issues li {
@@ -387,7 +387,7 @@ padding: 1em 0;
 
 @media only screen and (min-width: 68em) {
 	#timeline {
-height: 373px;
+height: 436px;
 }
 
 #issues li {
@@ -401,7 +401,7 @@ margin: 0 1em 0 4em;
 
 @media only screen and (min-width: 73em) {
 	#timeline {
-height: 397px;
+height: 464px;
 }
 
 #issues li {
@@ -423,7 +423,7 @@ margin: 0 1em 0 5em;
 
 @media only screen and (min-width: 75em) {
 	#timeline {
-height: 408px;
+height: 476px;
 }
 
 #issues li {
@@ -449,7 +449,7 @@ padding: 3.68em 0;
 
 @media only screen and (min-width: 80em) {
 	#timeline {
-		height: 435px;
+		height: 509px;
 	}
 	.timeline-wrapper {
 height: 380px;
@@ -477,7 +477,7 @@ padding: 3.45em 0;
 
 @media only screen and (min-width: 81em) {
 	#timeline {
-height: 442px;
+height: 517px;
 }
 
 #issues li {
@@ -491,7 +491,7 @@ padding: 3em 0;
 
 @media only screen and (min-width: 85em) {
 #timeline {
-height: 465px;
+height: 543px;
 }
 
 	#issues li {
@@ -509,7 +509,7 @@ padding: 0 10em 0.5em 0em;
 
 @media only screen and (min-width: 87em) {
 	#timeline {
-height: 475px;
+height: 557px;
 }
 
 #issues li {
@@ -539,7 +539,7 @@ padding: 3.27em 0;
 
 @media only screen and (min-width: 89em) {
 	#timeline {
-		height: 490px;
+		height: 573px;
 	}
 
 	.timeline-wrapper {
@@ -577,7 +577,7 @@ padding: 3.09em 0;
 
 @media only screen and (min-width: 93em) {
 #timeline {
-height: 510px;
+height: 597px;
 }
 
 #issues li {
@@ -587,7 +587,7 @@ height: 510px;
 
 @media only screen and (min-width: 96em) {
 	#timeline {
-height: 527px;
+height: 624px;
 }
 
 #issues li {
@@ -601,7 +601,7 @@ padding: 0 11em 0.5em 0;
 
 @media only screen and (min-width: 100em) {
 	#timeline {
-height: 544px;
+height: 637px;
 }
 
 	#issues li {
@@ -619,7 +619,7 @@ padding: 3.1em 0;
 
 @media only screen and (min-width: 105em) {
 	#timeline {
-		height: 572px;
+		height: 669px;
 	}
 
 	#issues li {
@@ -629,7 +629,7 @@ padding: 3.1em 0;
 
 @media only screen and (min-width: 109em) {
 	#timeline {
-height: 596px;
+height: 705px;
 }
 
 #issues li {
@@ -651,7 +651,7 @@ padding: 0 0 0 5em;
 
 @media only screen and (min-width: 112em) {
 	#timeline {
-height: 614px;
+height: 718px;
 }
 
 #issues li {
@@ -673,7 +673,7 @@ padding: 0 0 0 6.5em;
 	}
 
 	#timeline {
-height: 630px;
+height: 745px;
 }
 
 #issues li h1 {
@@ -683,7 +683,7 @@ margin: 0 1em 0 8.5em;
 
 @media only screen and (min-width: 119em) {
 	#timeline {
-		height: 655px;
+		height: 766px;
 	}
 
 	#issues li {
