@@ -789,7 +789,7 @@ height: 3684px;
   }
 
   .logo {
-    padding: 0% 0 6% 0;
+    padding: 0% 0 3% 0;
   }
 
   .logo-1 {
@@ -1624,6 +1624,14 @@ padding: 3.55em 0;
     min-width: 120px;
   }
 
+  .logo {
+padding: 0% 0 16% 0;
+}
+
+.flex-logo-1 {
+padding: 10% 0;
+}
+
 .company {
 padding: 5em 3em 5em 34em;
 }
@@ -1934,6 +1942,14 @@ padding: 11.4em 3em;
     padding: 0 52.04px;
   }
 
+  .logo {
+padding: 0% 0 13% 0;
+}
+
+.flex-logo-1 {
+padding: 7% 0;
+}
+
 .company {
 padding: 9.7em 7em 9.6em 44em;
 }
@@ -2180,6 +2196,14 @@ font-size: 5.25em;
 
   #cssmenu a {
 padding: 0 62.5px;
+}
+
+.logo {
+padding: 0 0 6% 0;
+}
+
+.flex-logo-1 {
+padding: 5% 0;
 }
 
   .company {
