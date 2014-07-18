@@ -1323,8 +1323,15 @@ body {
     55%, 100% { opacity: 0; -webkit-transform: scale(0.95); transform: scale(0.95); }
 }
 
-/* Media Queries */
+@-moz-document url-prefix() {
+    .buttons a:hover, .buttons a:active {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-left: -50%;
+    }
+}
 
+/* Media Queries */
 @media screen and (min-width: 50em) {
     .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
 padding: 75em 2em;
