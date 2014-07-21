@@ -64,21 +64,21 @@
 
 	CBPGridGallery.prototype._init = function() {
 		// main grid
-		this.grid = this.el.querySelector( 'section.grid-wrap-2 > ul.why-dps-1' );
+		this.grid = this.el.querySelector( 'section.grid-wrap-3 > ul.why-dps-1' );
 		// main grid items
 		this.gridItems = [].slice.call( this.grid.querySelectorAll( 'li:not(.grid-sizer-1)' ) );
 		// items total
 		this.itemsCount = this.gridItems.length;
 		// slideshow grid
-		this.slideshow = this.el.querySelector( 'section.slideshow-2 > ul' );
+		this.slideshow = this.el.querySelector( 'section.slideshow-3 > ul' );
 		// slideshow grid items
 		this.slideshowItems = [].slice.call( this.slideshow.children );
 		// index of current slideshow item
 		this.current = -1;
 		// slideshow control buttons
-		this.ctrlPrev = this.el.querySelector( 'section.slideshow-2 > nav > span.nav-prev' );
-		this.ctrlNext = this.el.querySelector( 'section.slideshow-2 > nav > span.nav-next' );
-		this.ctrlClose = this.el.querySelector( 'section.slideshow-2 > nav > span.nav-close' );
+		this.ctrlPrev = this.el.querySelector( 'section.slideshow-3 > nav > span.nav-prev' );
+		this.ctrlNext = this.el.querySelector( 'section.slideshow-3 > nav > span.nav-next' );
+		this.ctrlClose = this.el.querySelector( 'section.slideshow-3 > nav > span.nav-close' );
 		// init masonry grid
 		this._initMasonry();
 		// init events

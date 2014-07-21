@@ -479,6 +479,414 @@ span.nav-close:before {
 	color: rgba(255,255,255,0.5);
 }
 
+/* MEDICAL */
+/* General style */
+.grid-gallery-1 ul,
+.grid-gallery-2 ul,
+.grid-gallery-3 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.grid-gallery-1 figure,
+.grid-gallery-2 figure,
+.grid-gallery-3 figure {
+	margin: 0;
+}
+
+.grid-gallery-1 figure img,
+.grid-gallery-2 figure img,
+.grid-gallery-3 figure img {
+	display: block;
+	width: 100%;
+}
+
+.grid-gallery-1 figcaption h3,
+.grid-gallery-2 figcaption h3,
+.grid-gallery-3 figcaption h3 {
+	margin: 0;
+}
+
+.grid-gallery-1 figcaption p,
+.grid-gallery-2 figcaption p,
+.grid-gallery-3 figcaption p {
+	margin: 0;
+	padding: 0.5em 0;
+	font-weight: 300;
+}
+
+/* Grid style */
+.grid-wrap-2 {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.why-dps-1 {
+	margin: 0 auto;
+}
+
+.why-dps-1 li {
+	width: 33.3%;
+	float: left;
+	cursor: pointer;
+	list-style: none;
+}
+
+.why-dps-1 figure {
+	-webkit-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+
+.why-dps-1 li:hover figure {
+	opacity: 0.7;
+}
+
+.why-dps-1 figcaption {
+	background: #e4e4e4;
+	padding: 25px;
+}
+
+.slideshow-2 {
+	position: fixed;
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	-webkit-perspective: 1000px;
+	perspective: 1000px;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+.slideshow-1-open .slideshow-2 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.slideshow-2 ul {
+	width: 100%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform: translate3d(0,0,150px);
+	transform: translate3d(0,0,150px);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	margin: 0 auto;
+}
+
+.slideshow-2 ul.animatable li {
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	margin: 0 auto;
+}
+
+.slideshow-1-open .slideshow-2 ul {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	margin: 0 auto;
+}
+
+.slideshow-2 li {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	margin: 0 auto;
+	visibility: hidden;
+}
+
+.slideshow-2 li.show {
+	visibility: visible;
+}
+
+.slideshow-2 li:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.8);
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.slideshow-2 li.current:after {
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, visibility 0s 0.3s;
+	transition: opacity 0.3s, visibility 0s 0.3s;
+}
+
+.slideshow-2 figure {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/full-med.jpg);
+	overflow: hidden;
+	color: #000;
+	padding: 10em 5em;
+	background-position: center center;
+	text-align: justify;
+}
+
+.slideshow-2 figcaption {
+	padding-bottom: 20px;
+}
+
+.slideshow-2 figcaption h3 {
+	font-weight: 300;
+	font-size: 2em;
+	padding: 0 1em 0 0;
+	text-transform: lowercase;
+	color: #FFF;
+	border-bottom: none;
+}
+
+.slideshow-2 nav span {
+	position: fixed;
+	z-index: 1000;
+	color: rgba(255,255,255,0.5);
+	text-align: center;
+	padding: 3%;
+	cursor: pointer;
+	font-size: 2.2em;
+}
+
+.slideshow-2 nav span.nav-prev,
+.slideshow-2 nav span.nav-next {
+	top: 40%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.slideshow-2 nav span.nav-next {
+	right: 0;
+}
+
+.slideshow-2 nav span.nav-close {
+	top: 0%;
+	right: 0;
+	padding: 0.5em 1em;
+	color: rgba(255,255,255,0.5);
+}
+
+/* WORKSHOP SECTION */
+/* General style */
+.grid-gallery-1,
+.grid-gallery-2,
+.grid-gallery-3 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.grid-gallery-1,
+.grid-gallery-2,
+.grid-gallery-3 figure {
+	margin: 0;
+}
+
+.grid-gallery-1,
+.grid-gallery-2,
+.grid-gallery-3 figure img {
+	display: block;
+	width: 100%;
+}
+
+.grid-gallery-1,
+.grid-gallery-2,
+.grid-gallery-3 figcaption h3 {
+	margin: 0;
+}
+
+.grid-gallery-1,
+.grid-gallery-2,
+.grid-gallery-3 figcaption p {
+	margin: 0;
+	padding: 0.5em 0;
+	font-weight: 300;
+}
+
+/* Grid style */
+.grid-wrap-3 {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.why-dps-1 {
+	margin: 0 auto;
+}
+
+.why-dps-1 li {
+	width: 33.3%;
+	float: left;
+	cursor: pointer;
+}
+
+.why-dps-1 figure {
+	-webkit-transition: opagridcity 0.2s;
+	transition: opacity 0.2s;
+}
+
+.why-dps-1 li:hover figure {
+	opacity: 0.7;
+}
+
+.why-dps-1 figcaption {
+	background: #e4e4e4;
+	padding: 25px;
+}
+
+/* Slideshow style */
+.slideshow-3 {
+	position: fixed;
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	-webkit-perspective: 1000px;
+	perspective: 1000px;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+.slideshow-1-open .slideshow-3 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.slideshow-3 ul {
+	width: 100%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform: translate3d(0,0,150px);
+	transform: translate3d(0,0,150px);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	margin: 0 auto;
+}
+
+.slideshow-3 ul.animatable li {
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	margin: 0 auto;
+}
+
+.slideshow-1-open .slideshow-3 ul {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	margin: 0 auto;
+}
+
+.slideshow-3 li {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	margin: 0 auto;
+	visibility: hidden;
+}
+
+.slideshow-3 li.show {
+	visibility: visible;
+}
+
+.slideshow-3 li:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.8);
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.slideshow-3 li.current:after {
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, visibility 0s 0.3s;
+	transition: opacity 0.3s, visibility 0s 0.3s;
+}
+
+.slideshow-3 figure {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/full-workshop.jpg);
+	overflow: hidden;
+	color: #000;
+	padding: 10em 5em;
+	background-position: center center;
+	text-align: justify;
+}
+
+.slideshow-3 figcaption {
+	padding-bottom: 20px;
+}
+
+.slideshow-3 figcaption h3 {
+	font-weight: 300;
+	font-size: 2em;
+	padding: 0 1em 0 0;
+	text-transform: lowercase;
+	color: #FFF;
+	border-bottom: none;
+}
+
+/* Navigation */
+.nav-next-1 {
+	font-size: 3em;
+	padding: 76% 0 76% 1em;
+}
+
+.slideshow-3 nav span {
+	position: fixed;
+	z-index: 1000;
+	color: rgba(255,255,255,0.5);
+	text-align: center;
+	padding: 3%;
+	cursor: pointer;
+	font-size: 2.2em;
+}
+
+.slideshow-3 nav span.nav-prev,
+.slideshow-3 nav span.nav-next {
+	top: 40%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.slideshow-3 nav span.nav-next {
+	right: 0;
+}
+
+.slideshow-3 nav span.nav-close {
+	top: 0%;
+	right: 0;
+	padding: 0.5em 1em;
+	color: rgba(255,255,255,0.5);
+}
+
 .icon:before,
 .icon:after {
 	font-family: 'fontawesome';
@@ -585,7 +993,9 @@ color: #000;
 padding: 4em;
 }
 
-	.slideshow-1 figure {
+	.slideshow-1 figure,
+	.slideshow-2 figure,
+	.slideshow-3 figure {
 		padding: 15em 10em;
 		background-position: center center;
 		background-size: cover;
@@ -621,7 +1031,9 @@ margin: 0;
 		padding: 1em;
 	}
 
-	.slideshow-1 li {
+	.slideshow-1 li,
+	.slideshow-2 li,
+	.slideshow-3 li {
 		width: 100%;
 		height: 100%;
 		top: 0;
@@ -629,13 +1041,19 @@ margin: 0;
 		margin: 0;
 	}
 
-	.slideshow-1 li figure img {
+	.slideshow-1 li figure img,
+	.slideshow-2 li figure img,
+	.slideshow-3 li figure img {
 		margin: 0 auto;
 		width: 100%;
 	}
 
 	.slideshow-1 nav span,
-	.slideshow-1 nav span.nav-close {
+	.slideshow-1 nav span.nav-close,
+	.slideshow-2 nav span,
+	.slideshow-2 nav span.nav-close,
+	.slideshow-3 nav span,
+	.slideshow-3 nav span.nav-close {
 		font-size: 1.8em;
 		padding: 1em;
 	}
@@ -648,12 +1066,16 @@ padding: 6em;
 }
 
 @media only screen and (min-width: 64em) {
-	.slideshow-1 figure {
+	.slideshow-1 figure,
+	.slideshow-2 figure,
+	.slideshow-3 figure {
 padding: 12em;
 }
 
 @media only screen and (min-width: 66em) {
-	.slideshow-1 figure {
+	.slideshow-1 figure,
+	.slideshow-2 figure,
+	.slideshow-3 figure {
 padding: 15em;
 }
 
@@ -679,7 +1101,9 @@ padding: 6em 8em;
 		padding: 6em 10em;
 	}
 
-	.slideshow-1 li {
+	.slideshow-1 li,
+	.slideshow-2 li,
+	.slideshow-3 li {
 		width: 100%;
 		height: 100%;
 		position: absolute;
@@ -713,7 +1137,9 @@ padding: 6em 18em;
 }
 
 @media only screen and (min-width: 100em) {
-.slideshow-1 figure {
+.slideshow-1 figure,
+.slideshow-2 figure,
+.slideshow-3 figure {
 padding: 15em;
 background-position: center center;
 background-size: cover;

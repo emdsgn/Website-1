@@ -85,7 +85,7 @@
 					color: #152a3f;
 					font-size: 1.5em;
 					line-height: normal;
-					font-weight: 400;
+					font-weight: 100;
 					padding: 0;
 				}
 
@@ -117,7 +117,7 @@
 					color: #152a3f;
 					font-size: 1.5em;
 					line-height: normal;
-					font-weight: 400;
+					font-weight: 100;
 					padding: 0;
 				}
 
@@ -466,8 +466,16 @@ height: 380px;
 padding: 0 0 0 2em;
 }
 
+#issues li p {
+font-size: 1em;
+}
+
 .middle {
-padding: 2.5em 0;
+padding: 4.4em 0;
+}
+
+.middle-2 {
+padding: 3em 0;
 }
 
 #next, #prev {
@@ -504,6 +512,14 @@ margin: 0 1em 0 5.5em;
 
 	#issues li p {
 padding: 0 10em 0.5em 0em;
+}
+
+.middle {
+padding: 4.4em 0;
+}
+
+.middle-2 {
+padding: 3.6em 0;
 }
 }
 
@@ -567,7 +583,11 @@ padding: 0 0 0 2.5em;
 }
 
 .middle {
-padding: 2.5em 0;
+padding: 3.6em 0;
+}
+
+.middle-2 {
+padding: 2.3em 0;
 }
 
 #next, #prev {
@@ -615,6 +635,10 @@ padding: 1.6em 0;
 .middle {
 padding: 3.1em 0;
 }
+
+#issues li p {
+padding: 0 22em 0.5em 0;
+}
 }
 
 @media only screen and (min-width: 105em) {
@@ -625,6 +649,10 @@ padding: 3.1em 0;
 	#issues li {
 		width: 1680px;
 	}
+
+	#issues li p {
+padding: 0 24em 0.5em 0;
+}
 }
 
 @media only screen and (min-width: 109em) {
@@ -690,8 +718,8 @@ margin: 0 1em 0 8.5em;
 		width: 1920px;
 	}
 
-	#issues li p {
-padding: 0 22em 0.5em 0;
+#issues li p {
+padding: 0 34em 0.5em 0;
 }
 
 #issues li h1 {

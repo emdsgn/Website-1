@@ -645,8 +645,8 @@ body {
     right: 0;
     width: 50%;
     height: 100%;
-    background: url(../img/iah-4.jpg) center center;
-    background-size: contain;
+    background: url(../img/iah-6.jpg) center center;
+    background-size: cover;
 }
 
 .page-layout-9:last-child {
@@ -654,8 +654,8 @@ body {
     right: 0;
     width: 50%;
     height: 100%;
-    background: url(../img/iah-5.jpg) center;
-    background-size: contain;
+    background: url(../img/iah-5_1.jpg) center;
+    background-size: cover;
 }
 
 .page-layout-10:last-child {
@@ -1339,7 +1339,7 @@ body {
 
 /* Media Queries */
 @media screen and (min-width: 50em) {
-    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg, .page-layout-8-1 .title-pg {
 padding: 75em 2em;
 }
 }
@@ -1366,7 +1366,8 @@ background-size: cover;
 }
 
 @media only screen and (min-width: 56em) {
-    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg,
+.page-layout-8-1 .title-pg {
 padding: 70em 2em;
 }
 }
@@ -1378,7 +1379,7 @@ left: 87%;
 }
 
 @media only screen and (min-width: 64em) {
-    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg, .page-layout-8-1 .title-pg {
 padding: 30em 2em;
 }
 
@@ -1392,6 +1393,10 @@ padding: 30em 2em;
 .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
 left: 88%;
 }
+    .page-layout-1:last-child {
+        background: url(../img/maxwalk-3_1.jpg) center;
+        background-size: cover;
+    }
 
     .page-layout-2 {
     background: url(../img/maxwalk-4.jpg) top center;
@@ -1429,7 +1434,7 @@ left: 88%;
     }
 
     .page-layout-9 {
-        background: url(../img/iah-4.jpg) center center;
+        background: url(../img/iah-6.jpg) center center;
         background-size: cover;
     }
 
@@ -1455,7 +1460,8 @@ left: 89%;
 top: 13%;
 }
 
-.page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+.page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg,
+.page-layout-8-1 .title-pg {
 padding: 30em 4em;
 }
 }
@@ -1468,11 +1474,17 @@ padding: 30em 4em;
     .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
 left: 90%;
 }
+
+.page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg,
+.page-layout-8-1 .title-pg {
+padding: 15em 4em;
+}
 }
 
 @media only screen and (min-width: 80em) {
-    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
-padding: 30em 4em;
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg,
+.page-layout-8-1 .title-pg {
+padding: 25em 4em;
 }
 }
 
@@ -1494,7 +1506,8 @@ background-size: cover;
 left: 91.5%;
 }
 
-.page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+.page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg,
+.page-layout-8-1 .title-pg {
 padding: 28em 4em;
 }
 }
@@ -1506,7 +1519,8 @@ left: 92%;
 }
 
 @media only screen and (min-width: 105em) {
-    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg,
+.page-layout-8-1 .title-pg {
 padding: 40em 4em;
 }
 
@@ -1522,7 +1536,8 @@ left: 94%;
 }
 
 @media only screen and (min-width: 119em) {
-    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg {
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg,
+.page-layout-8-1 .title-pg {
 padding: 40em 10em;
 }
 }
