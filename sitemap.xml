@@ -4,7 +4,7 @@
 
    <url>
 
-      <loc>www.dpsoriginal.com/index.html</loc>
+      <loc>http://www.dpsoriginal.com/index.html</loc>
 
       <lastmod>2014-05-01</lastmod>
 
@@ -14,18 +14,7 @@
 
   <url>
 
-      <loc>www.dpsoriginal.com/medical.html</loc>
-
-      <lastmod>2014-05-01</lastmod>
-
-
-      <priority>0.8</priority>
-
-   </url>
-
-  <url>
-
-      <loc>www.dpsoriginal.com/marketing.html</loc>
+      <loc>http://www.dpsoriginal.com/medical.html</loc>
 
       <lastmod>2014-05-01</lastmod>
 
@@ -36,7 +25,18 @@
 
   <url>
 
-      <loc>www.dpsoriginal.com/workshop.html</loc>
+      <loc>http://www.dpsoriginal.com/marketing.html</loc>
+
+      <lastmod>2014-05-01</lastmod>
+
+
+      <priority>0.8</priority>
+
+   </url>
+
+  <url>
+
+      <loc>http://www.dpsoriginal.com/workshop.html</loc>
 
       <lastmod>2014-05-01</lastmod>
 
