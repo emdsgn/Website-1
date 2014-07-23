@@ -64,7 +64,7 @@
 
 	CBPGridGallery.prototype._init = function() {
 		// main grid
-		this.grid = this.el.querySelector( 'section.grid-wrap-3 > ul.why-dps-1' );
+		this.grid = this.el.querySelector( 'section.grid-wrap-1 > ul.why-dps-1' );
 		// main grid items
 		this.gridItems = [].slice.call( this.grid.querySelectorAll( 'li:not(.grid-sizer-1)' ) );
 		// items total

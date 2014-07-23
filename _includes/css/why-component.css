@@ -173,6 +173,10 @@ figcaption .body {
 	font-size: 1em;
 }
 
+figcaption .dots {
+	font-size: 0.75em;
+}
+
 /* Navigation */
 .nav-next-1 {
 	font-size: 3em;
@@ -514,6 +518,7 @@ span.nav-close:before {
 	margin: 0;
 	padding: 0.5em 0;
 	font-weight: 300;
+	color: #FFF;
 }
 
 /* Grid style */
@@ -1121,6 +1126,12 @@ padding: 6em 12em;
 
 	figcaption .body {
 font-size: 1.1em;
+}
+}
+
+@media only screen and (min-width: 89em) {
+	figcaption .body {
+font-size: 1.09em;
 }
 }
 
