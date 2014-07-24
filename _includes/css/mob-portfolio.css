@@ -624,6 +624,10 @@ button.currentPage:hover {
 	padding: 1em;
 }
 
+.p-info1 {
+	padding: 0 1em 1em 1em;
+}
+
 .projectInfo h4 {
     font-style: normal;
 	font-size: 1em;
@@ -960,6 +964,10 @@ button.currentPage:hover {
 	.p-info {
 		padding: 2em;
 	}
+
+	.p-info1 {
+		padding: 0 2em 2em 2em;
+	}
 }
 
 @media only screen and (min-width: 22.5em) {
@@ -976,6 +984,10 @@ button.currentPage:hover {
 
 	.p-info {
 		padding: 4em;
+	}
+
+	.p-info1 {
+		padding: 0 4em 4em 4em;
 	}
 
 		.projectInfo h4 {

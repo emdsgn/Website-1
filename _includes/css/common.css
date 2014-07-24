@@ -1372,7 +1372,6 @@ height: 3684px;
 
   .c-logo {
     padding: 2.65em 1em 2.65em 0;
-    background-color: gray;
   }
 
   .flex-logo-8 {
@@ -1387,11 +1386,10 @@ height: 3684px;
 
   .c-bucket {
 padding: 1em 0;
-background-color: gray;
 }
 
   .contact-body {
-    padding: 0.5em 0 1em 0;
+    padding: 1em 0 1em 0;
   }
 
   .media,
@@ -2274,11 +2272,11 @@ padding: 5% 0;
 }
 
   .company {
-    padding: 13em 12em 13em 51em;
+    padding: 13em 12em 13em 52em;
   }
 
   .company h3 {
-font-size: 2.7em;
+font-size: 2.6em;
 }
 
   .logo-spacer {

@@ -166,7 +166,7 @@
 .slideshow figcaption h3 {
 	font-weight: 300;
 	font-size: 2em;
-	padding: 0 1em 0 0;
+	text-align: left;
 }
 
 figcaption .body {
@@ -174,7 +174,7 @@ figcaption .body {
 }
 
 figcaption .dots {
-	font-size: 0.75em;
+	font-size: 0.7em;
 }
 
 /* Navigation */
@@ -443,10 +443,10 @@ span.nav-close:before {
 .slideshow-1 figcaption h3 {
 	font-weight: 300;
 	font-size: 2em;
-	padding: 0 1em 0 0;
 	text-transform: lowercase;
 	color: #FFF;
 	border-bottom: none;
+	text-align: left;
 }
 
 /* Navigation */
@@ -651,10 +651,10 @@ span.nav-close:before {
 .slideshow-2 figcaption h3 {
 	font-weight: 300;
 	font-size: 2em;
-	padding: 0 1em 0 0;
 	text-transform: lowercase;
 	color: #FFF;
 	border-bottom: none;
+	text-align: left;
 }
 
 .slideshow-2 nav span {
@@ -852,10 +852,10 @@ span.nav-close:before {
 .slideshow-3 figcaption h3 {
 	font-weight: 300;
 	font-size: 2em;
-	padding: 0 1em 0 0;
 	text-transform: lowercase;
 	color: #FFF;
 	border-bottom: none;
+	text-align: left;
 }
 
 /* Navigation */
