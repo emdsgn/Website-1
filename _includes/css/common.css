@@ -286,7 +286,7 @@ h3 {
   color: #FFF;
   display: inline-block;
   border-bottom: 1px solid #FFF;
-  font-size: 1.1em;
+  font-size: 1.7em;
 }
 
 .body-1 {
@@ -469,6 +469,12 @@ padding: 0.5em 0 0 1em;
     font-weight: 100;
 }
 
+.phone a {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: 100;
+}
+
 .flex-logo-8 {
     width: 100%;
     padding: 1em 0;
@@ -539,7 +545,7 @@ h4 {
   }
 
   .content {
-  height: 1453px;
+  height: 1363px;
   }
 
   h3 {
@@ -557,7 +563,7 @@ h4 {
   }
 
   .logo-2 h3 {
-    font-size: 2.4em;
+    font-size: 2.45em;
   }
 
   .mob-padding {
@@ -588,7 +594,7 @@ h4 {
   }
 
   .content {
-    height: 1937px;
+    height: 1844px;
   }
 
   /* WORKSHOP */
@@ -622,7 +628,7 @@ h4 {
   }
 
   .content {
-    height: 2177px;
+    height: 2088px;
   }
 
   .logo-2 h3 {
@@ -695,7 +701,7 @@ height: 2522px;
   }
 
   .content {
-height: 3225px;
+height: 3132px;
 }
 
   /* WORKSHOP */
@@ -736,7 +742,7 @@ font-size: 3em;
   }
 
   .content {
-height: 3630px;
+height: 3537px;
 }
 
   /* WORKSHOP */
@@ -758,7 +764,7 @@ height: 3630px;
 
 @media only screen and (min-width: 37.6em) {
 .content {
-height: 3648px;
+height: 3555px;
 }
 
 .logo-2 h3 {
@@ -1366,6 +1372,7 @@ height: 3684px;
 
   .c-logo {
     padding: 2.65em 1em 2.65em 0;
+    background-color: gray;
   }
 
   .flex-logo-8 {
@@ -1380,6 +1387,7 @@ height: 3684px;
 
   .c-bucket {
 padding: 1em 0;
+background-color: gray;
 }
 
   .contact-body {
@@ -2270,7 +2278,7 @@ padding: 5% 0;
   }
 
   .company h3 {
-font-size: 2.9em;
+font-size: 2.7em;
 }
 
   .logo-spacer {
