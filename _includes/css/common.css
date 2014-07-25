@@ -22,6 +22,10 @@ body {
 }
 
 /* HEADER */
+header {
+  display: none;
+}
+
 .logo-img {
   position: absolute;
 }
@@ -842,6 +846,7 @@ height: 3684px;
   header {
     width: 100%;
     background-color: #FFF;
+    display: block;
   }
 
   #cssmenu {
