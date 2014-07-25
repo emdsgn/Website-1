@@ -38,6 +38,8 @@
 <body>
 <!-- HEADER -->
 <header>
+  {% include market-nav.html %}
+</header>
 <!-- NAVIGATION FOR MOBILE -->
 <div class="container demo-2">
   <div class="main-1 clearfix">
@@ -77,13 +79,12 @@
 
   <div class="grid">
     <div class="logo-img">
-      <img src="img/marketing-2.jpg" class="flex-img-2">
-      <img src="img/marketing-1.jpg" class="flex-img-1">
+      <img src="img/marketing-1.jpg" class="flex-img-2">
+      <img src="img/marketing-2.jpg" class="flex-img-1">
     </div>
 
     <div class="unit unit-s-1 unit-s-1-1 unit-m-1 unit-l-1">
     <div class="logo-2">
-      {% include market-nav.html %}
       <div class="mobile-layout">
         <h3>Welcome to<br><img src="img/market-logo.svg" class="market-logo"></h3>
       </div>
@@ -109,7 +110,6 @@
     </div>
   </div>
 </div>
-</header>
 <!-- END HEADER -->
 
 {{content}}

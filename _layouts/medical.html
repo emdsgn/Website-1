@@ -38,6 +38,8 @@
 <body>
 <!-- HEADER -->
 <header>
+  {% include nav.html %}
+</header>
 <!-- NAVIGATION FOR MOBILE -->
 <div class="container demo-2">
   <div class="main-1 clearfix">
@@ -77,13 +79,12 @@
 
 <div class="grid">
   <div class="logo-img">
-    <img src="img/medical.jpg" class="flex-img-2">
-    <img src="img/medical-1.jpg" class="flex-img-1">
+    <img src="img/medical.jpg" class="flex-img-1">
+    <img src="img/medical-1.jpg" class="flex-img-2">
   </div>
 
   <div class="unit unit-s-1 unit-s-1-1 unit-m-1 unit-l-1">
     <div class="logo-1">
-      {% include nav.html %}
       <div class="mobile-layout">
         <h3>Medical Education</h3>
       </div>
@@ -108,7 +109,6 @@
     </div>
   </div>
 </div>
-</header>
 <!-- END HEADER -->
 
 {{content}}

@@ -839,6 +839,11 @@ height: 3684px;
     display: none;
   }
 
+  header {
+    width: 100%;
+    background-color: #FFF;
+  }
+
   #cssmenu {
     padding: 0;
     margin: 0;
@@ -897,11 +902,11 @@ height: 3684px;
   }
 
   #cssmenu a {
-    color: #FFF;
+    color: #152a3f;
     padding: 0 18.1px;
   }
 
-  #cssmenu ul { text-transform: uppercase; border-bottom: 1px solid #FFF; text-align: center;}
+  #cssmenu ul { text-transform: uppercase; border-bottom: 1px solid #152a3f; text-align: center;}
 
   #cssmenu ul ul {
     text-transform: none;
@@ -910,9 +915,9 @@ height: 3684px;
   }
 
   #cssmenu ul ul a {
-    background: rgba(0,0,0,0.8);
-    color: #FFF;
-    border-bottom: 1px solid #000;
+    background: rgba(255,255,255,0.8);
+    color: #152a3f;
+    border-bottom: 1px solid #FFF;
     border-top: 0 none;
     line-height: 150%;
     padding: 16px 20px;
@@ -922,11 +927,11 @@ height: 3684px;
   #cssmenu ul ul ul { border-top: 0 none; }
   #cssmenu ul ul li { position: relative; width: 100%;}
   #cssmenu > ul > li > a { line-height: 55px;  }
-  #cssmenu ul ul li:first-child > a { border-top: 1px solid #000; }
-  #cssmenu ul ul li:hover > a { border-bottom: 3px solid #FFF; }
+  #cssmenu ul ul li:first-child > a { border-top: 1px solid #FFF; }
+  #cssmenu ul ul li:hover > a { border-bottom: 3px solid #152a3f; }
 
   #cssmenu ul ul li:last-child > a {
-    box-shadow: 0 1px 0 #000;
+    box-shadow: 0 1px 0 #FFF;
   }
 
   #cssmenu ul ul li:last-child:hover > a {}
@@ -940,7 +945,7 @@ height: 3684px;
   }
 
   #cssmenu ul li:hover > a, #cssmenu ul li.active > a {
-      border-bottom: 3px solid #FFF;
+      border-bottom: 3px solid #152a3f;
   }
 
   #cssmenu ul li.has-sub > a:after {
@@ -959,7 +964,7 @@ height: 3684px;
   }
 
   .show {
-    background: rgba(0,0,0,0.85);
+    background: rgba(255,255,255,0.85);
   }
 
   sticknav {
@@ -969,6 +974,9 @@ height: 3684px;
     position: relative;
     z-index: 9999;
     height: inherit;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
     }
 
   .fixed {
@@ -1506,11 +1514,12 @@ padding: 6.8em 2em;
 }
 
 .c-bucket {
-padding: 2.11em 0;
+padding: 1.9em 0;
 }
 
 .phone .body {
-padding: 1em 6em 0 6em;
+padding: 1em 4em 0 4em;
+font-size: 1em
 }
 }
 
@@ -1552,11 +1561,11 @@ padding: 7.3em 2em;
 }
 
 .c-bucket {
-padding: 2.3em 0;
+padding: 2.07em 0;
 }
 
 .phone .body {
-padding: 1em 7em 0 7em;
+padding: 1em 5em 0 5em;
 }
 }
 
@@ -1598,11 +1607,11 @@ width: 35.5%;
 }
 
 .c-bucket {
-padding: 3.4em 0;
+padding: 3.14em 0;
 }
 
 .phone .body {
-padding: 1em 8em 0 8em;
+padding: 1em 7em 0 7em;
 }
 }
 
@@ -1644,11 +1653,11 @@ padding: 7.6em 2em;
 }
 
 .c-bucket {
-padding: 3.55em 0;
+padding: 3.34em 0;
 }
 
 .phone .body {
-padding: 1em 9em 0 9em;
+padding: 1em 7em 0 7em;
 }
 }
 
@@ -1814,11 +1823,11 @@ padding: 5.6em 3em;
   }
 
   .c-bucket {
-padding: 2.15em 0;
+padding: 1.81em 0;
 }
 
 .phone .body {
-padding: 2em 11em 0 11em;
+padding: 2em 9em 0 9em;
 }
 
   .copyright {
@@ -1860,7 +1869,7 @@ padding: 10em 3em;
 }
 
 .c-bucket {
-padding: 2.6em 0;
+padding: 2.34em 0;
 }
 }
 
@@ -1944,7 +1953,7 @@ padding: 10.2em 3em;
 }
 
 .c-bucket {
-padding: 2.97em 0;
+padding: 2.7em 0;
 }
 }
 
@@ -1978,11 +1987,19 @@ padding: 11.4em 3em;
 }
 
 .c-bucket {
-padding: 3.16em 0;
+padding: 2.87em 0;
 }
 }
 
 @media only screen and (min-width: 80em) {
+  .flex-img-2 {
+    display: none
+  }
+
+  .flex-img-1 {
+    display: block;
+  }
+
   .flex-logo-2 {
     width: 29.6%;
   }
@@ -2026,7 +2043,7 @@ padding: 2em 1em;
   }
 
   .work-link {
-    padding: 16em 4em;
+    padding: 15em 4em;
   }
 
   .market-link {
@@ -2097,7 +2114,7 @@ font-size: 4.46em;
 }
 
 .c-bucket {
-padding: 3.67em 0;
+padding: 3.4em 0;
 }
 }
 
@@ -2135,7 +2152,7 @@ font-size: 4.61em;
 }
 
 .c-bucket {
-padding: 3.8em 0;
+padding: 3.5em 0;
 }
 }
 
@@ -2204,7 +2221,7 @@ padding: 1.8em 1em;
   }
 
   .c-bucket {
-padding: 4.16em 0;
+padding: 3.87em 0;
 }
 }
 
@@ -2250,7 +2267,7 @@ font-size: 5.25em;
 }
 
 .c-bucket {
-padding: 4.35em 0;
+padding: 4.06em 0;
 }
 }
 
@@ -2365,11 +2382,15 @@ height: 684px;
   }
 
   .c-bucket {
-padding: 4.6em 0;
+padding: 4.33em 0;
 }
 }
 
 @media only screen and (min-width: 93em) {
+.logo {
+padding: 5% 0 12% 0;
+}
+
 .flex-logo-2 {
 width: 25%;
 }
@@ -2411,7 +2432,7 @@ padding: 16.8em 4em;
 }
 
 .c-bucket {
-padding: 4.96em 0;
+padding: 4.7em 0;
 }
 }
 
@@ -2433,7 +2454,7 @@ padding: 14.5em 5em;
 }
 
 .content {
-height: 736px;
+height: 744px;
 }
 
 .flex-logo-5 {
@@ -2441,7 +2462,7 @@ width: 22.2%;
 }
 
 .c-bucket {
-padding: 5.35em 0;
+padding: 5.07em 0;
 }
 }
 
@@ -2497,11 +2518,15 @@ width: 21.7%;
 }
 
 .c-bucket {
-padding: 6.34em 0;
+padding: 6.03em 0;
 }
 }
 
 @media only screen and (min-width: 105em) {
+  .logo {
+padding: 9% 0 12% 0;
+}
+
 .flex-logo-2 {
 width: 22.1%;
 }
@@ -2524,9 +2549,6 @@ height: 798px;
 
   /* SERVICE PAGES */
   /* MEDICAL EDUCATION */
-  .content {
-    height: 805px;
-  }
 
   /* WORKSHOP */
 
@@ -2536,7 +2558,11 @@ width: 20.6%;
 }
 
 .c-bucket {
-padding: 6.76em 0;
+padding: 6.2em 0;
+}
+
+.phone .body {
+font-size: 1.1em;
 }
 }
 
@@ -2558,7 +2584,7 @@ padding: 16.9em 5em;
 }
 
 .content {
-height: 831px;
+height: 841px;
 }
 
 .market-link {
@@ -2574,7 +2600,7 @@ padding: 17.7em 4em;
 }
 
 .c-bucket {
-padding: 6.9em 0;
+padding: 6.76em 0;
 }
 }
 
@@ -2604,7 +2630,7 @@ width: 19.3%;
 }
 
 .c-bucket {
-padding: 7.5em 0;
+padding: 6.95em 0;
 }
 }
 
@@ -2626,7 +2652,7 @@ padding: 18.1em 5em;
 }
 
 .content {
-height: 880px;
+height: 889px;
 }
 
 .flex-logo-5 {
@@ -2634,7 +2660,7 @@ width: 18.6%;
 }
 
 .c-bucket {
-padding: 7.9em 0;
+padding: 7.3em 0;
 }
 }
 
@@ -2676,6 +2702,6 @@ width: 18.1%;
 }
 
 .c-bucket {
-padding: 8.2em 0;
+padding: 7.63em 0;
 }
 }

@@ -40,6 +40,9 @@
 <body>
 <!-- HEADER -->
 <header>
+{% include nav.html %}
+</header>
+
 <!-- NAVIGATION FOR MOBILE -->
 <div class="container demo-2">
   <div class="main-1 clearfix">
@@ -79,13 +82,12 @@
 
   <div class="grid">
     <div class="logo-img">
-      <img src="img/banner.jpg" class="flex-img-2">
-      <img src="img/banner-1.jpg" class="flex-img-1">
+      <img src="img/banner.jpg" class="flex-img-1">
+      <img src="img/banner-1.jpg" class="flex-img-2">
     </div>
 
     <div class="unit unit-s-1 unit-s-1-1 unit-m-1 unit-l-1">
     <div class="logo">
-      {% include nav.html %}
       <img src="img/logo.svg" alt="" class="flex-logo">
       <img src="img/logo-1.svg" alt="" class="flex-logo-1">
 
@@ -126,7 +128,6 @@
 </div>
 </div>
 </div>
-</header>
 <!-- END HEADER -->
 
 {{content}}
