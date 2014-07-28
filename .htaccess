@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+
+# index.php to /
+RewriteCond %{THE_REQUEST} ^GET\ /.*/index\.(php|html)\ HTTP
+RewriteRule (.*)index\.(php|html)$ /$1 [R=301,L]
+
+# force www.
+rewritecond %{HTTP_HOST} ^dpsoriginal.com [nc]
+rewriterule ^(.*)$ http://www.dpsoriginal.com/$1 [r=301,nc]
+</IfModule>

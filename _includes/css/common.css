@@ -559,7 +559,7 @@ h4 {
 
 @media only screen and (min-width: 20em) {
   .logo {
-    padding: 14.5% 0 18% 0;
+    padding: 18% 0 18% 0;
   }
 
   .logo-1 {
@@ -845,7 +845,7 @@ height: 3684px;
 
   header {
     width: 100%;
-    background-color: #FFF;
+    background-color: #000;
     display: block;
   }
 
@@ -907,11 +907,11 @@ height: 3684px;
   }
 
   #cssmenu a {
-    color: #152a3f;
+    color: #FFF;
     padding: 0 18.1px;
   }
 
-  #cssmenu ul { text-transform: uppercase; border-bottom: 1px solid #152a3f; text-align: center;}
+  #cssmenu ul { text-transform: uppercase; border-bottom: 1px solid #FFF; text-align: center;}
 
   #cssmenu ul ul {
     text-transform: none;
@@ -920,9 +920,9 @@ height: 3684px;
   }
 
   #cssmenu ul ul a {
-    background: rgba(255,255,255,0.8);
-    color: #152a3f;
-    border-bottom: 1px solid #FFF;
+    background: rgba(0,0,0,0.8);
+    color: #FFF;
+    border-bottom: 1px solid #000;
     border-top: 0 none;
     line-height: 150%;
     padding: 16px 20px;
@@ -932,11 +932,11 @@ height: 3684px;
   #cssmenu ul ul ul { border-top: 0 none; }
   #cssmenu ul ul li { position: relative; width: 100%;}
   #cssmenu > ul > li > a { line-height: 55px;  }
-  #cssmenu ul ul li:first-child > a { border-top: 1px solid #FFF; }
-  #cssmenu ul ul li:hover > a { border-bottom: 3px solid #152a3f; }
+  #cssmenu ul ul li:first-child > a { border-top: 1px solid #000; }
+  #cssmenu ul ul li:hover > a { border-bottom: 3px solid #FFF; }
 
   #cssmenu ul ul li:last-child > a {
-    box-shadow: 0 1px 0 #FFF;
+    box-shadow: 0 1px 0 #000;
   }
 
   #cssmenu ul ul li:last-child:hover > a {}
@@ -950,7 +950,7 @@ height: 3684px;
   }
 
   #cssmenu ul li:hover > a, #cssmenu ul li.active > a {
-      border-bottom: 3px solid #152a3f;
+      border-bottom: 3px solid #FFF;
   }
 
   #cssmenu ul li.has-sub > a:after {
@@ -969,7 +969,7 @@ height: 3684px;
   }
 
   .show {
-    background: rgba(255,255,255,0.85);
+    background: rgba(0,0,0,0.85);
   }
 
   sticknav {
@@ -1204,7 +1204,7 @@ height: 3684px;
     background-color: rgba(0,0,0,0.3);
   }
 
-  #market-1 h3 {
+  #marketing-and-design h3 {
     font-size: 3.08em;
   }
 
@@ -1444,7 +1444,7 @@ padding: 6.1em 5em;
     padding: 7.6em 2em;
   }
 
-  #market-1 h3 {
+  #marketing-and-design h3 {
     font-size: 3.31em;
   }
 
@@ -1498,7 +1498,7 @@ padding: 6.9em 5em;
 height: 409px;
 }
 
-#market-1 h3 {
+#marketing-and-design h3 {
 font-size: 3.73em;
 }
 
@@ -1549,7 +1549,7 @@ padding: 7.3em 5em;
 height: 424px;
 }
 
-#market-1 h3 {
+#marketing-and-design h3 {
 font-size: 3.93em;
 }
 
@@ -1595,7 +1595,7 @@ padding: 8.1em 5em;
 height: 457px;
 }
 
-#market-1 h3 {
+#marketing-and-design h3 {
 font-size: 4.34em;
 }
 
@@ -1641,7 +1641,7 @@ padding: 8.5em 5em;
 height: 472px;
 }
 
-#market-1 h3 {
+#marketing-and-design h3 {
 font-size: 4.54em;
 }
 
@@ -1724,7 +1724,7 @@ padding: 8em 5em;
     padding: 11em 3em;
   }
 
-  #market-1 h3 {
+  #marketing-and-design h3 {
     font-size: 3.18em;
   }
 
@@ -1835,6 +1835,11 @@ padding: 1.81em 0;
 padding: 2em 9em 0 9em;
 }
 
+.media, .careers, .new-business {
+  border-right: 1px solid #FFF;
+  padding: 0 1em;
+}
+
   .copyright {
     padding: 0.5em;
   }
@@ -1861,7 +1866,7 @@ padding: 8.5em 5em;
 height: 521px;
 }
 
-#market-1 h3 {
+#marketing-and-design h3 {
 font-size: 3.45em;
 }
 
@@ -1899,7 +1904,7 @@ padding: 8.9em 5em;
 height: 552px;
 }
 
-#market-1 h3 {
+#marketing-and-design h3 {
 font-size: 3.65em;
 }
 
@@ -1937,7 +1942,7 @@ padding: 9.7em 5em;
 height: 568px;
 }
 
-#market-1 h3 {
+#marketing-and-design h3 {
 font-size: 4.1em;
 }
 
@@ -1975,7 +1980,7 @@ padding: 8.3em 6em 8.3em 42em;
 padding: 10em 5em;
 }
 
-#market-1 h3 {
+#marketing-and-design h3 {
 font-size: 4.29em;
 }
 
@@ -2114,7 +2119,7 @@ font-size: 4.46em;
 width: 27%;
 }
 
-#market-1 h3 {
+#marketing-and-design h3 {
 font-size: 4.46em;
 }
 
@@ -2144,7 +2149,7 @@ padding: 11.3em 5em;
 height: 616px;
 }
 
-#market-1 h3 {
+#marketing-and-design h3 {
 font-size: 4.61em;
 }
 
@@ -2178,7 +2183,7 @@ padding: 11em 10em 11em 48em;
 padding: 12em 5em;
 }
 
-  #market-1 h3 {
+  #marketing-and-design h3 {
     font-size: 5.02em;
   }
 
@@ -2255,7 +2260,7 @@ padding: 12.5em 5em;
 height: 664px;
 }
 
-#market-1 h3 {
+#marketing-and-design h3 {
 font-size: 5.25em;
 }
 
@@ -2326,7 +2331,7 @@ padding: 10em 4em;
     padding: 16.5em 4em;
   }
 
-#market-1 h3 {
+#marketing-and-design h3 {
 font-size: 5.49em;
 }
 
@@ -2389,6 +2394,10 @@ height: 684px;
   .c-bucket {
 padding: 4.33em 0;
 }
+
+.media, .careers, .new-business {
+  padding: 0 2em;
+  }
 }
 
 @media only screen and (min-width: 93em) {
@@ -2416,7 +2425,7 @@ padding: 13.7em 5em;
 height: 712px;
 }
 
-#market-1 h3 {
+#marketing-and-design h3 {
 font-size: 5.88em;
 }
 
@@ -2525,6 +2534,10 @@ width: 21.7%;
 .c-bucket {
 padding: 6.03em 0;
 }
+
+.media, .careers, .new-business {
+padding: 0 3em;
+}
 }
 
 @media only screen and (min-width: 105em) {
@@ -2568,6 +2581,10 @@ padding: 6.2em 0;
 
 .phone .body {
 font-size: 1.1em;
+}
+
+.media, .careers, .new-business {
+padding: 0 4em;
 }
 }
 
@@ -2708,5 +2725,9 @@ width: 18.1%;
 
 .c-bucket {
 padding: 7.63em 0;
+}
+
+.media, .careers, .new-business {
+padding: 0 6em;
 }
 }
