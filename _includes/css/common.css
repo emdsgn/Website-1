@@ -462,6 +462,7 @@ padding: 0.5em 0 0 1em;
   color: #FFF;
   font-size: 0.9em;
   padding: 0.5em 0 0 0;
+  font-weight: 100;
 }
 
 .contact .sub-body {
@@ -509,7 +510,7 @@ h4 {
   display: block;
   outline: none;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 0.8em;
   padding: 0.1em 0 0em 0;
 }
@@ -559,7 +560,7 @@ h4 {
 
 @media only screen and (min-width: 20em) {
   .logo {
-    padding: 18% 0 18% 0;
+    padding: 20% 0 20% 0;
   }
 
   .logo-1 {
@@ -969,7 +970,7 @@ height: 3684px;
   }
 
   .show {
-    background: rgba(0,0,0,0.85);
+    background: rgba(0,0,0,0.7);
   }
 
   sticknav {
@@ -1398,7 +1399,7 @@ height: 3684px;
   }
 
   .c-bucket {
-padding: 1em 0;
+padding: 2.63em 0;
 }
 
   .contact-body {
@@ -1519,7 +1520,7 @@ padding: 6.8em 2em;
 }
 
 .c-bucket {
-padding: 1.9em 0;
+padding: 3.75em 0;
 }
 
 .phone .body {
@@ -1566,7 +1567,7 @@ padding: 7.3em 2em;
 }
 
 .c-bucket {
-padding: 2.07em 0;
+padding: 3.95em 0;
 }
 
 .phone .body {
@@ -1612,7 +1613,7 @@ width: 35.5%;
 }
 
 .c-bucket {
-padding: 3.14em 0;
+padding: 5.03em 0;
 }
 
 .phone .body {
@@ -1658,7 +1659,7 @@ padding: 7.6em 2em;
 }
 
 .c-bucket {
-padding: 3.34em 0;
+padding: 5.2em 0;
 }
 
 .phone .body {
@@ -1828,14 +1829,18 @@ padding: 5.6em 3em;
   }
 
   .c-bucket {
-padding: 1.81em 0;
+padding: 4.2em 0;
 }
 
 .phone .body {
-padding: 2em 9em 0 9em;
+padding: 0 9em;
 }
 
-.media, .careers, .new-business {
+.new-business {
+  padding: 0 1em;
+}
+
+.media, .careers {
   border-right: 1px solid #FFF;
   padding: 0 1em;
 }
@@ -1879,7 +1884,7 @@ padding: 10em 3em;
 }
 
 .c-bucket {
-padding: 2.34em 0;
+padding: 4.45em 0;
 }
 }
 
@@ -1918,6 +1923,10 @@ font-size: 3.65em;
 
 .flex-logo-5 {
 width: 31.5%;
+}
+
+.c-bucket {
+padding: 4.7em 0;
 }
 }
 
@@ -1963,7 +1972,7 @@ padding: 10.2em 3em;
 }
 
 .c-bucket {
-padding: 2.7em 0;
+padding: 5.05em 0;
 }
 }
 
@@ -1997,7 +2006,7 @@ padding: 11.4em 3em;
 }
 
 .c-bucket {
-padding: 2.87em 0;
+padding: 5.25em 0;
 }
 }
 
@@ -2124,7 +2133,7 @@ font-size: 4.46em;
 }
 
 .c-bucket {
-padding: 3.4em 0;
+padding: 5.75em 0;
 }
 }
 
@@ -2162,7 +2171,7 @@ font-size: 4.61em;
 }
 
 .c-bucket {
-padding: 3.5em 0;
+padding: 5.86em 0;
 }
 }
 
@@ -2231,7 +2240,11 @@ padding: 1.8em 1em;
   }
 
   .c-bucket {
-padding: 3.87em 0;
+padding: 6.25em 0;
+}
+
+.media, .careers, .new-business {
+padding: 0 4em;
 }
 }
 
@@ -2277,7 +2290,7 @@ font-size: 5.25em;
 }
 
 .c-bucket {
-padding: 4.06em 0;
+padding: 6.44em 0;
 }
 }
 
@@ -2392,12 +2405,12 @@ height: 684px;
   }
 
   .c-bucket {
-padding: 4.33em 0;
+padding: 6.7em 0;
 }
 
-.media, .careers, .new-business {
-  padding: 0 2em;
-  }
+.contact-body {
+font-size: 1em;
+}
 }
 
 @media only screen and (min-width: 93em) {
@@ -2446,7 +2459,7 @@ padding: 16.8em 4em;
 }
 
 .c-bucket {
-padding: 4.7em 0;
+padding: 7.05em 0;
 }
 }
 
@@ -2476,7 +2489,7 @@ width: 22.2%;
 }
 
 .c-bucket {
-padding: 5.07em 0;
+padding: 7.46em 0;
 }
 }
 
@@ -2532,11 +2545,7 @@ width: 21.7%;
 }
 
 .c-bucket {
-padding: 6.03em 0;
-}
-
-.media, .careers, .new-business {
-padding: 0 3em;
+padding: 7.7em 0;
 }
 }
 
@@ -2576,7 +2585,7 @@ width: 20.6%;
 }
 
 .c-bucket {
-padding: 6.2em 0;
+padding: 8.14em 0;
 }
 
 .phone .body {
@@ -2622,7 +2631,7 @@ padding: 17.7em 4em;
 }
 
 .c-bucket {
-padding: 6.76em 0;
+padding: 8.7em 0;
 }
 }
 
@@ -2652,7 +2661,7 @@ width: 19.3%;
 }
 
 .c-bucket {
-padding: 6.95em 0;
+padding: 8.87em 0;
 }
 }
 
@@ -2682,7 +2691,11 @@ width: 18.6%;
 }
 
 .c-bucket {
-padding: 7.3em 0;
+padding: 9.25em 0;
+}
+
+.media, .careers, .new-business {
+padding: 0 8em;
 }
 }
 
@@ -2724,10 +2737,6 @@ width: 18.1%;
 }
 
 .c-bucket {
-padding: 7.63em 0;
-}
-
-.media, .careers, .new-business {
-padding: 0 6em;
+padding: 9.55em 0;
 }
 }

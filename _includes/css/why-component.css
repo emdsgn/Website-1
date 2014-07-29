@@ -1065,8 +1065,12 @@ margin: 0;
 }
 
 @media only screen and (min-width: 62em) {
-	.slideshow figure {
-padding: 6em;
+.slideshow figure {
+padding: 3em 6em;
+}
+
+figcaption .body {
+font-size: 0.9em;
 }
 }
 
@@ -1117,11 +1121,15 @@ padding: 6em 8em;
 		margin: 0 auto;
 		visibility: hidden;
 	}
+
+	figcaption .body {
+font-size: 1em;
+}
 }
 
 @media only screen and (min-width: 85em) {
 	.slideshow figure {
-padding: 6em 12em;
+padding: 5em 12em;
 }
 
 	figcaption .body {
@@ -1164,7 +1172,4 @@ padding: 6em 25em;
 }
 
 @media only screen and (min-width: 119em) {
-	.slideshow figure {
-padding: 6em 30em;
-}
 }
