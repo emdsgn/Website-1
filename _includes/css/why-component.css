@@ -83,7 +83,7 @@
 }
  
 .slideshow .scroll::-webkit-scrollbar-thumb {
-  background-color: #152a3f;
+  background-color: #FFF;
 }
 /* Slideshow style */
 .slideshow {
@@ -1048,7 +1048,7 @@ margin: 0;
 	.slideshow nav span,
 	.slideshow nav span.nav-close {
 		font-size: 1.8em;
-		padding: 0.5em 7em;
+		padding: 1em;
 	}
 
 	.slideshow-1 li,
@@ -1122,7 +1122,7 @@ padding: 6em 8em;
 @media only screen and (min-width: 80em) {
 
 	.slideshow figure {
-		padding: 5em 15em;
+		padding: 5em 10em;
 	}
 
 	.slideshow-1 li,
@@ -1144,7 +1144,7 @@ font-size: 1em;
 
 @media only screen and (min-width: 85em) {
 	.slideshow figure {
-padding: 5em 15em;
+padding: 5em 12em;
 }
 
 	figcaption .body {
@@ -1154,7 +1154,7 @@ font-size: 1.1em;
 
 @media only screen and (min-width: 89em) {
 	figcaption .body {
-font-size: 1em;
+font-size: 1.09em;
 }
 }
 
