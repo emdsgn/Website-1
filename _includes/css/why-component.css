@@ -83,7 +83,8 @@
 }
  
 .slideshow .scroll::-webkit-scrollbar-thumb {
-  background-color: #FFF;
+  background-color: #000;
+  height: 1em;
 }
 /* Slideshow style */
 .slideshow {
