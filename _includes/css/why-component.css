@@ -83,7 +83,7 @@
 }
  
 .slideshow .scroll::-webkit-scrollbar-thumb {
-  background-color: #FFF;
+  background-color: #152a3f;
 }
 /* Slideshow style */
 .slideshow {
@@ -1048,7 +1048,7 @@ margin: 0;
 	.slideshow nav span,
 	.slideshow nav span.nav-close {
 		font-size: 1.8em;
-		padding: 1em;
+		padding: 0.5em 7em;
 	}
 
 	.slideshow-1 li,
