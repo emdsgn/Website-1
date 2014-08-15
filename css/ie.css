@@ -61,7 +61,7 @@
 
 #menu li:hover ul, #menu li.over ul {
     display: block;
-    padding: 0;
+    padding: 2em 0;
 }
 
 #menu li a {
