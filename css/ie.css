@@ -63,8 +63,8 @@
     display: block;
     text-align: center;
     width: 100%;
-    background-color: #000;
-    margin-top: 1%;
+    background-color: #FFF;
+    margin-top: 2%;
 }
 
 #menu li a {
@@ -85,6 +85,10 @@
     padding: 1em;
 }
 
+#menu li ul li a {
+	color: #000;
+}
+
 #menu li ul li a:hover {
-	border-bottom: 1px solid #FFF;
+	border-bottom: 1px solid #000;
 }
