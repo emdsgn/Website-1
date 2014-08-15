@@ -21,6 +21,9 @@ body {
   padding: 0;
 }
 
+/* IE */
+.ie-nav {display: none}
+
 /* HEADER */
 header {
   display: none;
