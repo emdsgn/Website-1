@@ -10,9 +10,83 @@
   box-sizing: border-box;
 }
 
-:root .flex-logo-1 {
+.logo {
+	padding: 0;
+}
+
+.flex-logo-1{
+	display: none;
+	height: 0;
+}
+
+.flex-logo {
+	display: none;
+	height: 0;
+}
+
+.flex-logo1 {
     display: block;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
-    padding: 5% 0 5% 0 \0/IE9;
+    padding: 0% 0 0% 0;
   }
+
+.container {
+	display: none;
+}
+
+.ie-nav {
+	width: 100%;
+	text-align: center;
+	background-color: #000;
+}
+
+#menu {
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+	display: inline-block;
+	padding: 1em 0;
+}
+
+#menu li ul {
+    display: none;
+    position: absolute;
+    left: 0; /*aligns the dropdown to the horizontal tabs*/
+}
+
+#menu li:hover ul, #menu li.over ul {
+    display: block;
+    padding: 0;
+}
+
+#menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+    letter-spacing: 1px;
+    padding: 1em 1em;
+}
+
+#menu li a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #FFF;
+}
+
+#menu li ul li {
+    height: 30px;
+    line-height: 30px;
+    padding: 1em;
+    text-align: left;
+    color: #000;
+}
+
+#menu li ul li a {
+	color: #000;
+}
+
+#menu li ul li a:hover {
+	border-bottom: 1px solid #000;
+}
