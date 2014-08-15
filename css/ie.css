@@ -36,10 +36,10 @@
 }
 
 .ie-nav {
-	display: block;
 	text-align: center;
 	background-color: #000;
-	width: 80px;
+	width: 100%;
+	min-width: 800px;
 }
 
 #menu {
