@@ -9,3 +9,15 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+.flex-logo-1 {
+	display: none;
+    height: 0;
+}
+
+.flex-logo1 {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0% 0 0% 0;
+  }
