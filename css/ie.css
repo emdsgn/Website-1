@@ -61,7 +61,7 @@
 
 #menu li:hover ul, #menu li.over ul {
     display: block;
-    padding: 3em 0;
+    padding: 2.5em 0;
     text-align: center;
     width: 100%;
 }
