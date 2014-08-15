@@ -33,7 +33,7 @@
   }
 
 .container {
-	display: none;
+	display: block;
 }
 
 .ie-nav {
