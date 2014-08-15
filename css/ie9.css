@@ -25,3 +25,8 @@
 .logo {
 	padding: 0 0 3em 0;
 }
+
+.flex-img {
+	width: 100%;
+	display: block;
+}
