@@ -61,7 +61,8 @@
 
 #menu li:hover ul, #menu li.over ul {
     display: block;
-    padding: 2em 0;
+    padding: 3em 0;
+    text-align: center;
 }
 
 #menu li a {
@@ -78,7 +79,6 @@
 }
 
 #menu li ul li {
-    height: 100px;
     line-height: 30px;
     padding: 1em;
     text-align: left;
