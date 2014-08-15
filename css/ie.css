@@ -64,7 +64,7 @@
     text-align: center;
     width: 100%;
     background-color: #FFF;
-    margin-top: 2.2%;
+    margin-top: 2.3%;
 }
 
 #menu li a {
@@ -90,5 +90,5 @@
 }
 
 #menu li ul li a:hover {
-	border-bottom: 1px solid #000;
+	border-bottom: 2px solid #000;
 }
