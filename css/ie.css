@@ -62,6 +62,7 @@
 #menu li:hover ul, #menu li.over ul {
     display: block;
     text-align: center;
+    width: 100%;
     background-color: #FFF;
     margin-top: 2%;
 }
