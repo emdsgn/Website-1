@@ -34,3 +34,11 @@
 .flex-logo-3 {
 	width: 105%;
 }
+
+.desktop-layout {
+	display: none;
+}
+
+.mobile-layout {
+	display: block;
+}
