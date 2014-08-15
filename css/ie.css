@@ -38,7 +38,7 @@
 .ie-nav {
 	text-align: center;
 	background-color: #000;
-	display: inline-block;
+	display: block;
 }
 
 #menu {
