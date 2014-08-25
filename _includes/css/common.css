@@ -1222,12 +1222,13 @@ height: 3684px;
   margin: 0px;
   position: relative;
   padding: 0;
+  text-align: center;
 }
 
 .og-grid li {
-  float: left;
+  display: inline-block;
   list-style-type: none;
-  width: 25%;
+  width: 24%;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -1276,6 +1277,7 @@ height: 3684px;
   position: absolute;
   z-index: 100;
   background-color: #FFF;
+  text-align: left;
 }
 .team_personal_text_holder {
   float: left;
