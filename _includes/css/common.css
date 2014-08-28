@@ -334,6 +334,133 @@ padding: 0.5em 0 0 1em;
   background-color: #FFF;
 }
 
+.og-grid {
+  margin: 0px;
+  position: relative;
+  padding: 0;
+  text-align: center;
+}
+
+.og-grid li {
+  display: inline-block;
+  list-style-type: none;
+  width: 100%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.baffer {
+  height: 1px;
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+.team_image_holder {
+  width: 100%;
+  padding: 1em 1em 0 1em;
+}
+.team_image_holder a {
+  display: block;
+  position: relative;
+}
+.team_image_holder a span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  max-width: 100%;
+  background-color: #fff;
+}
+.entry-content .team_image_holder img {
+  margin: 0px;
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.team_text_holder {
+  display: none;
+  left: 0px;
+  width: 100%;
+  padding: 2em 2.5em;
+  z-index: 100;
+  background-color: #FFF;
+  text-align: left;
+}
+
+.team_member_bio {
+margin: 0;
+}
+
+.team_personal_text_holder {
+  float: left;
+  text-align: left;
+  padding: 1em 1em 1em 0;
+}
+
+h2.team_memer_name {
+  margin: 0px;
+  padding: 0;
+}
+
+p.team_memer_title {
+  margin: 0px;
+  text-transform: uppercase;
+font-weight: 100;
+font-size: 0.85em;
+letter-spacing: 1px;
+}
+
+.team_personal_text_holder a {
+  text-decoration: none;
+  color: #72716e;
+}
+
+a.team_member_linkedin {
+  background-image: url(../images/agency/linked_in_opn.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: block;
+  height: 22px;
+  width: 23px;
+  position: relative;
+}
+a.team_member_linkedin span {
+  background-image: url(../images/agency/linked_in_hvr.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: absolute;
+  height: 22px;
+  width: 23px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+}
+a.team_member_linkedin span:hover {
+  opacity: 1;
+}
+
+.team_text_holder h3 {
+  font-size: 1.5em
+}
+
+.team_text_holder .body {
+  padding: 1em 0;
+}
+
+.team_text_holder2 {
+  padding: 2em 2.5em;
+}
+
 /* OUR WORK */
 .work-m {
     text-align: center;
@@ -731,6 +858,15 @@ height: 3132px;
 
   .logo-2 h3 {
 font-size: 3em;
+}
+
+.og-grid li {
+float: left;
+width: 50%;
+}
+
+.team_text_holder {
+position: absolute;
 }
 }
 
@@ -1228,7 +1364,7 @@ height: 3684px;
 .og-grid li {
   display: inline-block;
   list-style-type: none;
-  width: 24%;
+  width: 50%;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -1243,7 +1379,7 @@ height: 3684px;
 .team_image_holder {
   width: 100%;
   position: relative;
-  padding: 0 1em;
+  padding: 1em 1em 0 1em;
 }
 .team_image_holder a {
   display: block;
@@ -1282,6 +1418,7 @@ height: 3684px;
 
 .team_member_bio {
 margin: 0;
+padding: 0 1em;
 }
 
 .team_personal_text_holder {
@@ -1904,6 +2041,17 @@ padding: 5.6em 3em;
   .service-h3 {
     font-size: 2em;
   }
+
+  .og-grid li {
+display: inline-block;
+list-style-type: none;
+width: 24%;
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+-o-transition: all 0.5s;
+transition: all 0.5s;
+float: none;
+}
 
   /* MEDICAL EDUCATION */
   .med-ed,
