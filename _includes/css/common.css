@@ -1486,6 +1486,14 @@ a.team_member_linkedin span:hover {
   padding: 4em;
 }
 
+.team_text_holder2 .body:before {
+  border-top: 1px solid #000;
+  width: 10%;
+  position: absolute;
+  content: '';
+  margin-top: -1%;
+}
+
   /* SERVICE PAGES */
   #back-top {
   position: absolute;
