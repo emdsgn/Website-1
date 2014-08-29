@@ -1419,6 +1419,7 @@ height: 3684px;
 .team_member_bio {
 margin: 0;
 padding: 0 1em;
+font-size: 0.95em;
 }
 
 .team_personal_text_holder {
@@ -1482,7 +1483,7 @@ a.team_member_linkedin span:hover {
 }
 
 .team_text_holder2 {
-  padding: 2em 2.5em;
+  padding: 4em;
 }
 
   /* SERVICE PAGES */
