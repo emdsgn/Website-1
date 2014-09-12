@@ -147,6 +147,15 @@ body {
     padding: 0;
 }
 
+.bookshelf .spiriva figcaption,
+.bookshelf .medtronic figcaption {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 3.5em 1em;
+}
+
 .bookshelf figcaption {
     position: absolute;
     top: 0;
@@ -382,7 +391,8 @@ body {
 .page-layout-13:last-child .right,
 .page-layout-14:last-child .right,
 .page-layout-15:last-child .right,
-.page-layout-16:last-child .right {
+.page-layout-16:last-child .right,
+.page-layout-17:last-child .right {
     position: absolute;
     top: 8%;
     left: 84%;
@@ -435,6 +445,7 @@ body {
 .page-layout-14 .title-pg,
 .page-layout-15 .title-pg,
 .page-layout-16 .title-pg,
+.page-layout-17 .title-pg,
 .page-layout-1-2 .title-pg,
 .page-layout-8-1 .title-pg,
 .page-layout-5-1 .title-pg
@@ -450,6 +461,7 @@ body {
 .page-layout-14 .title-pg h3,
 .page-layout-15 .title-pg h3,
 .page-layout-16 .title-pg h3,
+.page-layout-17 .title-pg h3,
 .page-layout-1-2 .title-pg h3,
 .page-layout-8-1 .title-pg h3,
 .page-layout-5-1 .title-pg h3 {
@@ -470,6 +482,7 @@ body {
 .page-layout-14 p,
 .page-layout-15 p,
 .page-layout-16 p,
+.page-layout-17 p,
 .page-layout-1-2 p,
 .page-layout-8-1 p,
 .page-layout-5-1 p {
@@ -818,6 +831,26 @@ body {
     letter-spacing: 1px;
 }
 
+.page-layout-17:last-child {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../img/solowalk.jpg) center;
+    background-size: cover;
+}
+
+.page-layout-17:last-child .right {
+    font-weight: 300;
+    font-size: 1em;
+    background-color: #1d5f89;
+    border-bottom: none;
+    padding: 0.5em;
+    text-align: center;
+    color: #FFF;
+    letter-spacing: 1px;
+}
+
 /* Book navigation */
 
 .bb-custom-wrapper > nav a {
@@ -1059,6 +1092,23 @@ body {
 .book[data-book="book-10"] .inner { border-color: #1d5f89 }
 
 .book[data-book="book-10"] .cover::before {
+    background: url(../img/spine9.svg);
+    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine9.svg), #1d5f89;
+    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine9.svg), #1d5f89;
+}
+
+
+.no-csstransforms3d .book[data-book="book-11"],
+.no-js .book[data-book="book-11"],
+.book[data-book="book-11"] .front {
+    background-image: url(../img/cover-solowalk.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover9.svg), #1d5f89;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover9.svg), #1d5f89;
+}
+
+.book[data-book="book-11"] .inner { border-color: #1d5f89 }
+
+.book[data-book="book-11"] .cover::before {
     background: url(../img/spine9.svg);
     background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine9.svg), #1d5f89;
     background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.1) 50%, transparent 100%), url(../img/spine9.svg), #1d5f89;
@@ -1359,13 +1409,13 @@ body {
 
 /* Media Queries */
 @media screen and (min-width: 50em) {
-    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg, .page-layout-8-1 .title-pg, .page-layout-5-1 .title-pg {
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-17 .title-pg, .page-layout-1-2 .title-pg, .page-layout-8-1 .title-pg, .page-layout-5-1 .title-pg {
 padding: 75em 2em;
 }
 }
 
 @media only screen and (min-width: 54em) {
-.page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+.page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right, .page-layout-17:last-child .right {
 left: 85.5%;
 }
 
@@ -1386,20 +1436,20 @@ background-size: cover;
 }
 
 @media only screen and (min-width: 56em) {
-    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg,
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-17 .title-pg, .page-layout-1-2 .title-pg,
 .page-layout-8-1 .title-pg, .page-layout-5-1 .title-pg {
 padding: 70em 2em;
 }
 }
 
 @media only screen and (min-width: 60em) {
-    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right, .page-layout-17:last-child .right {
 left: 87%;
 }
 }
 
 @media only screen and (min-width: 64em) {
-    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg, .page-layout-8-1 .title-pg, .page-layout-5-1 .title-pg {
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-17 .title-pg, .page-layout-1-2 .title-pg, .page-layout-8-1 .title-pg, .page-layout-5-1 .title-pg {
 padding: 30em 2em;
 }
 
@@ -1410,7 +1460,7 @@ padding: 30em 2em;
     max-width: 35%;
     }
 
-.page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+.page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right, .page-layout-17:last-child .right {
 left: 88%;
 }
     .page-layout-1:last-child {
@@ -1475,13 +1525,12 @@ background-size: cover;
 }
 
 @media only screen and (min-width: 66em) {
-    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right, .page-layout-17:last-child .right {
 left: 89%;
 top: 13%;
 }
 
-.page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg,
-.page-layout-8-1 .title-pg, .page-layout-5-1 .title-pg  {
+.page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-17 .title-pg, .page-layout-1-2 .title-pg, .page-layout-8-1 .title-pg, .page-layout-5-1 .title-pg  {
 padding: 30em 4em;
 }
 }
@@ -1491,25 +1540,23 @@ padding: 30em 4em;
 }
 
 @media only screen and (min-width: 73em) {
-    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right, .page-layout-17:last-child .right {
 left: 90%;
 }
 
-.page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg,
-.page-layout-8-1 .title-pg, .page-layout-5-1 .title-pg {
+.page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-17 .title-pg, .page-layout-1-2 .title-pg, .page-layout-8-1 .title-pg, .page-layout-5-1 .title-pg {
 padding: 15em 4em;
 }
 }
 
 @media only screen and (min-width: 80em) {
-    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg,
-.page-layout-8-1 .title-pg, .page-layout-5-1 .title-pg {
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-17 .title-pg, .page-layout-1-2 .title-pg, .page-layout-8-1 .title-pg, .page-layout-5-1 .title-pg {
 padding: 25em 4em;
 }
 }
 
 @media only screen and (min-width: 85em) {
-    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right, .page-layout-17:last-child .right {
 left: 91%;
 }
 }
@@ -1522,41 +1569,41 @@ background-size: cover;
 }
 
 @media only screen and (min-width: 89em) {
-    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right, .page-layout-17:last-child .right {
 left: 91.5%;
 }
 
-.page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg,
+.page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-17 .title-pg, .page-layout-1-2 .title-pg,
 .page-layout-8-1 .title-pg, .page-layout-5-1 .title-pg {
 padding: 28em 4em;
 }
 }
 
 @media only screen and (min-width: 96em) {
-    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right, .page-layout-17:last-child .right {
 left: 92%;
 }
 }
 
 @media only screen and (min-width: 105em) {
-    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg,
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-17 .title-pg, .page-layout-1-2 .title-pg,
 .page-layout-8-1 .title-pg, .page-layout-5-1 .title-pg {
 padding: 40em 4em;
 }
 
-.page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+.page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right, .page-layout-17:last-child .right {
 left: 93%;
 }
 }
 
 @media only screen and (min-width: 115em) {
-    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right {
+    .page-layout-1:last-child .right, .page-layout-2:last-child .right, .page-layout-5:last-child .right, .page-layout-6:last-child .right, .page-layout-8:last-child .right, .page-layout-9:last-child .right, .page-layout-10:last-child .right, .page-layout-11:last-child .right, .page-layout-12:last-child .right, .page-layout-13:last-child .right, .page-layout-14:last-child .right, .page-layout-15:last-child .right, .page-layout-16:last-child .right, .page-layout-17:last-child .right {
 left: 94%;
 }
 }
 
 @media only screen and (min-width: 119em) {
-    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-1-2 .title-pg,
+    .page-layout-3 .title-pg, .page-layout-4 .title-pg, .page-layout-7 .title-pg, .page-layout-10 .title-pg, .page-layout-11 .title-pg, .page-layout-12 .title-pg, .page-layout-13 .title-pg, .page-layout-14 .title-pg, .page-layout-15 .title-pg, .page-layout-16 .title-pg, .page-layout-17 .title-pg, .page-layout-1-2 .title-pg,
 .page-layout-8-1 .title-pg, .page-layout-5-1 .title-pg {
 padding: 40em 10em;
 }
