@@ -466,10 +466,20 @@ body {
 .page-layout-8-1 .title-pg h3,
 .page-layout-5-1 .title-pg h3 {
     margin: 0;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: 300;
     font-size: 3.1em;
     width: 100%;
+    border: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.title-pg .body:before {
+content: "";
+position: absolute;
+border-bottom: 1px solid;
+width: 40%;
+margin: -2% 0;
 }
 
 .page-layout-3 p,
