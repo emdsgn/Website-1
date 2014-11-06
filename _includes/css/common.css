@@ -2539,6 +2539,12 @@ padding: 0 4em;
 }
 }
 
+@media only screen and (min-width: 85.25em) {
+.company {
+padding: 11em 10em 11em 47em;
+}
+}
+
 @media only screen and (min-width: 87em) {
 .flex-logo-2 {
 width: 27%;
